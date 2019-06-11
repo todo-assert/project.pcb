@@ -1,0 +1,104 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : c100s_00v00.brd                               )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Jun 11 23:22:38 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro'
+Design Directory:            '.'
+Old design name:             'c100s_00v00.brd'
+New design name:             'c100s_00v00.brd'
+
+CmdLine: netrev -$ -i C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro -y 1 -q netrev_constraint_report.xml C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/#Taaaadw08392.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstchip.dat 
+   Finished reading C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstchip.dat (00:00:00.04)
+Starting to read C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxprt.dat 
+   Finished reading C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxnet.dat 
+   Finished reading C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'MICROUSB' used by RefDes J4 for device 'MICROUSB_MICROUSB_USB': WARNING(SPMHUT-127): Could not find padstack PADW1R8X0R5C_OBLONG.
+    due to ERROR(SPMHDB-274): Unable to load flash symbol FLASHW2_80H1_80 (Check PSMPATH setting for this symbol). [help]
+
+     Could not find padstack PADW1R8X0R5C_OBLONG.
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           E:/PCBLib/symbol 
+           E:/PCBLib/pin/ 
+           C:/Users/Administrator/Documents/GitHub/AllegroPackages/shape/ 
+           C:/Users/Administrator/Documents/GitHub/AllegroPackages/pcb/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           E:/PCBLib/symbol 
+           E:/PCBLib/pin/ 
+           C:/Users/Administrator/Documents/GitHub/AllegroPackages/pad/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jun 11 23:22:38 2019
+   DESIGN NAME : 'C100S_00'
+   PACKAGING ON Mar  2 2016 00:37:24
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  1 warnings detected
+
+cpu time      0:02:48
+elapsed time  0:00:02
+

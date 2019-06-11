@@ -62,10 +62,22 @@
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
-    (DRC_Run_Physical_Custom_DRC "FALSE"))
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Netlist_TAB "0"))
   (Folder "Outputs"
     (File ".\c100s_00.csv"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\c100s_00.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
@@ -75,6 +87,9 @@
       (Path "Design Resources"
          "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
          "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
+         "Design Cache")
       (Path "Outputs")
       (Select "Design Resources"
          "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"))
@@ -88,8 +103,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1669 50 503")
-        (Scroll "0 499")
-        (Zoom "176")
+        (Scroll "0 292")
+        (Zoom "352")
         (Occurrence "/"))
       (Path
          "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
@@ -99,7 +114,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 1619 0 453")
-        (Scroll "-300 144")
+        (Scroll "-300 24")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -110,8 +125,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1744 100 574")
-        (Scroll "-444 0")
-        (Zoom "73")
+        (Scroll "0 368")
+        (Zoom "292")
         (Occurrence "/"))
       (Path
          "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
@@ -146,4 +161,5 @@
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "Administrator"))
+  (MPSSessionName "Administrator")
+  (ISPCBBASICLICENSE "false"))

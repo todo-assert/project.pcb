@@ -1,0 +1,273 @@
+\t (00:01:03) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:01:03)     Journal start - Tue Jun 11 23:18:34 2019
+\t (00:01:03)         Host=WIN-TV1NGA534TQ User=Administrator Pid=8392 CPUs=2
+\t (00:01:03) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:01:03) 
+\t (00:01:04) Starting new design...
+\i (00:01:04) trapsize 196
+\i (00:01:04) trapsize 204
+\i (00:01:05) trapsize 333
+\i (00:01:05) trapsize 333
+\i (00:01:05) layout wizard 
+\i (00:01:06) setwindow form.brd_wizard
+\i (00:01:06) FORM brd_wizard wiz_next  
+   (00:01:06) Loading cmds.cxt 
+\i (00:01:07) FORM brd_wizard wiz_next  
+\i (00:01:07) FORM brd_wizard wiz_next  
+\i (00:01:08) FORM brd_wizard wiz_next  
+\i (00:01:10) FORM brd_wizard board_units Millimeter 
+\i (00:01:11) FORM brd_wizard wiz_next  
+\i (00:01:12) FORM brd_wizard wiz_next  
+\i (00:01:13) FORM brd_wizard wiz_next  
+\i (00:01:15) FORM brd_wizard wiz_next  
+\i (00:01:16) fillin confirm
+\i (00:01:26) FORM brd_wizard min_line_width 0.6000 
+\i (00:01:30) FORM brd_wizard def_via_browse  
+\i (00:02:06) fillin "Hole210"
+\i (00:02:07) FORM brd_wizard wiz_next  
+\i (00:02:10) FORM brd_wizard rectangular_board YES 
+\i (00:02:11) FORM brd_wizard wiz_next  
+\i (00:02:16) FORM brd_wizard wiz_next  
+\i (00:02:18) FORM brd_wizard wiz_finish  
+\i (00:02:18) setwindow pcb
+\i (00:02:18) trapsize 3332
+\t (00:02:18) Performing DRC...
+\t (00:02:18) Multithreaded DRC update (2 threads).
+\t (00:02:18) No DRC errors detected.
+\i (00:02:18) trapsize 3332
+\i (00:02:18) trapsize 3332
+\i (00:02:18) generaledit 
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out -382.4105 -271.4071
+\i (00:02:21) trapsize 6665
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out -344.8210 -245.8143
+\i (00:02:21) trapsize 13330
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out -269.3753 -194.6285
+\i (00:02:21) trapsize 26659
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out -118.7506 -93.3234
+\i (00:02:21) trapsize 55307
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out 172.8939 45.9050
+\i (00:02:21) trapsize 55307
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out 172.8939 43.6927
+\i (00:02:21) trapsize 55307
+\i (00:02:22) zoom in 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom in 40.1564 -4.9776
+\i (00:02:22) trapsize 27654
+\i (00:02:22) zoom in 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom in 39.6033 -6.0838
+\i (00:02:22) trapsize 13827
+\i (00:02:23) zoom in 1 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom in -8.5139 1.6592
+\i (00:02:23) trapsize 6913
+\i (00:02:29) netin 
+\i (00:02:57) setwindow form.niparams
+\i (00:02:57) FORM niparams capture_netlist YES 
+\i (00:03:02) FORM niparams browse  
+\i (00:03:09) fillin "C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro"
+\i (00:03:17) FORM niparams import  
+\t (00:03:17) Starting Cadence Logic Import...
+\w (00:03:19) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:03:19) Opening existing design...
+\i (00:03:19) setwindow pcb
+\i (00:03:19) trapsize 6913
+\i (00:03:21) generaledit 
+\i (00:03:54) setwindow text
+\i (00:03:54) close 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) place manual 
+\i (00:03:58) setwindow form.plc_manual
+\i (00:03:58) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:03:59) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\e (00:03:59) Cannot load symbol 'CAP0603'
+\i (00:04:05) FORM plc_manual tree 'MULTISEL NO' C1 'Components by refdes' 
+\i (00:04:08) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\e (00:04:08) Cannot load symbol 'CAP0603'
+\i (00:04:10) FORM plc_manual tree 'MULTISEL NO' C1 'Components by refdes' 
+\i (00:04:11) FORM plc_manual cancel  
+\i (00:04:11) setwindow pcb
+\i (00:04:11) generaledit 
+\i (00:04:22) enved 
+\i (00:04:22) generaledit 
+\i (00:04:27) setwindow form.prfedit
+\i (00:04:27) FORM prfedit treelist  Paths 
+\i (00:04:28) FORM prfedit treelist  Library Paths 
+\i (00:04:29) FORM prfedit psmpath  
+\i (00:04:42) FORM prfedit done  
+\i (00:04:44) setwindow pcb
+\i (00:04:44) place manual 
+\i (00:04:46) setwindow form.plc_manual
+\i (00:04:46) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:04:46) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\e (00:04:46) ERROR(SPMHSY-24): 'PAD_S1_0X0_8', not found in search path.
+\e (00:04:46) ERROR(SPMHSY-24): 'PAD_S1_0X0_8', not found in search path.
+\e (00:04:46) Cannot load symbol 'CAP0603'
+\e (00:04:46)   because WARNING(SPMHUT-127): Could not find padstack PAD_S1_0X0_8.
+\i (00:04:49) FORM plc_manual cancel  
+\i (00:04:49) setwindow pcb
+\i (00:04:49) generaledit 
+\i (00:04:51) undo 
+\i (00:04:51) trapsize 6913
+\i (00:04:51) generaledit 
+\i (00:04:53) place manual 
+\i (00:04:54) setwindow form.plc_manual
+\i (00:04:54) FORM plc_manual cancel  
+\i (00:04:54) setwindow pcb
+\i (00:04:54) generaledit 
+\i (00:04:56) undo 
+\i (00:04:56) trapsize 6913
+\i (00:04:56) generaledit 
+\i (00:04:56) undo 
+\i (00:04:56) trapsize 6913
+\i (00:04:56) generaledit 
+\i (00:04:56) undo 
+\i (00:04:56) trapsize 6913
+\i (00:04:56) generaledit 
+\i (00:04:57) place manual 
+\i (00:05:00) setwindow form.plc_manual
+\i (00:05:00) FORM plc_manual cancel  
+\i (00:05:00) setwindow pcb
+\i (00:05:00) generaledit 
+\i (00:05:04) netin 
+\i (00:05:07) setwindow form.niparams
+\i (00:05:07) FORM niparams import  
+\t (00:05:07) Starting Cadence Logic Import...
+\w (00:05:09) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:05:09) Opening existing design...
+\i (00:05:09) setwindow pcb
+\i (00:05:09) trapsize 6913
+\i (00:05:11) generaledit 
+\i (00:05:11) zoom out 1 
+\i (00:05:11) setwindow pcb
+\i (00:05:11) zoom out 14.3004 10.5084
+\i (00:05:11) trapsize 13827
+\i (00:05:12) zoom out 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom out 14.3003 10.5085
+\i (00:05:12) trapsize 27654
+\i (00:05:12) zoom out 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom out 14.3004 10.5084
+\i (00:05:12) trapsize 55307
+\i (00:05:12) zoom out 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom out 29.0950 94.5754
+\i (00:05:12) trapsize 55307
+\i (00:05:12) zoom out 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom out 29.0950 94.5754
+\i (00:05:12) trapsize 55307
+\i (00:05:12) zoom out 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom out 29.0950 94.5754
+\i (00:05:12) trapsize 55307
+\i (00:06:17) setwindow text
+\i (00:06:17) close 
+\i (00:06:18) setwindow pcb
+\i (00:06:18) place manual 
+\i (00:06:20) setwindow form.plc_manual
+\i (00:06:20) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\t (00:06:20) Placing C1 / CAPACITOR NON-POL_CAP0603_1UF / CAP0603 on Top.
+\i (00:06:20) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:06:24) FORM plc_manual cancel  
+\i (00:06:24) setwindow pcb
+\i (00:06:24) generaledit 
+\i (00:06:25) zoom in 1 
+\i (00:06:25) setwindow pcb
+\i (00:06:25) zoom in -42.8045 45.9050
+\i (00:06:25) trapsize 27654
+\i (00:06:25) zoom in 1 
+\i (00:06:25) setwindow pcb
+\i (00:06:25) zoom in -40.5921 41.4804
+\i (00:06:25) trapsize 13827
+\i (00:06:25) zoom in 1 
+\i (00:06:25) setwindow pcb
+\i (00:06:25) zoom in -14.8742 11.6145
+\i (00:06:25) trapsize 6913
+\i (00:06:26) zoom out 1 
+\i (00:06:26) setwindow pcb
+\i (00:06:26) zoom out -11.2792 9.2640
+\i (00:06:26) trapsize 13827
+\i (00:06:26) zoom out 1 
+\i (00:06:26) setwindow pcb
+\i (00:06:26) zoom out -11.2791 9.2639
+\i (00:06:26) trapsize 27654
+\i (00:06:27) zoom in 1 
+\i (00:06:27) setwindow pcb
+\i (00:06:27) zoom in 41.2627 -33.3226
+\i (00:06:27) trapsize 13827
+\i (00:06:27) zoom in 1 
+\i (00:06:27) setwindow pcb
+\i (00:06:27) zoom in 41.2627 -33.3226
+\i (00:06:27) trapsize 6913
+\i (00:06:28) place manual 
+\i (00:06:30) setwindow form.plc_manual
+\i (00:06:30) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:06:30) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\t (00:06:30) Placing C1 / CAPACITOR NON-POL_CAP0603_1UF / CAP0603 on Top.
+\i (00:06:32) setwindow pcb
+\i (00:06:32) pick grid 3.5155 10.5084
+\t (00:06:32) last pick:  4.0000 11.0000
+\i (00:06:33) setwindow form.plc_manual
+\i (00:06:33) FORM plc_manual cancel  
+\i (00:06:33) setwindow pcb
+\i (00:06:33) generaledit 
+\i (00:06:35) place manual 
+\i (00:06:36) setwindow form.plc_manual
+\i (00:06:36) FORM plc_manual tree 'MULTISEL YES' C2 'Components by refdes' 
+\t (00:06:36) Placing C2 / CAPACITOR NON-POL_CAP0603_12PF / CAP0603 on Top.
+\i (00:06:36) FORM plc_manual tree  C2 'Components by refdes' 
+\i (00:06:36) FORM plc_manual tree 'MULTISEL YES' C1 'Components by refdes' 
+\t (00:06:36) Placing C1 / CAPACITOR NON-POL_CAP0603_1UF / CAP0603 on Top.
+\i (00:06:36) FORM plc_manual tree  C1 'Components by refdes' 
+\i (00:06:38) setwindow pcb
+\i (00:06:38) pick grid 8.4931 8.5727
+\t (00:06:38) last pick:  8.0000 9.0000
+\t (00:06:38) Placing C2 / CAPACITOR NON-POL_CAP0603_12PF / CAP0603 on Top.
+\i (00:06:38) pick grid 7.3870 4.9777
+\t (00:06:38) last pick:  7.0000 5.0000
+\i (00:06:40) setwindow form.plc_manual
+\i (00:06:40) FORM plc_manual done  
+\i (00:06:40) setwindow pcb
+\i (00:06:40) generaledit 
+\i (00:06:41) zoom in 1 
+\i (00:06:41) setwindow pcb
+\i (00:06:41) zoom in 16.3744 12.0294
+\i (00:06:41) trapsize 3457
+\i (00:06:41) zoom in 1 
+\i (00:06:41) setwindow pcb
+\i (00:06:41) zoom in 16.3744 12.0294
+\i (00:06:41) trapsize 1728
+\i (00:06:42) zoom in 1 
+\i (00:06:43) setwindow pcb
+\i (00:06:43) zoom in 6.4882 8.1579
+\i (00:06:43) trapsize 864
+\i (00:06:45) zoom out 1 
+\i (00:06:45) setwindow pcb
+\i (00:06:45) zoom out 7.1105 4.7358
+\i (00:06:45) trapsize 1728
+\i (00:06:46) zoom in 1 
+\i (00:06:46) setwindow pcb
+\i (00:06:46) zoom in 7.9055 6.4295
+\i (00:06:46) trapsize 864
+\i (00:06:46) zoom out 1 
+\i (00:06:46) setwindow pcb
+\i (00:06:46) zoom out 8.7524 7.2419
+\i (00:06:46) trapsize 1728
+\i (00:06:49) exit 
+\e (00:06:49) Do you want to save the changes you made to c100s_00v00.brd?
+\i (00:06:50) fillin no 
+\t (00:06:50)     Journal end - Tue Jun 11 23:24:20 2019
