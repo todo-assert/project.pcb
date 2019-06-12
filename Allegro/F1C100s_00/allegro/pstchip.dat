@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jun-11-2019 at 23:12:09}
+{ Using PSTWRITER 17.2.0 d001Jun-12-2019 at 20:27:41}
 primitive 'CAPACITOR NON-POL_CAP0603_1UF';
   pin
     '1':
@@ -75,21 +75,6 @@ primitive 'CAPACITOR NON-POL_CAP0603_3.3NF';
     VALUE='3.3nF';
   end_body;
 end_primitive;
-primitive 'CAPACITOR NON-POL_CAP0603_220PF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAPACITOR NON-POL';
-    JEDEC_TYPE='cap0603';
-    VALUE='220pF';
-  end_body;
-end_primitive;
 primitive 'CAPACITOR NON-POL_CAP0603_12PF';
   pin
     '1':
@@ -103,6 +88,21 @@ primitive 'CAPACITOR NON-POL_CAP0603_12PF';
     PART_NAME='CAPACITOR NON-POL';
     JEDEC_TYPE='cap0603';
     VALUE='12pF';
+  end_body;
+end_primitive;
+primitive 'CAPACITOR NON-POL_CAP0603_220PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAPACITOR NON-POL';
+    JEDEC_TYPE='cap0603';
+    VALUE='220pF';
   end_body;
 end_primitive;
 primitive 'CAPACITOR NON-POL_CAP0603_0.1UF';
@@ -537,6 +537,36 @@ primitive 'RESISTOR/SM_RES0603_100K';
     VALUE='100K';
   end_body;
 end_primitive;
+primitive 'RESISTOR/SM_RES0603_0R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR/SM';
+    JEDEC_TYPE='res0603';
+    VALUE='0R';
+  end_body;
+end_primitive;
+primitive 'RESISTOR/SM_RES0603_22R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR/SM';
+    JEDEC_TYPE='res0603';
+    VALUE='22R';
+  end_body;
+end_primitive;
 primitive 'RESISTOR/SM_RES0603_550K';
   pin
     '1':
@@ -597,21 +627,6 @@ primitive 'RESISTOR/SM_RES0603_5R1';
     VALUE='5R1';
   end_body;
 end_primitive;
-primitive 'RESISTOR/SM_RES0603_0R';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR/SM';
-    JEDEC_TYPE='res0603';
-    VALUE='0R';
-  end_body;
-end_primitive;
 primitive 'RESISTOR/SM_RES0603_2K';
   pin
     '1':
@@ -642,34 +657,25 @@ primitive 'RESISTOR/SM_RES0603_200K';
     VALUE='200K';
   end_body;
 end_primitive;
-primitive 'RESISTOR/SM_RES0603_22R';
+primitive 'TS_018-4.55X3.5X1.8_TS_018-4P55';
   pin
-    '1':
-      PIN_NUMBER='(1)';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
     '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR/SM';
-    JEDEC_TYPE='res0603';
-    VALUE='22R';
-  end_body;
-end_primitive;
-primitive 'SW PUSHBUTTON_SW-SM-3X6X2_5_SW';
-  pin
     '1':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='SW PUSHBUTTON';
-    JEDEC_TYPE='SW-SM-3x6x2_5';
-    VALUE='SW PUSHBUTTON';
+    PART_NAME='TS_018-4.55x3.5x1.8';
+    JEDEC_TYPE='TS_018-4p55x3p5x1p8';
+    VALUE='TS_018-4.55x3.5x1.8';
   end_body;
 end_primitive;
 primitive 'F1C100S_F1C100S-MQFN_F1C100S';

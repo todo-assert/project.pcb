@@ -10,7 +10,7 @@
     (CompileFileAddedOrDeleted "x")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "3")
+    (ANNOTATE_Action "0")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -35,7 +35,7 @@
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
     (DRC_Report_File
-       "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DRC")
+       "C:\Users\admin\Documents\GitHub\project.pcb\Allegro\F1C100s_00\C100S_00.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -63,7 +63,24 @@
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
     (DRC_Run_Physical_Custom_DRC "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\ALLEGRO")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\C100S_00.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Outputs"
     (File ".\c100s_00.csv"
       (Type "Report"))
@@ -83,56 +100,50 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn")
+         "c:\users\admin\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn")
       (Path "Design Resources"
-         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
+         "c:\users\admin\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
          "SCHEMATIC1")
-      (Path "Design Resources"
-         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
-         "Design Cache")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 420"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1669 50 503")
-        (Scroll "0 292")
-        (Zoom "352")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1714 78 537")
+        (Scroll "0 2238")
+        (Zoom "400")
         (Occurrence "/"))
       (Path
-         "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
+         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "misc"))
+      (Page "core"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 1619 0 453")
-        (Scroll "-300 24")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1368 26 485")
+        (Scroll "413 716")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
-         "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
+         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "power"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 1744 100 574")
-        (Scroll "0 368")
-        (Zoom "292")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "core")))
+      (Page "misc")))
   (PartMRUSelector
+    (TS_018-4.55x3.5x1.8
+      (FullPartName "TS_018-4.55x3.5x1.8.Normal")
+      (LibraryName
+         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    ("SW PUSHBUTTON"
+      (FullPartName "SW PUSHBUTTON.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (CRYSTAL/SM
       (FullPartName "CRYSTAL/SM.Normal")
       (LibraryName
@@ -161,5 +172,7 @@
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "Administrator")
-  (ISPCBBASICLICENSE "false"))
+  (MPSSessionName "admin")
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\admin\Documents\GitHub\AllegroPackages\schematic"))
