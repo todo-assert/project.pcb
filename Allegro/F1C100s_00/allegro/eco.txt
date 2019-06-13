@@ -2,44 +2,44 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |                net     pins                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
   1.1V         pins ADDED TO this new net
-                                 C38.1          C39.1          C40.1          
+                                 C39.1          C40.1          C41.1          
                                  U1.22          U1.35          U1.71          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   1V2          pins ADDED TO this new net
-                                 C21.1          C31.2          L3.2           
-                                 R27.1          
+                                 C22.1          C32.2          L3.2           
+                                 R29.1          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   2.5V         pins ADDED TO this new net
-                                 C33.1          C34.1          C35.1          
-                                 C36.1          C37.1          C45.1          
-                                 R31.2          U1.30          U1.31          
+                                 C34.1          C35.1          C36.1          
+                                 C37.1          C38.1          C46.1          
+                                 R33.2          U1.30          U1.31          
                                  U1.32          U1.34          U1.36          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   2V5          pins ADDED TO this new net
-                                 C29.1          C30.1          L4.1           
-                                 R28.1          
+                                 C30.1          C31.1          L4.1           
+                                 R30.1          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   3.3V         pins ADDED TO this new net
                                  R9.2           U3.1           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   3V3          pins ADDED TO this new net
-                                 C4.1           C19.2          C20.2          
-                                 C26.1          C27.1          C28.1          
-                                 C41.1          C42.1          C44.1          
+                                 C4.1           C20.2          C21.2          
+                                 C27.1          C28.1          C29.1          
+                                 C42.1          C43.1          C44.1          
                                  D2.2           J3.4           L2.1           
                                  R1.2           R2.2           R4.1           
                                  R5.1           R6.1           R7.2           
                                  R8.1           R10.1          R11.2          
                                  R12.2          R13.2          R17.2          
-                                 R23.2          U1.4           U1.5           
+                                 R25.2          U1.4           U1.5           
                                  U1.20          U1.50          U1.67          
                                  U1.73          U2.3           U2.7           
                                  U2.8           U4.8           
@@ -49,8 +49,8 @@
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   5V           pins ADDED TO this new net
                                  C7.1           C8.1           C9.1           
-                                 C10.1          C22.2          C23.2          
-                                 C24.2          C25.2          C32.1          
+                                 C10.1          C23.2          C24.2          
+                                 C25.2          C26.2          C33.1          
                                  J4.1           L1.1           L5.1           
                                  R14.2          U5.4           U5.13          
                                  U7.7           U7.8           U7.9           
@@ -58,8 +58,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -69,16 +69,16 @@
                                  U7.19          U8.6           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   AGND         pins ADDED TO this new net
-                                 C46.2          C47.2          R32.1          
-                                 R33.1          R35.2          U1.74          
+                                 C47.2          C48.2          R34.1          
+                                 R35.1          R37.2          U1.74          
                                  U1.82          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   AVCC         pins ADDED TO this new net
-                                 C16.2          C48.1          D2.1           
-                                 R18.1          U1.80          
+                                 C17.2          C49.1          D2.1           
+                                 R20.1          U1.80          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   BL_ADJ       pins ADDED TO this new net
-                                 R30.1          U1.43          U8.4           
+                                 R32.1          U1.43          U8.4           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   D2           pins ADDED TO this new net
                                  J1.28          U1.6           
@@ -114,8 +114,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -153,16 +153,16 @@
                                  C4.2           C5.1           C6.1           
                                  C7.2           C8.2           C9.2           
                                  C10.2          C13.1          C14.2          
-                                 C16.1          C17.1          C18.1          
-                                 C20.1          C22.1          C23.1          
-                                 C24.1          C25.1          C26.2          
-                                 C27.2          C28.2          C30.2          
-                                 C31.1          C32.2          C33.2          
-                                 C34.2          C35.2          C36.2          
-                                 C37.2          C38.2          C39.2          
-                                 C40.2          C41.2          C42.2          
-                                 C43.2          C44.2          C48.2          
-                                 C49.2          C50.2          J1.3           
+                                 C17.1          C18.1          C19.1          
+                                 C21.1          C23.1          C24.1          
+                                 C25.1          C26.1          C27.2          
+                                 C28.2          C29.2          C31.2          
+                                 C32.1          C33.2          C34.2          
+                                 C35.2          C36.2          C37.2          
+                                 C38.2          C39.2          C40.2          
+                                 C41.2          C42.2          C43.2          
+                                 C44.2          C45.2          C49.2          
+                                 C50.2          C51.2          J1.3           
                                  J1.5           J1.6           J1.13          
                                  J1.14          J1.21          J1.22          
                                  J1.29          J1.36          J2.3           
@@ -170,8 +170,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -180,24 +180,28 @@
                                  J3.6           J3.10          J3.11          
                                  J3.12          J3.13          J4.5           
                                  J4.6           J4.7           J4.8           
-                                 J4.9           J8.2           R24.2          
-                                 R25.1          R26.2          R29.2          
-                                 R30.2          R34.1          R35.1          
-                                 R37.2          SW1.2          SW2.1          
-                                 SW3.1          SW4.1          SW5.1          
-                                 U1.89          U2.4           U2.9           
-                                 U3.4           U4.4           U5.2           
-                                 U5.9           U5.11          U5.15          
-                                 U6.2           U7.1           U7.4           
-                                 U7.5           U7.12          U7.13          
-                                 U7.15          U7.17          U7.21          
-                                 U8.2           Y1.2           Y1.4           
+                                 J4.9           J8.2           R19.2          
+                                 R26.2          R27.2          R28.1          
+                                 R31.2          R32.2          R36.1          
+                                 R37.1          SW1.1          SW1.2          
+                                 SW1.4          SW2.1          SW2.2          
+                                 SW2.3          SW3.1          SW3.2          
+                                 SW3.3          SW4.1          SW4.2          
+                                 SW4.3          SW5.1          SW5.2          
+                                 SW5.3          U1.89          U2.4           
+                                 U2.9           U3.4           U4.4           
+                                 U5.2           U5.9           U5.11          
+                                 U5.15          U6.2           U7.1           
+                                 U7.4           U7.5           U7.12          
+                                 U7.13          U7.15          U7.17          
+                                 U7.21          U8.2           Y1.2           
+                                 Y1.4           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   HPCOM        pins ADDED TO this new net
-                                 C51.1          R36.2          U1.3           
+                                 C16.1          R18.2          U1.3           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   HPCOMFB      pins ADDED TO this new net
-                                 R36.1          U1.2           
+                                 R18.1          U1.2           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   HPL          pins ADDED TO this new net
                                  C11.1          U1.1           
@@ -212,29 +216,29 @@
                                  J1.30          U1.26          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   LED+         pins ADDED TO this new net
-                                 C43.1          D1.1           J1.2           
+                                 C45.1          D1.1           J1.2           
                                  U8.5           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   LED-         pins ADDED TO this new net
-                                 J1.1           R29.1          U8.3           
+                                 J1.1           R31.1          U8.3           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  LINE_IN      pins ADDED TO this new net
-                                 J8.1           U1.86          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  LRADC        pins ADDED TO this new net
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |                net     pins                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-                                 C14.1          R17.1          R20.1          
-                                 SW2.2          U1.79          
+  LINE_IN      pins ADDED TO this new net
+                                 J8.1           U1.86          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LRADC        pins ADDED TO this new net
+                                 C14.1          R17.1          R22.1          
+                                 SW2.4          U1.79          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   MIC_IN       pins ADDED TO this new net
                                  C15.2          U1.87          
@@ -246,15 +250,15 @@
                                  C3.2           R3.2           Y1.3           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N101915      pins ADDED TO this new net
-                                 C19.1          R23.1          R24.1          
+                                 C20.1          R25.1          R26.1          
                                  U7.2           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N101919      pins ADDED TO this new net
-                                 C29.2          R26.1          R28.2          
+                                 C30.2          R27.1          R30.2          
                                  U7.3           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N101966      pins ADDED TO this new net
-                                 C21.2          R25.2          R27.2          
+                                 C22.2          R28.2          R29.2          
                                  U7.14          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N128635      pins ADDED TO this new net
@@ -274,21 +278,20 @@
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N129203      pins ADDED TO this new net
                                  C12.1          R16.2          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  N129856      pins ADDED TO this new net
-                                 C13.2          U5.8           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   6  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |                net     pins                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N129856      pins ADDED TO this new net
+                                 C13.2          U5.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N131139      pins ADDED TO this new net
                                  L4.2           U7.6           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
@@ -302,23 +305,23 @@
                                  D1.2           L5.2           U8.1           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N153627      pins ADDED TO this new net
-                                 C17.2          R18.2          R19.1          
+                                 C18.2          R20.2          R21.1          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N153631      pins ADDED TO this new net
-                                 C15.1          C18.2          R19.2          
+                                 C15.1          C19.2          R21.2          
                                  U6.1           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N181376      pins ADDED TO this new net
-                                 R20.2          R21.1          SW3.2          
+                                 R22.2          R23.1          SW3.4          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N181384      pins ADDED TO this new net
-                                 R21.2          R22.1          SW4.2          
+                                 R23.2          R24.1          SW4.4          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N181692      pins ADDED TO this new net
-                                 R22.2          SW5.2          
+                                 R24.2          SW5.4          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   N1977121     pins ADDED TO this new net
-                                 C51.2          R37.1          
+                                 C16.2          R19.1          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   OSCI         pins ADDED TO this new net
                                  C2.2           U1.51          Y1.1           
@@ -331,20 +334,20 @@
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   OUTLP        pins ADDED TO this new net
                                  J6.1           U5.1           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  OUTRM        pins ADDED TO this new net
-                                 J7.1           U5.14          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   7  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |                net     pins                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  OUTRM        pins ADDED TO this new net
+                                 J7.1           U5.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   OUTRP        pins ADDED TO this new net
                                  J7.2           U5.16          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
@@ -364,7 +367,7 @@
                                  J5.1           U1.40          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   RESET        pins ADDED TO this new net
-                                 C1.1           R1.1           SW1.1          
+                                 C1.1           R1.1           SW1.3          
                                  U1.70          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   RTC_INT      pins ADDED TO this new net
@@ -387,20 +390,20 @@
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   SDC0_D1      pins ADDED TO this new net
                                  J3.8           R10.2          U1.58          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SDC0_D2      pins ADDED TO this new net
-                                 J3.1           R4.2           U1.53          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   8  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |                net     pins                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SDC0_D2      pins ADDED TO this new net
+                                 J3.1           R4.2           U1.53          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   SDC0_D3      pins ADDED TO this new net
                                  J3.2           R5.2           U1.54          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
@@ -417,8 +420,8 @@
                                  U1.62          U2.5           
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   SVREF        pins ADDED TO this new net
-                                 C45.2          C49.1          C50.1          
-                                 R31.1          R34.2          U1.33          
+                                 C46.2          C50.1          C51.1          
+                                 R33.1          R36.2          U1.33          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   TWI0_SCK     pins ADDED TO this new net
                                  R11.1          U1.38          U4.6           
@@ -442,21 +445,21 @@
                                  J4.4           R7.1           U1.47          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   VRA1         pins ADDED TO this new net
-                                 C46.1          R32.2          U1.81          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  VRA2         pins ADDED TO this new net
-                                 C47.1          R33.2          U1.83          
+                                 C47.1          R34.2          U1.81          
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   9  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |                net     pins                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  VRA2         pins ADDED TO this new net
+                                 C48.1          R35.2          U1.83          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   VSYNC        pins ADDED TO this new net
                                  J1.33          U1.29          
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
@@ -475,8 +478,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page  10  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -522,15 +525,15 @@
  RESISTOR/SM_RES0603_47K
  RESISTOR/SM_RES0603_550K
  RESISTOR/SM_RES0603_5R1
- SW PUSHBUTTON_SW-SM-3X6X2_5_SW
  TF-SOCKET_TF-SOCKET_TF-SOCKET
+ TS_018-4.55X3.5X1.8_TS_018-4P55
  YSX321SL_YSX321SL-3_2X2_5X0_8_Y
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page  11  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -551,24 +554,24 @@
  C13                 CAPACITOR NON-POL_CAP0603_1UF 
  C14                 CAPACITOR NON-POL_CAP0603_104 
  C15                 CAPACITOR NON-POL_CAP0603_104 
- C16                 CAPACITOR NON-POL_CAP0603_10UF 
+ C16                 CAPACITOR NON-POL_CAP0603_220NF 
  C17                 CAPACITOR NON-POL_CAP0603_10UF 
- C18                 CAPACITOR NON-POL_CAP0603_3.3NF 
- C19                 CAPACITOR NON-POL_CAP0603_220PF 
- C20                 CAPACITOR NON-POL_CAP0603_10UF 
- C21                 CAPACITOR NON-POL_CAP0603_220PF 
- C22                 CAPACITOR NON-POL_CAP0603_10UF 
+ C18                 CAPACITOR NON-POL_CAP0603_10UF 
+ C19                 CAPACITOR NON-POL_CAP0603_3.3NF 
+ C20                 CAPACITOR NON-POL_CAP0603_220PF 
+ C21                 CAPACITOR NON-POL_CAP0603_10UF 
+ C22                 CAPACITOR NON-POL_CAP0603_220PF 
  C23                 CAPACITOR NON-POL_CAP0603_10UF 
  C24                 CAPACITOR NON-POL_CAP0603_10UF 
- C25                 CAPACITOR NON-POL_CAP0603_1UF 
- C26                 CAPACITOR NON-POL_CAP0603_0.1UF 
+ C25                 CAPACITOR NON-POL_CAP0603_10UF 
+ C26                 CAPACITOR NON-POL_CAP0603_1UF 
  C27                 CAPACITOR NON-POL_CAP0603_0.1UF 
  C28                 CAPACITOR NON-POL_CAP0603_0.1UF 
- C29                 CAPACITOR NON-POL_CAP0603_1UF 
- C30                 CAPACITOR NON-POL_CAP0603_10UF 
+ C29                 CAPACITOR NON-POL_CAP0603_0.1UF 
+ C30                 CAPACITOR NON-POL_CAP0603_1UF 
  C31                 CAPACITOR NON-POL_CAP0603_10UF 
- C32                 CAPACITOR NON-POL_CAP0603_1UF 
- C33                 CAPACITOR NON-POL_CAP0603_0.1UF 
+ C32                 CAPACITOR NON-POL_CAP0603_10UF 
+ C33                 CAPACITOR NON-POL_CAP0603_1UF 
  C34                 CAPACITOR NON-POL_CAP0603_0.1UF 
  C35                 CAPACITOR NON-POL_CAP0603_0.1UF 
  C36                 CAPACITOR NON-POL_CAP0603_0.1UF 
@@ -578,26 +581,26 @@
  C40                 CAPACITOR NON-POL_CAP0603_0.1UF 
  C41                 CAPACITOR NON-POL_CAP0603_0.1UF 
  C42                 CAPACITOR NON-POL_CAP0603_0.1UF 
- C43                 CAPACITOR NON-POL_CAP0603_0.22U 
+ C43                 CAPACITOR NON-POL_CAP0603_0.1UF 
  C44                 CAPACITOR NON-POL_CAP0603_0.1UF 
- C45                 CAPACITOR NON-POL_CAP0603_0.1UF 
+ C45                 CAPACITOR NON-POL_CAP0603_0.22U 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page  12  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C46                 CAPACITOR NON-POL_CAP0603_1UF 
+ C46                 CAPACITOR NON-POL_CAP0603_0.1UF 
  C47                 CAPACITOR NON-POL_CAP0603_1UF 
- C48                 CAPACITOR NON-POL_CAP0603_0.1UF 
+ C48                 CAPACITOR NON-POL_CAP0603_1UF 
  C49                 CAPACITOR NON-POL_CAP0603_0.1UF 
  C50                 CAPACITOR NON-POL_CAP0603_0.1UF 
- C51                 CAPACITOR NON-POL_CAP0603_220NF 
+ C51                 CAPACITOR NON-POL_CAP0603_0.1UF 
  D1                  DIODE_1N4148-SOD323_1N4148 
  D2                  DIODE_1N4148-SOD323_1N4148 
  J1                  HEADER 40/SM_FPC-40_HEADER 40/S 
@@ -630,42 +633,42 @@
  R15                 RESISTOR/SM_RES0603_10K 
  R16                 RESISTOR/SM_RES0603_10K 
  R17                 RESISTOR/SM_RES0603_100K 
- R18                 RESISTOR/SM_RES0603_10K 
- R19                 RESISTOR/SM_RES0603_10K 
+ R18                 RESISTOR/SM_RES0603_0R 
+ R19                 RESISTOR/SM_RES0603_22R 
  R20                 RESISTOR/SM_RES0603_10K 
  R21                 RESISTOR/SM_RES0603_10K 
  R22                 RESISTOR/SM_RES0603_10K 
- R23                 RESISTOR/SM_RES0603_550K 
- R24                 RESISTOR/SM_RES0603_110K 
+ R23                 RESISTOR/SM_RES0603_10K 
+ R24                 RESISTOR/SM_RES0603_10K 
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page  13  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | COMPONENTS ADDED to design                                                   |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        |    device type                                           |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- R25                 RESISTOR/SM_RES0603_100K 
- R26                 RESISTOR/SM_RES0603_47K 
- R27                 RESISTOR/SM_RES0603_100K 
- R28                 RESISTOR/SM_RES0603_152K 
- R29                 RESISTOR/SM_RES0603_5R1 
- R30                 RESISTOR/SM_RES0603_100K 
- R31                 RESISTOR/SM_RES0603_2K 
- R32                 RESISTOR/SM_RES0603_200K 
- R33                 RESISTOR/SM_RES0603_200K 
- R34                 RESISTOR/SM_RES0603_2K 
- R35                 RESISTOR/SM_RES0603_0R 
- R36                 RESISTOR/SM_RES0603_0R 
- R37                 RESISTOR/SM_RES0603_22R 
- SW1                 SW PUSHBUTTON_SW-SM-3X6X2_5_SW 
- SW2                 SW PUSHBUTTON_SW-SM-3X6X2_5_SW 
- SW3                 SW PUSHBUTTON_SW-SM-3X6X2_5_SW 
- SW4                 SW PUSHBUTTON_SW-SM-3X6X2_5_SW 
- SW5                 SW PUSHBUTTON_SW-SM-3X6X2_5_SW 
+ R25                 RESISTOR/SM_RES0603_550K 
+ R26                 RESISTOR/SM_RES0603_110K 
+ R27                 RESISTOR/SM_RES0603_47K 
+ R28                 RESISTOR/SM_RES0603_100K 
+ R29                 RESISTOR/SM_RES0603_100K 
+ R30                 RESISTOR/SM_RES0603_152K 
+ R31                 RESISTOR/SM_RES0603_5R1 
+ R32                 RESISTOR/SM_RES0603_100K 
+ R33                 RESISTOR/SM_RES0603_2K 
+ R34                 RESISTOR/SM_RES0603_200K 
+ R35                 RESISTOR/SM_RES0603_200K 
+ R36                 RESISTOR/SM_RES0603_2K 
+ R37                 RESISTOR/SM_RES0603_0R 
+ SW1                 TS_018-4.55X3.5X1.8_TS_018-4P55 
+ SW2                 TS_018-4.55X3.5X1.8_TS_018-4P55 
+ SW3                 TS_018-4.55X3.5X1.8_TS_018-4P55 
+ SW4                 TS_018-4.55X3.5X1.8_TS_018-4P55 
+ SW5                 TS_018-4.55X3.5X1.8_TS_018-4P55 
  U1                  F1C100S_F1C100S-MQFN_F1C100S 
  U2                  GD5FXG4UAYIG_GD5F1GQ4X_W25QXX_S 
  U3                  DHT11_HEADER1X4_2_54_DHT11 
@@ -680,8 +683,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page  14  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -736,8 +739,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page  15  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -792,8 +795,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page  16  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
@@ -812,11 +815,11 @@
  R35.2                          PRIM_FILE      .\pstchip.dat
  R36.2                          PRIM_FILE      .\pstchip.dat
  R37.2                          PRIM_FILE      .\pstchip.dat
- SW1.2                          PRIM_FILE      .\pstchip.dat
- SW2.2                          PRIM_FILE      .\pstchip.dat
- SW3.2                          PRIM_FILE      .\pstchip.dat
- SW4.2                          PRIM_FILE      .\pstchip.dat
- SW5.2                          PRIM_FILE      .\pstchip.dat
+ SW1.4                          PRIM_FILE      .\pstchip.dat
+ SW2.4                          PRIM_FILE      .\pstchip.dat
+ SW3.4                          PRIM_FILE      .\pstchip.dat
+ SW4.4                          PRIM_FILE      .\pstchip.dat
+ SW5.4                          PRIM_FILE      .\pstchip.dat
  U1.83                          PRIM_FILE      .\pstchip.dat
  U2.3                           PRIM_FILE      .\pstchip.dat
  U3.1                           PRIM_FILE      .\pstchip.dat
@@ -831,18 +834,18 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page  17  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd   |
-|                                                    Wed Jun 12 12:33:12 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Thu Jun 13 23:12:53 2019  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |------------------------------------------------------------------------------|
-|       Nets changed          :     425                                        |
+|       Nets changed          :     435                                        |
 |       Comp definitions added:      43                                        |
 |       Components added      :     118                                        |
 |       Slot property added   :     118                                        |
 |                                                                              |
-|   Total ECO changes reported:     704                                        |
+|   Total ECO changes reported:     714                                        |
 |------------------------------------------------------------------------------|

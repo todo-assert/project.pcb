@@ -1,178 +1,74 @@
-\t (00:00:06) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:06)     Journal start - Wed Jun 12 12:32:40 2019
-\t (00:00:06)         Host=LAPTOP-MML0MUGR User=admin Pid=18176 CPUs=8
-\t (00:00:06) CmdLine= D:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
-\t (00:00:06) 
-   (00:00:06) Loading axlcore.cxt 
-\t (00:00:08) Starting new design...
-\i (00:00:08) trapsize 1285
-\i (00:00:09) trapsize 1343
-\i (00:00:09) trapsize 1583
-\i (00:00:09) unfix 
-\t (00:00:09) Adjust find filter then select an element or group of elements.
-\i (00:00:09) unfix 
-\t (00:00:09) Adjust find filter then select an element or group of elements.
-\i (00:00:09) generaledit 
-\i (00:00:11) trapsize 824
-\i (00:00:14) place manual 
-\i (00:00:17) setwindow form.plc_manual
-\i (00:00:17) FORM plc_manual cancel  
-\i (00:00:17) setwindow pcb
-\i (00:00:17) generaledit 
-\i (00:00:18) zoom points 
-\t (00:00:18) Pick 1st corner of the new window.
-\i (00:00:28) netin 
-\i (00:00:30) setwindow form.niparams
-\i (00:00:30) FORM niparams capture_netlist YES 
-\i (00:00:32) FORM niparams browse  
-\i (00:00:36) fillin "C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro"
-\i (00:00:38) FORM niparams import  
-\t (00:00:38) Starting Cadence Logic Import...
-\t (00:00:40) Opening existing design...
-\i (00:00:40) setwindow pcb
-\i (00:00:40) trapsize 824
-\i (00:00:42) generaledit 
-\i (00:00:56) setwindow form.mini
-\i (00:00:56) FORM mini class ANTI ETCH 
-\i (00:01:01) FORM mini class ETCH 
-\i (00:01:04) setwindow pcb
-\i (00:01:04) place manual 
-\i (00:01:06) setwindow form.plc_manual
-\i (00:01:06) FORM plc_manual tree  'Components by refdes' 
-\i (00:01:07) FORM plc_manual tree 'MULTISEL YES' C2 'Components by refdes' 
-\w (00:01:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:01:07) Placing C2 / CAPACITOR NON-POL_CAP0603_12PF / CAP0603 on Top.
-\i (00:01:07) FORM plc_manual tree  C2 'Components by refdes' 
-\i (00:22:27) setwindow pcb
-\i (00:22:27) Esc 
-\i (00:22:30) zoom in 1 
-\i (00:22:30) setwindow pcb
-\i (00:22:30) zoom in 12691.2 8438.8
-\i (00:22:30) trapsize 412
-\i (00:22:30) zoom in 1 
-\i (00:22:30) setwindow pcb
-\i (00:22:30) zoom in 12691.2 8438.8
-\i (00:22:30) trapsize 206
-\i (00:22:30) zoom in 1 
-\i (00:22:30) setwindow pcb
-\i (00:22:30) zoom in 12691.1 8438.8
-\i (00:22:30) trapsize 103
-\i (00:22:30) zoom in 1 
-\i (00:22:30) setwindow pcb
-\i (00:22:30) zoom in 12713.8 8445.0
-\i (00:22:30) trapsize 52
-\i (00:22:30) zoom in 1 
-\i (00:22:30) setwindow pcb
-\i (00:22:30) zoom in 12713.8 8445.0
-\i (00:22:30) trapsize 26
-\i (00:22:30) zoom in 1 
-\i (00:22:30) setwindow pcb
-\i (00:22:30) zoom in 12713.9 8445.0
-\i (00:22:30) trapsize 13
-\i (00:22:31) zoom in 1 
-\i (00:22:31) setwindow pcb
-\i (00:22:31) zoom in 12713.9 8445.1
-\i (00:22:31) trapsize 6
-\i (00:22:31) zoom out 1 
-\i (00:22:31) setwindow pcb
-\i (00:22:31) zoom out 12714.1 8445.2
-\i (00:22:31) trapsize 13
-\i (00:22:32) zoom out 1 
-\i (00:22:32) setwindow pcb
-\i (00:22:32) zoom out 12714.2 8445.3
-\i (00:22:32) trapsize 26
-\i (00:22:32) zoom out 1 
-\i (00:22:32) setwindow pcb
-\i (00:22:32) zoom out 12714.2 8445.3
-\i (00:22:32) trapsize 52
-\i (00:22:33) pick grid 12648.2 8500.0
-\t (00:22:33) last pick:  12600.0 8500.0
-\i (00:22:38) setwindow form.plc_manual
-\i (00:22:38) FORM plc_manual tree 'MULTISEL YES' Y1 'Components by refdes' 
-\w (00:22:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:22:38) Placing Y1 / YSX321SL_YSX321SL-3_2X2_5X0_8_Y / YSX321SL-3_2X2_5X0_8 on Top.
-\i (00:22:38) FORM plc_manual tree  Y1 'Components by refdes' 
-\i (00:22:40) setwindow pcb
-\i (00:22:40) pick grid 12848.1 8405.2
-\t (00:22:40) last pick:  12800.0 8400.0
-\i (00:22:42) setwindow form.plc_manual
-\i (00:22:42) FORM plc_manual tree 'MULTISEL YES' Y2 'Components by refdes' 
-\w (00:22:42) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:22:42) Placing Y2 / CRYSTAL/SM_CRYSTAL-3215_32.768K / CRYSTAL-3215 on Top.
-\i (00:22:43) FORM plc_manual tree  Y2 'Components by refdes' 
-\i (00:22:44) setwindow pcb
-\i (00:22:44) pick grid 12454.5 8312.4
-\t (00:22:44) last pick:  12500.0 8300.0
-\i (00:22:56) setwindow form.plc_manual
-\i (00:22:56) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
-\w (00:22:56) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:22:56) Placing U1 / F1C100S_F1C100S-MQFN_F1C100S / F1C100S-MQFN on Top.
-\i (00:22:56) FORM plc_manual tree  U1 'Components by refdes' 
-\i (00:22:57) FORM plc_manual tree 'MULTISEL YES' U2 'Components by refdes' 
-\i (00:22:57) FORM plc_manual tree  U2 'Components by refdes' 
-\i (00:22:58) FORM plc_manual tree 'MULTISEL YES' U3 'Components by refdes' 
-\i (00:22:58) FORM plc_manual tree  U3 'Components by refdes' 
-\i (00:22:58) FORM plc_manual tree 'MULTISEL YES' U4 'Components by refdes' 
-\i (00:22:58) FORM plc_manual tree  U4 'Components by refdes' 
-\i (00:22:59) FORM plc_manual tree 'MULTISEL YES' U5 'Components by refdes' 
-\i (00:22:59) FORM plc_manual tree  U5 'Components by refdes' 
-\i (00:22:59) FORM plc_manual tree 'MULTISEL YES' U6 'Components by refdes' 
-\i (00:22:59) FORM plc_manual tree  U6 'Components by refdes' 
-\i (00:23:00) FORM plc_manual tree 'MULTISEL YES' U7 'Components by refdes' 
-\i (00:23:00) FORM plc_manual tree  U7 'Components by refdes' 
-\i (00:23:01) FORM plc_manual tree 'MULTISEL YES' U8 'Components by refdes' 
-\i (00:23:01) FORM plc_manual tree  U8 'Components by refdes' 
-\i (00:23:01) FORM plc_manual tree 'MULTISEL YES' Y1 'Components by refdes' 
-\i (00:23:01) FORM plc_manual tree  Y1 'Components by refdes' 
-\i (00:23:02) FORM plc_manual tree 'MULTISEL NO' Y1 'Components by refdes' 
-\i (00:23:05) setwindow pcb
-\i (00:23:05) zoom out 1 
-\i (00:23:05) setwindow pcb
-\i (00:23:05) zoom out 13149.0 8364.0
-\i (00:23:05) trapsize 103
-\i (00:23:06) pick grid 11968.2 8351.6
-\t (00:23:06) last pick:  12000.0 8400.0
-\w (00:23:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:23:07) Placing U2 / GD5FXG4UAYIG_GD5F1GQ4X_W25QXX_S / GD5F1GQ4X_W25QXX_SOP8_208MIL on Top.
-\i (00:23:08) pick grid 12044.4 7972.4
-\t (00:23:08) last pick:  12000.0 8000.0
-\w (00:23:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:23:08) Placing U3 / DHT11_HEADER1X4_2_54_DHT11 / HEADER1X4_2_54 on Top.
-\i (00:23:09) pick grid 12491.6 7951.8
-\t (00:23:09) last pick:  12500.0 8000.0
-\w (00:23:09) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:23:09) Placing U4 / PCF8563-SOP8_PCF8563-SO8-3_PCF8 / PCF8563-SO8-3 on Top.
-\i (00:23:10) pick grid 12751.2 7972.4
-\t (00:23:10) last pick:  12800.0 8000.0
-\w (00:23:10) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:23:10) Placing U5 / PAM8403_PAM8403-SOP16_PAM8403 / PAM8403-SOP16 on Top.
-\i (00:23:12) pick grid 13241.7 8351.6
-\t (00:23:12) last pick:  13200.0 8400.0
-\w (00:23:13) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:23:13) Placing U6 / MIC_GMI4015-MIC_MIC / GMI4015-MIC on Top.
-\i (00:23:19) pick grid 13249.9 7955.9
-\t (00:23:19) last pick:  13200.0 8000.0
-\w (00:23:19) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:23:19) Placing U7 / EA3036_EA3036-QFN20_EA3036 / EA3036-QFN20 on Top.
-\i (00:23:20) pick grid 13247.9 7731.3
-\t (00:23:20) last pick:  13200.0 7700.0
-\w (00:23:20) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\t (00:23:20) Placing U8 / PT4101_PT4101-SOT23-6_PT4101 / PT4101-SOT23-6 on Top.
-\i (00:23:23) pick grid 12854.3 8706.0
-\t (00:23:23) last pick:  12900.0 8700.0
-\i (00:23:25) prepopup 13146.9 7704.5
-\i (00:23:27) pick grid 13190.2 7751.9
-\t (00:23:27) last pick:  13200.0 7800.0
-\t (00:23:27) Moving U7 / EA3036_EA3036-QFN20_EA3036 / EA3036-QFN20.
-\t (00:23:27) last pick:  13200.0 7700.0
-\i (00:23:33) pick grid 13151.0 7718.9
-\t (00:23:33) last pick:  13200.0 7700.0
-\i (00:23:35) setwindow form.plc_manual
-\i (00:23:35) FORM plc_manual cancel  
-\i (00:23:36) setwindow pcb
-\i (00:23:36) generaledit 
-\i (00:23:36) trapsize 198
-\i (00:23:37) exit 
-\e (00:23:37) Do you want to save the changes you made to C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/unnamed.brd?
-\i (00:23:39) fillin no 
-\t (00:23:39)     Journal end - Wed Jun 12 12:56:13 2019
+\t (00:00:02) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Fri Jun 14 00:08:40 2019
+\t (00:00:02)         Host=WIN-TV1NGA534TQ User=Administrator Pid=11596 CPUs=2
+\t (00:00:02) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd
+\t (00:00:04) Grids are drawn 8.0000, 8.0000 apart for enhanced viewability.
+\i (00:00:04) trapsize 87566
+\i (00:00:04) trapsize 93110
+\t (00:00:04) Grids are drawn 8.0000, 8.0000 apart for enhanced viewability.
+\i (00:00:04) trapsize 93110
+\i (00:00:04) generaledit 
+\i (00:00:05) zoom in 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom in -148.0447 -116.3873
+\t (00:00:05) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
+\i (00:00:05) trapsize 46555
+\i (00:00:05) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -147.1135 -118.2495
+\t (00:00:06) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:00:06) trapsize 23277
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -147.1135 -118.2494
+\t (00:00:06) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
+\i (00:00:06) trapsize 11639
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -146.6480 -118.0166
+\t (00:00:06) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:00:06) trapsize 23277
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -146.1824 -117.5510
+\t (00:00:06) Grids are drawn 4.0000, 4.0000 apart for enhanced viewability.
+\i (00:00:06) trapsize 46555
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -145.2512 -117.5511
+\t (00:00:06) Grids are drawn 8.0000, 8.0000 apart for enhanced viewability.
+\i (00:00:06) trapsize 93110
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -138.7337 -116.3873
+\i (00:00:06) trapsize 93110
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -138.7337 -112.6629
+\i (00:00:06) trapsize 93110
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -127.5605 -103.3519
+\i (00:00:06) trapsize 93110
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -120.1117 -95.9032
+\i (00:00:06) trapsize 93110
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out -118.2495 -95.9032
+\i (00:00:06) trapsize 93110
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out -99.6275 -97.7654
+\i (00:00:07) trapsize 93110
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out -73.5568 -81.0056
+\i (00:00:07) trapsize 93110
+\i (00:00:09) exit 
+\t (00:00:09)     Journal end - Fri Jun 14 00:08:48 2019
