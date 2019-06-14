@@ -1,1560 +1,577 @@
-\t (00:00:03) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Fri Jun 14 20:49:18 2019
-\t (00:00:03)         Host=LAPTOP-MML0MUGR User=admin Pid=21664 CPUs=8
-\t (00:00:03) CmdLine= D:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
-\t (00:00:03) 
-   (00:00:03) Loading axlcore.cxt 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd
-\i (00:00:06) trapsize 4050
-\i (00:00:06) trapsize 4145
-\i (00:00:06) trapsize 4145
-\i (00:00:07) generaledit 
-\i (00:00:08) zoom out 1 
-\i (00:00:08) setwindow pcb
-\i (00:00:08) zoom out -2.3210 0.4975
-\t (00:00:08) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:00:08) trapsize 8289
-\i (00:00:11) zoom in 1 
-\i (00:00:11) setwindow pcb
-\i (00:00:11) zoom in -6.1340 34.4830
-\i (00:00:11) trapsize 4145
-\i (00:00:12) zoom out 1 
-\i (00:00:12) setwindow pcb
-\i (00:00:12) zoom out 6.8799 10.4446
-\i (00:00:12) trapsize 8289
-\i (00:00:13) zoom out 1 
-\i (00:00:13) setwindow pcb
-\i (00:00:13) zoom out 52.3044 -20.5568
-\t (00:00:13) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:00:13) trapsize 16578
-\i (00:00:14) zoom in 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom in 47.6624 -17.2412
-\t (00:00:14) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:00:14) trapsize 8289
-\i (00:00:14) zoom in 1 
-\i (00:00:14) setwindow pcb
-\i (00:00:14) zoom in 43.6836 -19.7279
-\i (00:00:14) trapsize 4145
-\i (00:00:16) shape edit boundary 
-\i (00:00:29) pick -42.5 20 
-\t (00:00:29) last pick:  -42.5000 20.0000
-\t (00:00:30) Pick the edit starting point on the shape boundary.
-\i (00:00:41) pick -42.5 20 
-\t (00:00:41) last pick:  -42.5000 20.0000
-\t (00:00:41) Pick the next vertex or the closing point on the shape.
-\i (00:00:43) zoom in 1 
-\i (00:00:43) setwindow pcb
-\i (00:00:43) zoom in -39.6221 20.7231
-\i (00:00:43) trapsize 2072
-\i (00:00:47) setwindow form.mini
-\i (00:00:47) FORM mini dyns_lock_mode Arc 
-\i (00:00:56) setwindow pcb
-\i (00:00:56) pick -40 22.5 
-\t (00:00:56) last pick:  -40.0000 22.5000
-\t (00:00:56) Pick DONE or a start point on another shape or void boundary.
-\i (00:00:58) zoom out 1 
+\t (00:00:06) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Fri Jun 14 23:15:13 2019
+\t (00:00:06)         Host=WIN-TV1NGA534TQ User=Administrator Pid=9528 CPUs=2
+\t (00:00:06) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:00:06) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Design opened: C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd
+\i (00:00:09) trapsize 2765
+\i (00:00:09) trapsize 2830
+\i (00:00:09) trapsize 2830
+\i (00:00:09) generaledit 
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -19.1605 -7.5538
+\i (00:00:10) trapsize 5659
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -24.7065 -12.0810
+\t (00:00:10) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
+\i (00:00:10) trapsize 11318
+\i (00:00:13) netin 
+\i (00:00:15) setwindow form.niparams
+\i (00:00:15) FORM niparams import  
+\t (00:00:15) Starting Cadence Logic Import...
+\t (00:00:17) Opening existing design...
+\t (00:00:17) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
+\i (00:00:17) setwindow pcb
+\i (00:00:17) trapsize 11318
+\i (00:00:18) generaledit 
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in -13.6146 -7.1010
+\i (00:00:20) trapsize 5659
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in -16.2177 -9.3646
+\i (00:00:20) trapsize 2830
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in -15.5952 -9.4778
+\i (00:00:21) trapsize 1415
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out -15.5952 -9.4778
+\i (00:00:22) trapsize 2830
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out -12.1432 -9.3645
+\i (00:00:22) trapsize 5659
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in -5.8049 -6.0822
+\i (00:00:23) trapsize 2830
+\i (00:00:24) zoom out 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom out -5.8049 -6.0256
+\i (00:00:24) trapsize 5659
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -28.7808 1.6709
+\i (00:00:26) trapsize 2830
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out -24.1969 -1.7811
+\i (00:00:27) trapsize 5659
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in -10.7281 -17.8531
+\i (00:00:28) trapsize 2830
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in -10.7281 -17.8531
+\i (00:00:28) trapsize 1415
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out -18.3396 -16.5515
+\i (00:00:29) trapsize 2830
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out -18.1133 -16.3251
+\i (00:00:29) trapsize 5659
+\i (00:00:30) zoom in 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom in -41.3157 -20.8525
+\i (00:00:30) trapsize 2830
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out -40.1839 -19.0982
+\i (00:00:31) trapsize 5659
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 19.8029 -6.9876
+\i (00:00:32) trapsize 2830
+\i (00:00:39) zoom out 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom out 14.9926 3.8213
+\i (00:00:39) trapsize 5659
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in 16.5772 3.5950
+\i (00:00:40) trapsize 2830
+\i (00:00:40) zoom out 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom out 17.1431 4.1044
+\i (00:00:40) trapsize 5659
+\i (00:00:42) place manual 
+\i (00:00:55) setwindow form.plc_manual
+\i (00:00:55) FORM plc_manual tree 'MULTISEL YES' J4 'Components by refdes' 
+\t (00:00:55) Placing J4 / MICROUSB_MICROUSB_USB / MICROUSB on Top.
+\i (00:00:56) FORM plc_manual tree  J4 'Components by refdes' 
 \i (00:00:58) setwindow pcb
-\i (00:00:58) zoom out -36.3893 19.4383
-\i (00:00:58) trapsize 4145
-\i (00:00:59) zoom out 1 
-\i (00:00:59) setwindow pcb
-\i (00:00:59) zoom out -35.3947 16.9516
-\i (00:00:59) trapsize 8289
-\i (00:01:00) zoom out 1 
-\i (00:01:00) setwindow pcb
-\i (00:01:00) zoom out -17.9875 -6.0922
-\t (00:01:00) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:01:00) trapsize 16578
-\i (00:01:00) zoom in 1 
-\i (00:01:00) setwindow pcb
-\i (00:01:00) zoom in -37.2182 -39.5802
-\t (00:01:00) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:01:00) trapsize 8289
-\i (00:01:01) zoom in 1 
-\i (00:01:01) setwindow pcb
-\i (00:01:01) zoom in -36.8866 -31.4568
-\i (00:01:01) trapsize 4145
-\i (00:01:01) zoom out 1 
-\i (00:01:01) setwindow pcb
-\i (00:01:01) zoom out -36.7208 -30.3792
-\i (00:01:01) trapsize 8289
-\i (00:01:03) zoom in 1 
+\i (00:00:58) prepopup 55.5120 4.5571
+\i (00:00:59) oops 
+\i (00:01:00) setwindow form.plc_manual
+\i (00:01:00) FORM plc_manual tree 'MULTISEL YES' J5 'Components by refdes' 
+\t (00:01:00) Placing J5 / HEADER 4_HEADER1X4_2_54_IO 1 / HEADER1X4_2_54 on Top.
+\i (00:01:01) FORM plc_manual tree  J5 'Components by refdes' 
 \i (00:01:03) setwindow pcb
-\i (00:01:03) zoom in -39.2076 19.8528
-\i (00:01:03) trapsize 4145
-\i (00:01:04) zoom out 1 
-\i (00:01:04) setwindow pcb
-\i (00:01:04) zoom out -36.1406 19.6870
-\i (00:01:04) trapsize 8289
-\i (00:01:05) zoom in 1 
-\i (00:01:05) setwindow pcb
-\i (00:01:05) zoom in -21.7175 -31.7055
-\i (00:01:05) trapsize 4145
-\i (00:01:14) pick -42.5 -20 
-\t (00:01:14) last pick:  -42.5000 -20.0000
-\i (00:01:14) shape edit boundary 
-\t (00:01:14) Pick the edit starting point on the shape or void boundary.
-\t (00:01:14) Pick the edit starting point on the shape boundary.
-\t (00:01:14) Pick the next vertex or the closing point on the shape.
-\i (00:01:22) pick -40 -22.5 
-\t (00:01:22) last pick:  -40.0000 -22.5000
-\t (00:01:22) Pick DONE or a start point on another shape or void boundary.
-\i (00:01:26) prepopup -38.9588 -21.8414
-\i (00:01:27) oops 
-\t (00:01:27) last pick:  -42.5000 -20.0000
-\t (00:01:27) Pick the next vertex or the closing point on the shape.
-\t (00:01:27) Pick the edit starting point on the shape or void boundary.
-\i (00:01:27) shape edit boundary 
-\t (00:01:28) Pick the edit starting point on the shape or void boundary.
-\i (00:01:29) zoom in 1 
-\i (00:01:29) setwindow pcb
-\i (00:01:29) zoom in -42.2745 -19.6033
-\i (00:01:29) trapsize 2072
-\i (00:01:30) zoom in 1 
-\i (00:01:30) setwindow pcb
-\i (00:01:30) zoom in -42.3988 -20.5151
-\i (00:01:30) trapsize 1036
-\i (00:01:39) pick grid -42.4402 -19.9555
-\t (00:01:39) last pick:  -42.5000 -20.0000
-\t (00:01:39) Pick the edit starting point on the shape boundary.
-\i (00:01:43) pick grid -42.4609 -19.9970
-\t (00:01:43) last pick:  -42.5000 -20.0000
-\t (00:01:43) Pick the next vertex or the closing point on the shape.
-\i (00:01:47) prepopup -42.6682 -19.9348
-\i (00:01:48) oops 
-\t (00:01:48) last pick:  -42.5000 -20.0000
-\t (00:01:48) Pick the edit starting point on the shape or void boundary.
-\i (00:01:48) shape edit boundary 
-\t (00:01:49) Pick the edit starting point on the shape or void boundary.
-\i (00:01:54) pick grid -39.9120 -22.4216
-\t (00:01:54) last pick:  -40.0000 -22.5000
-\t (00:01:54) Pick the edit starting point on the shape boundary.
-\i (00:01:56) pick grid -39.8706 -22.4216
-\t (00:01:56) last pick:  -40.0000 -22.5000
-\t (00:01:56) Pick the next vertex or the closing point on the shape.
-\i (00:02:01) pick grid -42.2537 -20.1006
-\t (00:02:01) last pick:  -42.5000 -20.0000
-\t (00:02:01) Pick DONE or a start point on another shape or void boundary.
-\i (00:02:02) zoom out 1 
+\i (00:01:03) prepopup 38.9874 3.3121
+\i (00:01:04) oops 
+\i (00:01:12) zoom in 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom in -7.6438 -9.3644
+\i (00:01:12) trapsize 2830
+\i (00:01:13) zoom out 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom out -7.6438 -9.3644
+\i (00:01:13) trapsize 5659
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in -7.6437 -9.3644
+\i (00:01:14) trapsize 2830
+\i (00:01:15) zoom out 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom out -7.6437 -9.3644
+\i (00:01:15) trapsize 5659
+\i (00:01:15) zoom out 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom out -7.3041 -9.1380
+\i (00:01:15) trapsize 11318
+\i (00:01:16) zoom in 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom in -6.8513 -9.1380
+\i (00:01:16) trapsize 5659
+\i (00:01:16) zoom in 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom in -6.8513 -9.1380
+\i (00:01:16) trapsize 2830
+\i (00:01:16) zoom out 1 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) zoom out -6.8513 -9.1380
+\i (00:01:16) trapsize 5659
+\i (00:01:18) zoom in 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom in -14.8873 -0.4230
+\i (00:01:18) trapsize 2830
+\i (00:01:23) zoom out 1 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom out 8.4849 -4.4976
+\i (00:01:23) trapsize 5659
+\i (00:01:25) zoom in 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom in -16.3021 -4.0448
+\i (00:01:25) trapsize 2830
+\i (00:01:25) zoom in 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom in -16.2455 -4.0448
+\i (00:01:25) trapsize 1415
+\i (00:01:25) zoom out 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom out -16.2455 -4.0447
+\i (00:01:25) trapsize 2830
+\i (00:01:25) zoom out 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom out -16.2455 -4.0448
+\i (00:01:25) trapsize 5659
+\i (00:01:55) pick grid 14.3138 -12.9862
+\t (00:01:55) last pick:  14.5000 -13.0000
+\i (00:01:56) zoom in 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom in -20.5464 -9.5907
+\i (00:01:56) trapsize 2830
+\i (00:01:56) zoom in 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom in -20.5464 -9.5907
+\i (00:01:56) trapsize 1415
+\i (00:01:56) zoom out 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom out -20.0087 -8.6569
+\i (00:01:56) trapsize 2830
+\i (00:01:57) zoom out 1 
+\i (00:01:57) setwindow pcb
+\i (00:01:57) zoom out -18.7637 -8.2041
+\i (00:01:57) trapsize 5659
+\i (00:01:58) zoom in 1 
+\i (00:01:58) setwindow pcb
+\i (00:01:58) zoom in -13.4442 -7.7514
+\i (00:01:58) trapsize 2830
+\i (00:01:58) zoom out 1 
+\i (00:01:58) setwindow pcb
+\i (00:01:58) zoom out -13.6139 -8.2607
+\i (00:01:58) trapsize 5659
+\i (00:01:59) zoom in 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom in -14.4062 -8.9397
+\i (00:01:59) trapsize 2830
+\i (00:02:00) zoom out 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom out -13.7837 -8.3172
+\i (00:02:00) trapsize 5659
+\i (00:02:00) zoom out 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom out -13.7836 -8.3172
+\i (00:02:00) trapsize 11318
+\i (00:02:00) zoom in 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom in 17.6812 -0.8472
+\i (00:02:00) trapsize 5659
+\i (00:02:02) zoom in 1 
 \i (00:02:02) setwindow pcb
-\i (00:02:02) zoom out -33.0113 -21.9035
-\i (00:02:02) trapsize 2072
-\i (00:02:02) zoom out 1 
-\i (00:02:02) setwindow pcb
-\i (00:02:02) zoom out -33.0113 -21.9864
-\i (00:02:02) trapsize 4145
-\i (00:02:02) zoom out 1 
-\i (00:02:02) setwindow pcb
-\i (00:02:02) zoom out -3.5850 -25.2191
-\i (00:02:02) trapsize 8289
-\i (00:02:02) zoom out 1 
-\i (00:02:02) setwindow pcb
-\i (00:02:02) zoom out 4.5384 -26.2137
-\t (00:02:02) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:02:02) trapsize 16578
-\i (00:02:03) zoom in 1 
-\i (00:02:03) setwindow pcb
-\i (00:02:03) zoom in 106.9921 -13.6142
-\t (00:02:03) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:02:03) trapsize 8289
-\i (00:02:04) zoom in 1 
-\i (00:02:04) setwindow pcb
-\i (00:02:04) zoom in 83.1194 -20.9086
-\i (00:02:04) trapsize 4145
+\i (00:02:02) zoom in -5.8608 2.0955
+\i (00:02:02) trapsize 2830
+\i (00:02:05) zoom in 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom in -13.5006 -5.0915
+\i (00:02:05) trapsize 1415
+\i (00:02:05) zoom in 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom in -13.5005 -5.0915
+\i (00:02:05) trapsize 707
+\i (00:02:05) zoom out 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom out -13.0620 -5.8130
+\i (00:02:05) trapsize 1415
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out -12.8639 -6.0960
+\i (00:02:06) trapsize 2830
+\i (00:02:06) zoom out 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom out -12.4679 -5.9829
+\i (00:02:06) trapsize 5659
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out -12.3546 -6.0960
+\i (00:02:07) trapsize 11318
 \i (00:02:07) zoom in 1 
 \i (00:02:07) setwindow pcb
-\i (00:02:07) zoom in 39.9330 -22.4006
-\i (00:02:07) trapsize 2072
-\i (00:02:09) zoom in 1 
-\i (00:02:09) setwindow pcb
-\i (00:02:09) zoom in 38.1923 -22.5249
-\i (00:02:09) trapsize 1036
-\i (00:02:13) pick grid 39.8087 -22.4420
-\t (00:02:13) last pick:  40.0000 -22.5000
-\i (00:02:13) shape edit boundary 
-\t (00:02:13) Pick the edit starting point on the shape or void boundary.
-\t (00:02:13) Pick the edit starting point on the shape boundary.
-\t (00:02:13) Pick the next vertex or the closing point on the shape.
-\i (00:02:14) prepopup 41.6945 -20.3904
-\i (00:02:15) oops 
-\t (00:02:15) last pick:  -42.5000 -20.0000
-\t (00:02:15) Pick the edit starting point on the shape or void boundary.
-\i (00:02:15) shape edit boundary 
-\t (00:02:15) Pick the edit starting point on the shape or void boundary.
-\i (00:02:19) pick grid 42.5856 -19.9552
-\t (00:02:19) last pick:  42.5000 -20.0000
-\t (00:02:19) Pick the edit starting point on the shape boundary.
-\i (00:02:21) pick grid 42.6063 -20.1003
-\t (00:02:21) last pick:  42.5000 -20.0000
-\t (00:02:21) Pick the next vertex or the closing point on the shape.
-\i (00:02:24) pick grid 40.0366 -22.2762
-\t (00:02:24) last pick:  40.0000 -22.5000
-\t (00:02:24) Pick DONE or a start point on another shape or void boundary.
-\i (00:02:24) zoom out 1 
-\i (00:02:24) setwindow pcb
-\i (00:02:24) zoom out 41.2593 -20.7220
-\i (00:02:24) trapsize 2072
-\i (00:02:24) zoom out 1 
-\i (00:02:24) setwindow pcb
-\i (00:02:24) zoom out 41.2593 -20.7220
-\i (00:02:24) trapsize 4145
-\i (00:02:24) zoom out 1 
-\i (00:02:24) setwindow pcb
-\i (00:02:24) zoom out 41.2592 -20.7219
-\i (00:02:24) trapsize 8289
-\i (00:02:25) zoom in 1 
-\i (00:02:25) setwindow pcb
-\i (00:02:25) zoom in 43.9118 26.0288
-\i (00:02:25) trapsize 4145
-\i (00:02:26) zoom in 1 
-\i (00:02:26) setwindow pcb
-\i (00:02:26) zoom in 42.0882 18.3200
-\i (00:02:26) trapsize 2072
-\i (00:02:27) zoom in 1 
-\i (00:02:27) setwindow pcb
-\i (00:02:27) zoom in 38.8969 20.9310
-\i (00:02:27) trapsize 1036
-\i (00:02:35) pick grid 39.8709 22.4438
-\t (00:02:35) last pick:  40.0000 22.5000
-\i (00:02:35) shape edit boundary 
-\t (00:02:35) Pick the edit starting point on the shape or void boundary.
-\t (00:02:36) Pick the edit starting point on the shape boundary.
-\t (00:02:36) Pick the next vertex or the closing point on the shape.
-\i (00:02:43) pick grid 42.3991 20.2472
-\t (00:02:43) last pick:  42.5000 20.0000
-\t (00:02:43) Pick DONE or a start point on another shape or void boundary.
-\i (00:02:43) prepopup 44.4506 19.8535
-\i (00:02:44) done 
-\i (00:02:44) generaledit 
-\i (00:02:45) zoom out 1 
-\i (00:02:45) setwindow pcb
-\i (00:02:45) zoom out 41.4458 19.2111
-\i (00:02:45) trapsize 2072
-\i (00:02:45) zoom out 1 
-\i (00:02:45) setwindow pcb
-\i (00:02:45) zoom out 41.4458 19.2110
-\i (00:02:45) trapsize 4145
-\i (00:02:45) zoom out 1 
-\i (00:02:45) setwindow pcb
-\i (00:02:45) zoom out 23.4584 8.3523
-\i (00:02:45) trapsize 8289
-\i (00:02:46) zoom out 1 
-\i (00:02:46) setwindow pcb
-\i (00:02:46) zoom out -45.0100 -7.3970
-\t (00:02:46) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:02:46) trapsize 16578
-\i (00:02:47) zoom in 1 
-\i (00:02:47) setwindow pcb
-\i (00:02:47) zoom in -55.9517 -13.6967
-\t (00:02:47) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:02:47) trapsize 8289
-\i (00:02:47) zoom in 1 
-\i (00:02:47) setwindow pcb
-\i (00:02:47) zoom in -55.9516 -13.6966
-\i (00:02:47) trapsize 4145
-\i (00:02:49) save 
-\i (00:02:50) fillin yes 
-\i (00:02:51) generaledit 
-\i (00:02:56) drag_start grid -41.1141 20.6205
-\i (00:02:58) drag_stop 42.1089 -21.0739
-\i (00:03:00) pick grid 40.1195 -20.4937
-\t (00:03:00) last pick:  40.0000 -20.5000
-\i (00:03:06) prepopup 40.7827 -18.8358
-\i (00:03:27) delete 
-\i (00:03:27) generaledit 
-\i (00:03:29) pick grid -40.4509 18.8798
-\t (00:03:29) last pick:  -40.5000 19.0000
-\i (00:03:30) delete 
-\i (00:03:31) generaledit 
-\i (00:03:37) board keepout 
-   (00:03:37) Loading floor.cxt 
-   (00:03:37) Loading fputil.cxt 
-\i (00:03:39) setwindow form.fpbdkeepout
-\i (00:03:39) FORM fpbdkeepout fpbkplacerect YES 
-\i (00:04:00) FORM fpbdkeepout fpbkplacewdt '85.000 MM' 
-\i (00:04:11) FORM fpbdkeepout fpbkplacehgt '40.0000 MM' 
-\i (00:04:24) setwindow pcb
-\i (00:04:24) pick grid -42.6890 -19.8305
-\t (00:04:24) last pick:  -42.5000 -20.0000
-\i (00:04:25) prepopup -34.6485 -17.1780
-\i (00:04:27) Esc 
-\i (00:04:29) prepopup -52.9675 8.8499
-\i (00:04:31) setwindow form.fpbdkeepout
-\i (00:04:31) FORM fpbdkeepout done  
-\i (00:04:32) setwindow pcb
-\i (00:04:32) generaledit 
-\i (00:04:32) zoom out 1 
-\i (00:04:32) setwindow pcb
-\i (00:04:32) zoom out -17.7387 -4.9930
-\i (00:04:32) trapsize 8289
-\i (00:04:33) zoom in 1 
-\i (00:04:33) setwindow pcb
-\i (00:04:33) zoom in 31.4988 3.4620
-\i (00:04:33) trapsize 4145
-\i (00:04:34) pick grid 54.8743 13.1603
-\t (00:04:34) last pick:  55.0000 13.0000
-\i (00:04:35) zoom out 1 
-\i (00:04:35) setwindow pcb
-\i (00:04:35) zoom out 45.7562 1.0581
-\i (00:04:35) trapsize 8289
-\i (00:04:35) zoom out 1 
-\i (00:04:35) setwindow pcb
-\i (00:04:35) zoom out 45.7562 1.0582
-\t (00:04:35) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:04:35) trapsize 16578
-\i (00:04:35) zoom in 1 
-\i (00:04:35) setwindow pcb
-\i (00:04:35) zoom in -37.7984 16.3102
-\t (00:04:35) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:04:35) trapsize 8289
-\i (00:04:36) zoom in 1 
-\i (00:04:36) setwindow pcb
-\i (00:04:36) zoom in -23.3753 16.3102
-\i (00:04:36) trapsize 4145
-\i (00:04:36) zoom in 1 
-\i (00:04:36) setwindow pcb
-\i (00:04:36) zoom in -23.3753 16.3102
-\i (00:04:36) trapsize 2072
-\i (00:04:37) zoom out 1 
-\i (00:04:37) setwindow pcb
-\i (00:04:37) zoom out -22.9609 16.8076
-\i (00:04:37) trapsize 4145
-\i (00:04:38) zoom out 1 
-\i (00:04:38) setwindow pcb
-\i (00:04:38) zoom out -10.1127 13.9893
-\i (00:04:38) trapsize 8289
-\i (00:04:39) zoom in 1 
-\i (00:04:39) setwindow pcb
-\i (00:04:39) zoom in 47.0824 -0.5995
-\i (00:04:39) trapsize 4145
-\i (00:04:40) zoom out 1 
-\i (00:04:40) setwindow pcb
-\i (00:04:40) zoom out 39.9538 -9.4689
-\i (00:04:40) trapsize 8289
-\i (00:04:41) zoom in 1 
-\i (00:04:41) setwindow pcb
-\i (00:04:41) zoom in 47.7455 -28.2023
-\i (00:04:41) trapsize 4145
-\i (00:04:42) zoom in 1 
-\i (00:04:42) setwindow pcb
-\i (00:04:42) zoom in 42.6892 -14.1108
-\i (00:04:42) trapsize 2072
-\i (00:04:43) zoom out 1 
-\i (00:04:43) setwindow pcb
-\i (00:04:43) zoom out 42.6892 -15.0226
-\i (00:04:43) trapsize 4145
-\i (00:05:05) setwindow form.mini
-\i (00:05:05) FORM mini class PACKAGE KEEPIN 
-\i (00:05:10) FORM mini class ROUTE KEEPOUT 
-\i (00:05:16) setwindow pcb
-\i (00:05:16) undo 
-\i (00:05:16) trapsize 4145
-\i (00:05:17) generaledit 
-\i (00:05:17) undo 
-\i (00:05:17) trapsize 4145
-\i (00:05:17) generaledit 
-\i (00:05:40) setwindow form.mini
-\i (00:05:40) FORM mini class ROUTE KEEPIN 
-\i (00:05:44) setwindow pcb
-\i (00:05:44) delete 
-\i (00:05:44) generaledit 
-\i (00:05:49) board keepout 
-\i (00:05:54) setwindow form.mini
-\i (00:05:54) FORM mini class ROUTE KEEPIN 
-\i (00:05:57) setwindow form.fpbdkeepout
-\i (00:05:57) FORM fpbdkeepout fpbkplacerect YES 
-\i (00:06:02) FORM fpbdkeepout fpbkplacewdt '85,000 MM' 
-\i (00:06:12) FORM fpbdkeepout fpbkplacehgt '40.0000 MM' 
-\i (00:06:15) FORM fpbdkeepout fpbkplacewdt '42.5000 MM' 
-\i (00:06:23) FORM fpbdkeepout fpbkplacewdt '85.000 MM' 
-\i (00:06:29) setwindow pcb
-\i (00:06:29) pick grid -42.6061 -19.9134
-\t (00:06:29) last pick:  -42.5000 -20.0000
-\i (00:06:30) prepopup -5.2221 -9.5520
-\i (00:06:32) Esc 
-\i (00:06:34) setwindow form.fpbdkeepout
-\i (00:06:34) FORM fpbdkeepout done  
-\i (00:06:35) setwindow pcb
-\i (00:06:35) generaledit 
-\i (00:06:36) pick grid 48.9060 3.0475
-\t (00:06:36) last pick:  49.0000 3.0000
-\i (00:06:40) prepopup 27.4371 20.2060
-\i (00:06:58) Esc 
-\i (00:07:11) setwindow form.find
-\i (00:07:11) FORM find all_off  
-\i (00:07:12) FORM find shapes YES 
-\i (00:07:14) FORM find shapes NO 
-\i (00:07:16) FORM find lines YES 
-\i (00:07:17) FORM find all_off  
-\i (00:07:18) FORM find all_on  
-\i (00:07:19) FORM find shapes NO 
-\i (00:07:20) setwindow pcb
-\i (00:07:20) drag_start grid 33.4053 20.8691
-\i (00:07:20) drag_stop 37.3841 8.8499
-\i (00:07:22) setwindow form.find
-\i (00:07:22) FORM find all_off  
-\i (00:07:23) FORM find shapes YES 
-\i (00:07:25) setwindow pcb
-\i (00:07:25) pick grid 11.1904 13.3260
-\t (00:07:25) last pick:  11.0000 13.5000
-\i (00:07:29) delete 
-\i (00:07:30) generaledit 
-\i (00:07:33) undo 
-\i (00:07:33) trapsize 4145
-\i (00:07:33) generaledit 
-\i (00:07:34) undo 
-\i (00:07:34) trapsize 4145
-\i (00:07:34) generaledit 
-\i (00:07:34) undo 
-\i (00:07:34) trapsize 4145
-\i (00:07:34) generaledit 
-\i (00:07:36) pick grid 47.4140 4.2080
-\t (00:07:36) last pick:  47.5000 4.0000
-\i (00:07:37) zoom in 1 
-\i (00:07:37) setwindow pcb
-\i (00:07:37) zoom in 39.1248 -8.8889
-\i (00:07:37) trapsize 2072
-\i (00:07:37) zoom in 1 
-\i (00:07:37) setwindow pcb
-\i (00:07:37) zoom in 39.1248 -8.8889
-\i (00:07:37) trapsize 1036
-\i (00:07:38) zoom out 1 
-\i (00:07:38) setwindow pcb
-\i (00:07:38) zoom out 39.1249 -8.8889
-\i (00:07:38) trapsize 2072
-\i (00:07:38) zoom out 1 
-\i (00:07:38) setwindow pcb
-\i (00:07:38) zoom out 39.0834 -8.8889
-\i (00:07:38) trapsize 4145
-\i (00:07:49) add rect 
-\i (00:07:55) zoom in 1 
-\i (00:07:55) setwindow pcb
-\i (00:07:55) zoom in -42.5647 20.3718
-\i (00:07:55) trapsize 2072
-\i (00:07:58) pick grid -42.4818 20.2475
-\t (00:07:58) last pick:  -42.5000 20.0000
-\i (00:08:01) prepopup -41.5700 19.5015
-\i (00:08:02) oops 
-\i (00:08:04) pick grid -42.3575 20.5791
-\t (00:08:04) last pick:  -42.5000 20.5000
-\i (00:08:10) prepopup -42.4818 20.4547
-\i (00:08:13) oops 
-\i (00:08:15) pick grid -42.5233 19.9988
-\t (00:08:15) last pick:  -42.5000 20.0000
-\i (00:08:16) zoom out 1 
-\i (00:08:16) setwindow pcb
-\i (00:08:16) zoom out -36.1406 17.5535
-\i (00:08:16) trapsize 4145
-\i (00:08:16) zoom out 1 
-\i (00:08:16) setwindow pcb
-\i (00:08:16) zoom out -36.1407 17.5536
-\i (00:08:16) trapsize 8289
-\i (00:08:18) zoom in 1 
-\i (00:08:18) setwindow pcb
-\i (00:08:18) zoom in 44.5955 -20.7423
-\i (00:08:18) trapsize 4145
-\i (00:08:24) pick grid 42.3574 -20.2449
-\t (00:08:24) last pick:  42.5000 -20.0000
-\i (00:08:25) zoom out 1 
-\i (00:08:25) setwindow pcb
-\i (00:08:25) zoom out 50.7295 -18.5042
-\i (00:08:25) trapsize 8289
-\i (00:08:25) zoom out 1 
-\i (00:08:25) setwindow pcb
-\i (00:08:25) zoom out 50.7294 -18.5041
-\t (00:08:25) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:08:25) trapsize 16578
-\i (00:08:27) zoom in 1 
-\i (00:08:27) setwindow pcb
-\i (00:08:27) zoom in 46.0875 7.3580
-\t (00:08:27) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:08:27) trapsize 8289
-\i (00:08:27) zoom in 1 
-\i (00:08:27) setwindow pcb
-\i (00:08:27) zoom in 46.0875 7.3580
-\i (00:08:27) trapsize 4145
-\i (00:08:27) prepopup 46.2534 7.3581
-\i (00:08:28) done 
-\i (00:08:28) generaledit 
-\i (00:08:28) zoom out 1 
-\i (00:08:28) setwindow pcb
-\i (00:08:28) zoom out 45.6731 7.2752
-\i (00:08:28) trapsize 8289
-\i (00:08:28) zoom out 1 
-\i (00:08:28) setwindow pcb
-\i (00:08:28) zoom out 45.6731 7.2751
-\t (00:08:28) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:08:28) trapsize 16578
-\i (00:08:29) zoom in 1 
-\i (00:08:29) setwindow pcb
-\i (00:08:29) zoom in 47.9941 6.6121
-\t (00:08:29) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:08:29) trapsize 8289
-\i (00:08:30) zoom in 1 
-\i (00:08:30) setwindow pcb
-\i (00:08:30) zoom in 16.1638 9.2646
-\i (00:08:30) trapsize 4145
-\i (00:08:32) save 
-\i (00:08:34) fillin yes 
-\i (00:08:34) generaledit 
-\i (00:08:34) zoom out 1 
-\i (00:08:34) setwindow pcb
-\i (00:08:34) zoom out 39.6221 -3.5835
-\i (00:08:34) trapsize 8289
-\i (00:08:34) zoom out 1 
-\i (00:08:34) setwindow pcb
-\i (00:08:34) zoom out 37.9642 -1.5941
-\t (00:08:34) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:08:34) trapsize 16578
-\i (00:08:35) zoom in 1 
-\i (00:08:35) setwindow pcb
-\i (00:08:35) zoom in 48.9059 10.6737
-\t (00:08:35) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:08:35) trapsize 8289
-\i (00:08:36) zoom in 1 
-\i (00:08:36) setwindow pcb
-\i (00:08:36) zoom in 48.9060 10.6737
-\i (00:08:36) trapsize 4145
-\i (00:08:36) zoom out 1 
-\i (00:08:36) setwindow pcb
-\i (00:08:36) zoom out 48.5744 10.1764
-\i (00:08:36) trapsize 8289
-\i (00:08:36) zoom out 1 
-\i (00:08:36) setwindow pcb
-\i (00:08:36) zoom out 47.9113 8.5186
-\t (00:08:36) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:08:36) trapsize 16578
-\i (00:08:37) place manual 
-\i (00:08:39) setwindow form.plc_manual
-\i (00:08:39) FORM plc_manual cancel  
-\i (00:08:39) setwindow pcb
-\i (00:08:39) generaledit 
-\i (00:08:41) save 
-\i (00:08:42) fillin yes 
-\i (00:08:42) generaledit 
-\i (00:08:45) netin 
-\i (00:08:47) setwindow form.niparams
-\i (00:08:47) FORM niparams capture_netlist YES 
-\i (00:08:49) FORM niparams browse  
-\i (00:08:52) fillin "C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro"
-\i (00:08:53) FORM niparams import  
-\t (00:08:53) Starting Cadence Logic Import...
-\t (00:08:59) Opening existing design...
-\t (00:08:59) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:08:59) setwindow pcb
-\i (00:08:59) trapsize 16578
-\i (00:09:00) generaledit 
-\i (00:09:51) zoom in 1 
-\i (00:09:51) setwindow pcb
-\i (00:09:51) zoom in -10.1127 -8.0597
-\t (00:09:51) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:09:51) trapsize 8289
-\i (00:10:07) netin 
-\i (00:10:09) setwindow form.niparams
-\i (00:10:09) FORM niparams view_log  
-\i (00:10:27) setwindow text
-\i (00:10:27) close 
-\i (00:10:28) setwindow form.niparams
-\i (00:10:28) FORM niparams cancel  
-\i (00:10:28) setwindow pcb
-\i (00:10:28) generaledit 
-\i (00:10:30) save 
-\i (00:10:31) fillin yes 
-\i (00:10:31) generaledit 
-\i (00:10:33) place manual 
-\i (00:10:46) setwindow form.plc_manual
-\i (00:10:46) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
-\t (00:10:46) Placing J1 / HEADER 40/SM_FPC-40_HEADER 40/S / FPC-40 on Top.
-\i (00:10:46) FORM plc_manual tree  J1 'Components by refdes' 
-\i (00:10:47) setwindow pcb
-\i (00:10:47) prepopup -47.0823 7.6897
-\i (00:10:49) rotate 
-\t (00:10:49) Spin the element(s).
-\i (00:10:51) iangle 270.000
-\t (00:10:51) last angle:  +270.000 Degrees
-\i (00:11:00) pick grid -40.4510 0.0637
-\t (00:11:00) last pick:  -40.5000 0.0000
-\i (00:11:06) setwindow form.plc_manual
-\i (00:11:06) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
-\t (00:11:06) Placing U1 / F1C100S_F1C100S-MQFN_F1C100S / F1C100S-MQFN on Top.
-\i (00:11:06) FORM plc_manual tree  U1 'Components by refdes' 
-\i (00:11:08) setwindow pcb
-\i (00:11:08) zoom in 1 
-\i (00:11:08) setwindow pcb
-\i (00:11:08) zoom in 3.9788 -1.4283
-\i (00:11:08) trapsize 4145
-\i (00:11:20) pick grid -7.1286 -0.1849
-\t (00:11:20) last pick:  -7.0000 0.0000
-\i (00:11:25) setwindow form.plc_manual
-\i (00:11:25) FORM plc_manual tree 'MULTISEL YES' Y1 'Components by refdes' 
-\t (00:11:25) Placing Y1 / YSX321SL_YSX321SL-3_2X2_5X0_8_Y / YSX321SL-3_2X2_5X0_8 on Top.
-\i (00:11:25) FORM plc_manual tree  Y1 'Components by refdes' 
-\i (00:11:26) setwindow pcb
-\i (00:11:26) zoom in 1 
-\i (00:11:26) setwindow pcb
-\i (00:11:26) zoom in 8.1234 -0.6823
-\i (00:11:26) trapsize 2072
-\i (00:11:27) zoom in 1 
-\i (00:11:27) setwindow pcb
-\i (00:11:27) zoom in 7.5017 -1.3868
-\i (00:11:27) trapsize 1036
-\i (00:11:28) zoom out 1 
-\i (00:11:28) setwindow pcb
-\i (00:11:28) zoom out 5.4087 -0.6822
-\i (00:11:28) trapsize 2072
-\i (00:11:40) pick grid 5.3672 -1.8427
-\t (00:11:40) last pick:  5.5000 -2.0000
-\i (00:11:44) setwindow form.plc_manual
-\i (00:11:44) FORM plc_manual tree 'MULTISEL YES' U2 'Components by refdes' 
-\t (00:11:44) Placing U2 / GD5FXG4UAYIG_GD5F1GQ4X_W25QXX_S / GD5F1GQ4X_W25QXX_SOP8_208MIL on Top.
-\i (00:11:44) FORM plc_manual tree  U2 'Components by refdes' 
-\i (00:11:46) setwindow pcb
-\i (00:11:46) prepopup 15.1898 3.7111
-\i (00:11:47) rotate 
-\t (00:11:47) Spin the element(s).
-\i (00:11:48) iangle 270.000
-\t (00:11:48) last angle:  +270.000 Degrees
-\i (00:11:51) zoom out 1 
-\i (00:11:51) setwindow pcb
-\i (00:11:51) zoom out 19.9975 4.5400
-\i (00:11:51) trapsize 4145
-\i (00:11:51) zoom out 1 
-\i (00:11:51) setwindow pcb
-\i (00:11:51) zoom out 19.9976 4.5400
-\i (00:11:51) trapsize 8289
-\i (00:11:53) pick grid 23.3132 3.5453
-\t (00:11:53) last pick:  23.5000 3.5000
-\i (00:11:54) zoom in 1 
-\i (00:11:54) setwindow pcb
-\i (00:11:54) zoom in 20.9922 -5.2412
-\i (00:11:54) trapsize 4145
-\i (00:11:56) setwindow form.plc_manual
-\i (00:11:56) FORM plc_manual tree 'MULTISEL YES' U3 'Components by refdes' 
-\t (00:11:56) Placing U3 / DHT11_HEADER1X4_2_54_DHT11 / HEADER1X4_2_54 on Top.
-\i (00:11:56) FORM plc_manual tree  U3 'Components by refdes' 
-\i (00:11:58) setwindow pcb
-\i (00:11:58) prepopup 11.7084 -4.6610
-\i (00:11:59) oops 
-\t (00:11:59) last angle:  +270.000 Degrees
-\i (00:12:01) setwindow form.plc_manual
-\i (00:12:01) FORM plc_manual tree 'MULTISEL YES' U4 'Components by refdes' 
-\t (00:12:02) Placing U4 / PCF8563-SOP8_PCF8563-SO8-3_PCF8 / PCF8563-SO8-3 on Top.
-\i (00:12:02) FORM plc_manual tree  U4 'Components by refdes' 
-\i (00:12:03) setwindow pcb
-\i (00:12:03) prepopup 21.7382 -8.5569
-\i (00:12:08) rotate 
-\t (00:12:08) Spin the element(s).
-\i (00:12:10) iangle 270.000
-\t (00:12:10) last angle:  +270.000 Degrees
-\i (00:12:10) zoom in 1 
-\i (00:12:10) setwindow pcb
-\i (00:12:10) zoom in 20.5778 -7.2306
-\i (00:12:10) trapsize 2072
-\i (00:12:10) zoom in 1 
-\i (00:12:10) setwindow pcb
-\i (00:12:10) zoom in 20.5778 -7.6036
-\i (00:12:10) trapsize 1036
-\i (00:12:11) zoom out 1 
-\i (00:12:11) setwindow pcb
-\i (00:12:11) zoom out 20.5571 -7.6036
-\i (00:12:11) trapsize 2072
-\i (00:12:15) pick grid 23.2511 -7.9352
-\t (00:12:15) last pick:  23.5000 -8.0000
-\i (00:12:15) zoom out 1 
-\i (00:12:15) setwindow pcb
-\i (00:12:15) zoom out 21.8005 -2.7959
-\i (00:12:15) trapsize 4145
-\i (00:12:18) setwindow form.plc_manual
-\i (00:12:18) FORM plc_manual tree 'MULTISEL YES' Y2 'Components by refdes' 
-\t (00:12:18) Placing Y2 / CRYSTAL/SM_CRYSTAL-3215_32.768K / CRYSTAL-3215 on Top.
-\i (00:12:18) FORM plc_manual tree  Y2 'Components by refdes' 
-\i (00:12:19) setwindow pcb
-\i (00:12:19) zoom in 1 
-\i (00:12:19) setwindow pcb
-\i (00:12:19) zoom in 32.1619 -8.1010
-\i (00:12:19) trapsize 2072
-\i (00:12:20) zoom in 1 
-\i (00:12:20) setwindow pcb
-\i (00:12:20) zoom in 31.0429 -7.9352
-\i (00:12:20) trapsize 1036
-\i (00:12:21) zoom out 1 
-\i (00:12:21) setwindow pcb
-\i (00:12:21) zoom out 30.4420 -7.9559
-\i (00:12:21) trapsize 2072
-\i (00:12:21) prepopup 30.3591 -7.0026
-\i (00:12:24) rotate 
-\t (00:12:24) Spin the element(s).
-\i (00:12:25) iangle 90.000
-\t (00:12:25) last angle:  +90.000 Degrees
-\i (00:12:28) pick grid 30.7321 -7.0026
-\t (00:12:28) last pick:  30.5000 -7.0000
-\i (00:12:31) setwindow form.plc_manual
-\i (00:12:31) FORM plc_manual tree 'MULTISEL YES' U5 'Components by refdes' 
-\t (00:12:31) Placing U5 / PAM8403_PAM8403-SOP16_PAM8403 / PAM8403-SOP16 on Top.
-\i (00:12:31) FORM plc_manual tree  U5 'Components by refdes' 
-\i (00:12:32) setwindow pcb
-\i (00:12:32) zoom out 1 
-\i (00:12:32) setwindow pcb
-\i (00:12:32) zoom out 7.6054 -12.0589
-\i (00:12:32) trapsize 4145
-\i (00:12:33) zoom out 1 
-\i (00:12:33) setwindow pcb
-\i (00:12:33) zoom out 7.2738 -11.8932
-\i (00:12:33) trapsize 8289
-\i (00:12:34) zoom in 1 
-\i (00:12:34) setwindow pcb
-\i (00:12:34) zoom in -35.6640 11.9796
-\i (00:12:34) trapsize 4145
-\i (00:12:34) zoom in 1 
-\i (00:12:34) setwindow pcb
-\i (00:12:34) zoom in -35.6640 11.9796
-\i (00:12:34) trapsize 2072
-\i (00:12:35) zoom out 1 
-\i (00:12:35) setwindow pcb
-\i (00:12:35) zoom out -32.5556 11.8553
-\i (00:12:35) trapsize 4145
-\i (00:12:35) zoom in 1 
-\i (00:12:35) setwindow pcb
-\i (00:12:35) zoom in -30.2347 11.8553
-\i (00:12:35) trapsize 2072
-\i (00:12:37) prepopup -29.4058 12.5599
-\i (00:12:39) rotate 
-\t (00:12:39) Spin the element(s).
-\i (00:12:42) iangle 90.000
-\t (00:12:42) last angle:  +90.000 Degrees
-\i (00:12:44) zoom out 1 
-\i (00:12:44) setwindow pcb
-\i (00:12:44) zoom out -27.2506 10.9849
-\i (00:12:44) trapsize 4145
-\i (00:12:49) pick grid -24.8468 11.4823
-\t (00:12:49) last pick:  -25.0000 11.5000
-\i (00:12:52) setwindow form.plc_manual
-\i (00:12:52) FORM plc_manual tree 'MULTISEL YES' U6 'Components by refdes' 
-\t (00:12:52) Placing U6 / MIC_GMI4015-MIC_MIC / GMI4015-MIC on Top.
-\i (00:12:52) FORM plc_manual tree  U6 'Components by refdes' 
-\i (00:12:54) setwindow pcb
-\i (00:12:54) zoom in 1 
-\i (00:12:54) setwindow pcb
-\i (00:12:54) zoom in -9.9264 12.6428
-\i (00:12:54) trapsize 2072
-\i (00:12:55) zoom out 1 
-\i (00:12:55) setwindow pcb
-\i (00:12:55) zoom out -9.9678 12.5600
-\i (00:12:55) trapsize 4145
-\i (00:12:57) prepopup -1.5959 10.6534
-\i (00:13:00) oops 
-\t (00:13:00) last angle:  +90.000 Degrees
-\i (00:13:01) setwindow form.plc_manual
-\i (00:13:01) FORM plc_manual tree 'MULTISEL YES' U7 'Components by refdes' 
-\t (00:13:01) Placing U7 / EA3036_EA3036-QFN20_EA3036 / EA3036-QFN20 on Top.
-\i (00:13:01) FORM plc_manual tree  U7 'Components by refdes' 
-\i (00:13:04) setwindow pcb
-\i (00:13:04) zoom in 1 
-\i (00:13:04) setwindow pcb
-\i (00:13:04) zoom in -4.0826 0.3749
-\i (00:13:04) trapsize 2072
-\i (00:13:04) zoom out 1 
-\i (00:13:04) setwindow pcb
-\i (00:13:04) zoom out -1.5544 0.0434
-\i (00:13:04) trapsize 4145
-\i (00:13:06) pick grid -13.8223 -15.0429
-\t (00:13:06) last pick:  -14.0000 -15.0000
-\i (00:13:08) zoom in 1 
-\i (00:13:08) setwindow pcb
-\i (00:13:08) zoom in -12.1645 -16.8665
-\i (00:13:08) trapsize 2072
-\i (00:13:08) zoom in 1 
-\i (00:13:08) setwindow pcb
-\i (00:13:08) zoom in -11.8744 -16.8664
-\i (00:13:08) trapsize 1036
-\i (00:13:09) zoom out 1 
-\i (00:13:09) setwindow pcb
-\i (00:13:09) zoom out -11.8744 -16.8664
-\i (00:13:09) trapsize 2072
-\i (00:13:09) zoom out 1 
-\i (00:13:09) setwindow pcb
-\i (00:13:09) zoom out -11.9573 -16.7421
-\i (00:13:09) trapsize 4145
-\i (00:13:10) setwindow form.plc_manual
-\i (00:13:10) FORM plc_manual tree 'MULTISEL YES' U8 'Components by refdes' 
-\t (00:13:10) Placing U8 / PT4101_PT4101-SOT23-6_PT4101 / PT4101-SOT23-6 on Top.
-\i (00:13:10) FORM plc_manual tree  U8 'Components by refdes' 
-\i (00:13:12) setwindow pcb
-\i (00:13:12) zoom in 1 
-\i (00:13:12) setwindow pcb
-\i (00:13:12) zoom in -3.5853 -13.8409
-\i (00:13:12) trapsize 2072
-\i (00:13:12) zoom in 1 
-\i (00:13:12) setwindow pcb
-\i (00:13:12) zoom in -2.9222 -13.7166
-\i (00:13:12) trapsize 1036
-\i (00:13:13) zoom out 1 
-\i (00:13:13) setwindow pcb
-\i (00:13:13) zoom out -2.9015 -13.7166
-\i (00:13:13) trapsize 2072
-\i (00:13:13) zoom out 1 
-\i (00:13:13) setwindow pcb
-\i (00:13:13) zoom out -2.9014 -13.6751
-\i (00:13:13) trapsize 4145
-\i (00:13:14) zoom in 1 
-\i (00:13:14) setwindow pcb
-\i (00:13:14) zoom in -3.3988 -11.2713
-\i (00:13:14) trapsize 2072
-\i (00:13:14) zoom out 1 
-\i (00:13:14) setwindow pcb
-\i (00:13:14) zoom out -3.7304 -11.0641
-\i (00:13:14) trapsize 4145
-\i (00:13:14) zoom out 1 
-\i (00:13:14) setwindow pcb
-\i (00:13:14) zoom out -3.8961 -11.1469
-\i (00:13:14) trapsize 8289
-\i (00:13:15) zoom in 1 
-\i (00:13:15) setwindow pcb
-\i (00:13:15) zoom in -25.2822 -15.4573
-\i (00:13:15) trapsize 4145
-\i (00:13:15) zoom in 1 
-\i (00:13:15) setwindow pcb
-\i (00:13:15) zoom in -25.2821 -15.4573
-\i (00:13:15) trapsize 2072
-\i (00:13:17) pick grid -26.2354 -14.8771
-\t (00:13:17) last pick:  -26.0000 -15.0000
-\i (00:13:17) zoom out 1 
-\i (00:13:17) setwindow pcb
-\i (00:13:17) zoom out -25.8209 -14.5869
-\i (00:13:17) trapsize 4145
-\i (00:13:17) zoom out 1 
-\i (00:13:17) setwindow pcb
-\i (00:13:17) zoom out -25.8210 -14.5870
-\i (00:13:17) trapsize 8289
-\i (00:13:21) setwindow form.plc_manual
-\i (00:13:21) FORM plc_manual tree 'MULTISEL YES' U6 'Components by refdes' 
-\t (00:13:21) Placing U6 / MIC_GMI4015-MIC_MIC / GMI4015-MIC on Top.
-\i (00:13:21) FORM plc_manual tree  U6 'Components by refdes' 
-\i (00:13:23) setwindow pcb
-\i (00:13:23) prepopup 8.1644 7.7937
-\i (00:13:24) oops 
-\t (00:13:24) last pick:  -14.0000 -15.0000
-\i (00:13:29) setwindow form.plc_manual
-\i (00:13:29) FORM plc_manual tree 'MULTISEL YES' J2 'Components by refdes' 
-\t (00:13:29) Placing J2 / HEADER 3_HEADER1X3_2_54_DEBUG / HEADER1X3_2_54 on Top.
-\i (00:13:29) FORM plc_manual tree  J2 'Components by refdes' 
-\i (00:13:31) setwindow pcb
-\i (00:13:31) prepopup -6.9218 14.4250
-\i (00:13:33) oops 
-\t (00:13:33) last angle:  +90.000 Degrees
-\i (00:13:34) setwindow form.plc_manual
-\i (00:13:34) FORM plc_manual tree 'MULTISEL YES' J3 'Components by refdes' 
-\t (00:13:34) Placing J3 / TF-SOCKET_TF-SOCKET_TF-SOCKET / TF-SOCKET on Top.
-\i (00:13:34) FORM plc_manual tree  J3 'Components by refdes' 
-\i (00:13:36) setwindow pcb
-\i (00:13:36) zoom in 1 
-\i (00:13:36) setwindow pcb
-\i (00:13:36) zoom in 16.6194 21.0564
-\i (00:13:36) trapsize 4145
-\i (00:13:37) zoom in 1 
-\i (00:13:37) setwindow pcb
-\i (00:13:37) zoom in 12.5577 21.7195
-\i (00:13:37) trapsize 2072
-\i (00:13:37) zoom out 1 
-\i (00:13:37) setwindow pcb
-\i (00:13:37) zoom out 13.8425 19.4815
-\i (00:13:37) trapsize 4145
-\i (00:13:38) zoom out 1 
-\i (00:13:38) setwindow pcb
-\i (00:13:38) zoom out 13.5110 18.9841
-\i (00:13:38) trapsize 8289
-\i (00:13:38) zoom out 1 
-\i (00:13:38) setwindow pcb
-\i (00:13:38) zoom out 13.3452 18.6526
-\t (00:13:38) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:13:38) trapsize 16578
-\i (00:13:38) zoom in 1 
-\i (00:13:38) setwindow pcb
-\i (00:13:38) zoom in 25.9446 3.7321
-\t (00:13:38) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:13:38) trapsize 8289
-\i (00:13:38) zoom in 1 
-\i (00:13:38) setwindow pcb
-\i (00:13:38) zoom in 26.4420 5.5558
-\i (00:13:38) trapsize 4145
-\i (00:13:39) prepopup 10.7755 18.5698
-\i (00:13:43) Esc 
-\i (00:13:44) prepopup 8.2059 14.2594
-\i (00:13:45) oops 
-\t (00:13:45) last pick:  30.5000 -7.0000
-\i (00:13:46) Esc 
-\i (00:13:48) zoom out 1 
-\i (00:13:48) setwindow pcb
-\i (00:13:48) zoom out -23.7073 8.7886
-\i (00:13:48) trapsize 8289
-\i (00:13:49) zoom out 1 
-\i (00:13:49) setwindow pcb
-\i (00:13:49) zoom out -23.7073 8.7886
-\t (00:13:49) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:13:49) trapsize 16578
-\i (00:13:57) setwindow form.plc_manual
-\i (00:13:57) FORM plc_manual cancel  
-\i (00:13:58) setwindow pcb
-\i (00:13:58) generaledit 
-\i (00:13:58) zoom in 1 
-\i (00:13:58) setwindow pcb
-\i (00:13:58) zoom in -46.2537 5.4730
-\t (00:13:58) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:13:58) trapsize 8289
-\i (00:13:59) zoom in 1 
-\i (00:13:59) setwindow pcb
-\i (00:13:59) zoom in -34.9805 0.0021
-\i (00:13:59) trapsize 4145
-\i (00:13:59) zoom in 1 
-\i (00:13:59) setwindow pcb
-\i (00:13:59) zoom in -27.3545 -2.1530
-\i (00:13:59) trapsize 2072
-\i (00:13:59) zoom out 1 
-\i (00:13:59) setwindow pcb
-\i (00:13:59) zoom out -26.3598 -1.4070
-\i (00:13:59) trapsize 4145
-\i (00:13:59) zoom out 1 
-\i (00:13:59) setwindow pcb
-\i (00:13:59) zoom out -24.3704 -1.1583
-\i (00:13:59) trapsize 8289
-\i (00:13:59) zoom out 1 
-\i (00:13:59) setwindow pcb
-\i (00:13:59) zoom out -17.5733 -0.3294
-\t (00:13:59) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:13:59) trapsize 16578
-\i (00:14:01) setwindow form.find
-\i (00:14:01) FORM find all_off  
-\i (00:14:09) FORM find symbols YES 
-\i (00:14:09) FORM find symbols NO 
-\i (00:14:10) FORM find all_off  
-\i (00:14:11) FORM find all_on  
-\i (00:14:12) setwindow pcb
-\i (00:14:12) zoom in 1 
-\i (00:14:12) setwindow pcb
-\i (00:14:12) zoom in 23.5409 -41.7750
-\t (00:14:12) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:14:12) trapsize 8289
-\i (00:14:13) zoom in 1 
-\i (00:14:13) setwindow pcb
-\i (00:14:13) zoom in 33.4879 9.7834
-\i (00:14:13) trapsize 4145
-\i (00:14:14) zoom out 1 
-\i (00:14:14) setwindow pcb
-\i (00:14:14) zoom out 33.2392 8.2085
-\i (00:14:14) trapsize 8289
-\i (00:14:15) drag_start grid 36.3891 16.4977
-\i (00:14:18) drag_stop -39.5394 -20.8034
-\i (00:14:20) delete 
-\t (00:14:20) Selected item not valid for current operation, ignored: Mechanical Pin "J1."
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J1.6:J1.13"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J1.5:J1.6"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J1.3:J1.5"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U8.2:J1.3"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Led+, J1.2:U8.5"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Led-, J1.1:U8.3"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D22, J1.8:U1.24"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D21, J1.9:U1.23"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D19, J1.11:U1.19"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D20, J1.10:U1.21"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D23, J1.7:U1.25"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "3V, J1.4:J1.31"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.1 (Led-)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.2 (Led+)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.3 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.4 (3V)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.5 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.6 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.7 (D23)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.8 (D22)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.9 (D21)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.10 (D20)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.11 (D19)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J1.22:J1.29"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J1.21:J1.22"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J1.14:J1.21"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J1.13:J1.14"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D11, U1.13:J1.19"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D13, J1.17:U1.15"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D18, J1.12:U1.18"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D10, U1.12:J1.20"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D4, U1.8:J1.26"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D15, J1.15:U1.17"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D7, U1.11:J1.23"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D12, U1.14:J1.18"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D5, U1.9:J1.25"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D6, U1.10:J1.24"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D14, J1.16:U1.16"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.12 (D18)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.13 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.14 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.15 (D15)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.16 (D14)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.17 (D13)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.18 (D12)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.19 (D11)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.20 (D10)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.21 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.22 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.23 (D7)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.24 (D6)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.25 (D5)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.26 (D4)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J1.29:J1.36"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J1.36:U5.2"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "De, U1.27:J1.34"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Lcd_Clk, J1.30:U1.26"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Vsync, U1.29:J1.33"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D3, U1.7:J1.27"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "X1, U1.66:J1.37"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "X2, U1.65:J1.39"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Hsync, J1.32:U1.28"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Y1, U1.64:J1.38"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Y2, U1.63:J1.40"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "D2, U1.6:J1.28"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.27 (D3)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.28 (D2)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.29 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.30 (Lcd_Clk)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.31 (3V)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.32 (Hsync)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.33 (Vsync)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.34 (De)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.35 (Dummy Net)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.36 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.37 (X1)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.38 (Y1)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.39 (X2)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "J1.40 (Y2)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Mechanical Pin "J1."
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U8.1 (N140867)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U8.2 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U8.3 (Led-)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U5.2:U5.15"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.1 (Outlp)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.2 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U5.15:U5.11"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.15 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.16 (Outrp)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U7.4:U8.2"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "5V, U5.4:U8.6"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "5V, U8.6:U7.19"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Bl_Adj, U1.43:U8.4"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U8.4 (Bl_Adj)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U8.5 (Led+)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U8.6 (5V)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "5V, U5.13:U5.4"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Mute, U5.5:U1.44"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.3 (Outlm)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.4 (5V)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.5 (Mute)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.6 (N128635)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.7 (N129187)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.8 (N129856)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U5.11:U5.9"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.9 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.10 (N129199)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.11 (Gnd)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.12 (N129017)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.13 (5V)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Pin "U5.14 (Outrm)"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U7.13:U7.21"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U7.4:U7.1"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U7.4:U7.5"
-\t (00:14:20) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U7.21:U7.4"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U7.21:U7.17"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "5V, U7.9:U7.10"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "5V, U7.8:U7.9"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "5V, U7.7:U7.8"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "5V, U7.19:U7.7"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "5V, U7.18:U7.16"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "5V, U7.19:U7.18"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.21 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.1 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.2 (N101915)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.3 (N101919)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.4 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.5 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.6 (N131139)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.7 (5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.8 (5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.9 (5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.10 (5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.11 (N136168)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.12 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.13 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.14 (N101966)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.15 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.16 (5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.17 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.18 (5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.19 (5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U7.20 (N132697)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.4 (3V3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.5 (3V3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.6 (D2)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.7 (D3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.8 (D4)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.9 (D5)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.10 (D6)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.11 (D7)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.12 (D10)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.13 (D11)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.14 (D12)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.15 (D13)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.16 (D14)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.17 (D15)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.18 (D18)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.19 (D19)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.20 (3V3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.21 (D20)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.22 (1.1V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.1 (Hpl)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.2 (Hpcomfb)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.3 (Hpcom)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U7.15:U7.13"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U7.13:U7.12"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U1.89:U7.15"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Twi0_Sda, U4.5:U1.37"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Twi0_Sck, U4.6:U1.38"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Rtc_Int, U4.3:U1.39"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "2.5V, U1.34:U1.36"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "2.5V, U1.32:U1.34"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "2.5V, U1.31:U1.32"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "2.5V, U1.30:U1.31"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "1.1V, U1.71:U1.35"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "1.1V, U1.35:U1.22"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.23 (D21)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.24 (D22)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.25 (D23)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.26 (Lcd_Clk)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.27 (De)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.28 (Hsync)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.29 (Vsync)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.30 (2.5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.31 (2.5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.32 (2.5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.33 (Svref)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.34 (2.5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.35 (1.1V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.36 (2.5V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.37 (Twi0_Sda)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.38 (Twi0_Sck)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.39 (Rtc_Int)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Y1.4:U1.89"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "3V3, U1.5:U1.20"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "3V3, U1.4:U1.5"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.89 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "3V3, U1.73:U1.4"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "3V3, U1.73:U1.67"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Agnd, U1.74:U1.82"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.72 (Dummy Net)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.73 (3V3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.74 (Agnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.75 (Dummy Net)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.76 (Dummy Net)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.77 (Dummy Net)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.78 (Dummy Net)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.79 (Lradc)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.80 (Avcc)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.81 (Vra1)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.82 (Agnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.83 (Vra2)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.84 (Dummy Net)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.85 (Dummy Net)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.86 (Line_In)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.87 (Mic_In)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.88 (Hpr)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.40 (Pe9)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.41 (Pe8)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.42 (Pe7)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.43 (Bl_Adj)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.44 (Mute)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "3V3, U1.50:U2.7"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "3V3, U1.67:U1.50"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Sf_Mosi, U2.5:U1.62"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Sf_Cs, U2.1:U1.60"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Sf_Clk, U2.6:U1.59"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Sf_Miso, U2.2:U1.61"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Osci, Y1.1:U1.51"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.45 (Pe4)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.46 (Pe3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.47 (Usb_Id)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.48 (Uart0_Tx)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.49 (Uart0_Rx)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.50 (3V3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.51 (Osci)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.52 (Osco)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.53 (Sdc0_D2)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.54 (Sdc0_D3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.55 (Sdc0_Cmd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.56 (Sdc0_Clk)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.57 (Sdc0_D0)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.58 (Sdc0_D1)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.59 (Sf_Clk)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.60 (Sf_Cs)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.61 (Sf_Miso)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.62 (Sf_Mosi)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.63 (Y2)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.64 (Y1)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.65 (X2)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.66 (X1)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.67 (3V3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.68 (Usb_Dm)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.69 (Usb_Dp)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.70 (Reset)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U1.71 (1.1V)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U4.4:Y1.2"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Y1.2:Y1.4"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "Y1.1 (Osci)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "Y1.2 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "Y1.3 (N93116)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "Y1.4 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U2.9:U4.4"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "3V3, U2.8:U4.8"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Rtc_Osco, U4.2:Y2.1"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Rtc_Osci, U4.1:Y2.2"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U4.1 (Rtc_Osci)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U4.2 (Rtc_Osco)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U4.3 (Rtc_Int)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U4.4 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U4.5 (Twi0_Sda)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U4.6 (Twi0_Sck)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U4.7 (Dummy Net)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U4.8 (3V3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "3V3, U2.7:U2.3"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "3V3, U2.7:U2.8"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U2.5 (Sf_Mosi)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U2.6 (Sf_Clk)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U2.7 (3V3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U2.8 (3V3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U2.9 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Ratsnest "Gnd, U2.9:U2.4"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U2.1 (Sf_Cs)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U2.2 (Sf_Miso)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U2.3 (3V3)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "U2.4 (Gnd)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "Y2.1 (Rtc_Osco)"
-\t (00:14:21) Selected item not valid for current operation, ignored: Pin "Y2.2 (Rtc_Osci)"
-\i (00:14:21) generaledit 
-\i (00:14:27) undo 
-\i (00:14:27) trapsize 8289
-\i (00:14:27) generaledit 
-\i (00:14:27) undo 
-\i (00:14:27) trapsize 8289
-\i (00:14:28) undo 
-\i (00:14:28) trapsize 4145
-\i (00:14:28) generaledit 
-\i (00:14:28) undo 
-\i (00:14:28) trapsize 4145
-\i (00:14:28) undo 
-\i (00:14:28) trapsize 2072
-\i (00:14:28) generaledit 
-\i (00:14:29) undo 
-\i (00:14:29) trapsize 4145
-\i (00:14:29) generaledit 
-\i (00:14:29) undo 
-\i (00:14:29) trapsize 4145
-\i (00:14:29) undo 
-\i (00:14:29) trapsize 2072
-\i (00:14:30) generaledit 
-\i (00:14:30) undo 
-\i (00:14:30) trapsize 4145
-\i (00:14:30) generaledit 
-\i (00:14:30) undo 
-\i (00:14:30) trapsize 8289
-\i (00:14:30) generaledit 
-\i (00:14:34) zoom in 1 
-\i (00:14:34) setwindow pcb
-\i (00:14:34) zoom in -38.6274 1.2242
-\i (00:14:34) trapsize 4145
-\i (00:14:36) pick grid -20.9715 5.8662
-\t (00:14:36) last pick:  -21.0000 6.0000
-\i (00:14:37) delete 
-\i (00:14:38) pick grid -40.4510 11.3370
-\t (00:14:38) last pick:  -40.5000 11.5000
-\t (00:14:38) Symbol "J1"
-\i (00:14:39) prepopup -55.7030 5.0373
-\i (00:14:40) done 
-\i (00:14:40) generaledit 
-\i (00:14:40) zoom out 1 
-\i (00:14:40) setwindow pcb
-\i (00:14:40) zoom out -50.9782 -1.6770
-\i (00:14:40) trapsize 8289
-\i (00:14:43) save 
-\i (00:14:44) fillin yes 
-\i (00:14:44) generaledit 
-\i (00:14:44) zoom in 1 
-\i (00:14:44) setwindow pcb
-\i (00:14:44) zoom in 44.6785 -17.4263
-\i (00:14:44) trapsize 4145
-\i (00:14:45) zoom out 1 
-\i (00:14:45) setwindow pcb
-\i (00:14:45) zoom out 45.0101 -17.3433
-\i (00:14:45) trapsize 8289
-\i (00:14:49) setwindow form.mini
-\i (00:14:49) FORM mini class ETCH 
-\i (00:14:51) setwindow pcb
-\i (00:14:51) pick grid -77.3376 19.9577
-\t (00:14:51) last pick:  -77.5000 20.0000
-\i (00:14:54) place manual 
-\i (00:15:02) setwindow form.plc_manual
-\i (00:15:02) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
-\t (00:15:02) Placing J1 / HEADER 40/SM_FPC-40_HEADER 40/S / FPC-40 on Top.
-\i (00:15:02) FORM plc_manual tree  J1 'Components by refdes' 
-\i (00:15:03) setwindow pcb
-\i (00:15:03) prepopup -38.0471 0.5612
-\i (00:15:04) rotate 
-\t (00:15:04) Spin the element(s).
-\i (00:15:06) iangle 270.000
-\t (00:15:06) last angle:  +270.000 Degrees
-\i (00:15:15) pick grid -40.6996 -0.1020
-\t (00:15:15) last pick:  -40.5000 0.0000
-\i (00:15:17) setwindow form.plc_manual
-\i (00:15:17) FORM plc_manual tree 'MULTISEL YES' J3 'Components by refdes' 
-\t (00:15:17) Placing J3 / TF-SOCKET_TF-SOCKET_TF-SOCKET / TF-SOCKET on Top.
-\i (00:15:18) FORM plc_manual tree  J3 'Components by refdes' 
-\i (00:15:19) setwindow pcb
-\i (00:15:19) zoom in 1 
-\i (00:15:19) setwindow pcb
-\i (00:15:19) zoom in 24.4531 3.0479
-\i (00:15:19) trapsize 4145
-\i (00:15:20) zoom out 1 
-\i (00:15:20) setwindow pcb
-\i (00:15:20) zoom out 22.0492 2.9650
-\i (00:15:20) trapsize 8289
-\i (00:15:20) zoom out 1 
-\i (00:15:20) setwindow pcb
-\i (00:15:20) zoom out 22.0493 2.9650
-\t (00:15:20) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:15:20) trapsize 16578
-\i (00:15:21) zoom in 1 
-\i (00:15:21) setwindow pcb
-\i (00:15:21) zoom in 27.0227 12.2489
-\t (00:15:21) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:15:21) trapsize 8289
-\i (00:15:33) setwindow form.mini
-\i (00:15:33) FORM mini class ETCH 
-\i (00:15:35) setwindow pcb
-\i (00:15:35) zoom in 1 
-\i (00:15:35) setwindow pcb
-\i (00:15:35) zoom in -5.6365 9.2648
-\i (00:15:35) trapsize 4145
-\i (00:15:36) pick grid 2.3211 12.9120
-\t (00:15:36) last pick:  2.5000 13.0000
-\i (00:15:47) pick grid -0.6630 4.7058
-\t (00:15:47) last pick:  -0.5000 4.5000
-\t (00:15:47) Moving J3 / TF-SOCKET_TF-SOCKET_TF-SOCKET / TF-SOCKET.
-\t (00:15:47) last pick:  2.5000 13.0000
-\i (00:15:49) prepopup 9.6155 20.6209
-\i (00:15:53) pick grid 9.6984 20.6209
-\t (00:15:53) last pick:  9.5000 20.5000
-\i (00:15:54) pick grid 7.4603 11.6687
-\t (00:15:54) last pick:  7.5000 11.5000
-\t (00:15:54) Moving J3 / TF-SOCKET_TF-SOCKET_TF-SOCKET / TF-SOCKET.
-\t (00:15:54) last pick:  9.5000 20.5000
-\i (00:15:55) pick grid 7.0459 5.8663
-\t (00:15:55) last pick:  7.0000 6.0000
-\i (00:15:57) setwindow form.plc_manual
-\i (00:15:57) FORM plc_manual cancel  
-\i (00:15:57) setwindow pcb
-\i (00:15:57) generaledit 
-\i (00:15:58) pick grid 6.1341 11.0884
-\t (00:15:58) last pick:  6.0000 11.0000
-\i (00:15:59) prepopup 7.2117 11.2542
-\i (00:16:11) pop dyn_option_select 'Change to layer@:@ASSEMBLY_BOTTOM' 
-\i (00:16:11) change layer 
-\t (00:16:11) No DRC errors detected.
-\t (00:16:11) Changed 1 items out of 1 items found.
-\i (00:16:11) generaledit 
-\i (00:16:12) pick grid 12.0194 2.3848
-\t (00:16:12) last pick:  12.0000 2.5000
-\i (00:16:12) pick grid 7.5432 8.9333
-\t (00:16:12) last pick:  7.5000 9.0000
-\i (00:16:14) pick grid 9.8642 26.0918
-\t (00:16:14) last pick:  10.0000 26.0000
-\i (00:16:15) zoom in 1 
-\i (00:16:15) setwindow pcb
-\i (00:16:15) zoom in 21.0545 14.4041
-\i (00:16:15) trapsize 2072
-\i (00:16:15) zoom in 1 
-\i (00:16:15) setwindow pcb
-\i (00:16:15) zoom in 21.1788 12.3318
-\i (00:16:15) trapsize 1036
-\i (00:16:15) zoom out 1 
-\i (00:16:15) setwindow pcb
-\i (00:16:15) zoom out 21.0752 11.4822
-\i (00:16:15) trapsize 2072
-\i (00:16:18) zoom out 1 
-\i (00:16:18) setwindow pcb
-\i (00:16:18) zoom out 5.2845 20.2272
-\i (00:16:18) trapsize 4145
-\i (00:16:18) zoom out 1 
-\i (00:16:18) setwindow pcb
-\i (00:16:18) zoom out 5.2844 20.2273
-\i (00:16:18) trapsize 8289
-\i (00:16:20) undo 
-\i (00:16:20) trapsize 4145
-\i (00:16:20) generaledit 
-\i (00:16:24) drag_start grid -3.4813 25.3458
-\i (00:16:25) drag_stop 21.3032 0.3125
-\i (00:16:28) setwindow form.find
-\i (00:16:28) FORM find all_off  
-\i (00:16:29) FORM find symbols YES 
-\i (00:16:30) FORM find symbols NO 
-\i (00:16:30) FORM find all_off  
-\i (00:16:31) FORM find all_off  
-\i (00:16:31) FORM find all_off  
-\i (00:16:36) FORM find all_on  
-\i (00:16:37) setwindow pcb
-\i (00:16:37) pick grid 9.4497 8.1043
-\t (00:16:37) last pick:  9.5000 8.0000
-\i (00:16:38) drag_start grid 9.1182 12.6634
-\i (00:16:38) move 
-\t (00:16:39) last pick:  9.5000 20.5000
-\t (00:16:39) Moving J3 / TF-SOCKET_TF-SOCKET_TF-SOCKET / TF-SOCKET.
-\t (00:16:39) Pick new location for the element(s).
-\i (00:16:39) drag_stop grid 12.5996 5.8663
-\i (00:16:39) generaledit 
-\i (00:16:40) pick grid 13.0141 2.9651
-\t (00:16:40) last pick:  13.0000 3.0000
-\i (00:16:41) prepopup 12.1023 1.2244
-\i (00:16:46) pick grid -0.0828 12.1660
-\t (00:16:46) last pick:  0.0000 12.0000
-\i (00:16:46) drag_start grid -0.8288 9.5964
-\i (00:16:47) drag_stop 23.1268 -11.0436
-\i (00:16:49) drag_start grid 13.1798 -5.2412
-\i (00:16:51) drag_stop grid 10.9418 -1.0966
-\i (00:16:52) move 
-\t (00:16:53) last pick:  12.5000 6.0000
-\t (00:16:53) Moving J3 / TF-SOCKET_TF-SOCKET_TF-SOCKET / TF-SOCKET.
-\t (00:16:53) Pick new location for the element(s).
-\i (00:16:53) prepopup 4.8907 10.0937
-\i (00:17:04) Esc 
-\i (00:17:04) prepopup 7.8748 13.9896
-\i (00:17:06) Esc 
-\i (00:17:06) pick grid 2.9013 11.9173
-\t (00:17:06) last pick:  3.0000 12.0000
-\i (00:17:06) generaledit 
-\i (00:17:07) pick grid 2.7355 6.7781
-\t (00:17:07) last pick:  2.5000 7.0000
-\i (00:17:07) pick grid dbl 2.7355 6.7781
-\t (00:17:07) last pick:  2.5000 7.0000
-\i (00:17:07) pick grid 2.7355 6.7781
-\t (00:17:07) last pick:  2.5000 7.0000
-\i (00:17:08) pick grid dbl 2.7355 6.7781
-\t (00:17:08) last pick:  2.5000 7.0000
-\i (00:17:09) prepopup 2.7355 6.7781
-\i (00:17:26) setwindow form.mini
-\i (00:17:26) FORM mini class BOARD GEOMETRY 
-\i (00:17:30) FORM mini class ETCH 
-\i (00:17:59) setwindow pcb
-\i (00:17:59) pick grid -0.6630 5.2031
-\t (00:17:59) last pick:  -0.5000 5.0000
-\i (00:18:01) undo 
-\i (00:18:01) trapsize 4145
-\i (00:18:01) generaledit 
-\i (00:18:02) undo 
-\i (00:18:02) trapsize 4145
-\i (00:18:02) generaledit 
-\i (00:18:02) undo 
-\i (00:18:02) trapsize 4145
-\i (00:18:02) generaledit 
-\i (00:18:04) place manual 
-\i (00:18:05) pick grid 7.6261 13.0778
-\t (00:18:05) last pick:  7.5000 13.0000
-\t (00:18:05) Moving J3 / TF-SOCKET_TF-SOCKET_TF-SOCKET / TF-SOCKET.
-\t (00:18:05) last pick:  9.5000 20.5000
-\i (00:18:06) prepopup 9.4497 12.9949
-\i (00:18:07) pop mirror 
-\t (00:18:07) Placing J3 / TF-SOCKET_TF-SOCKET_TF-SOCKET / TF-SOCKET on Bottom.
-\i (00:18:10) prepopup 13.0141 16.6422
-\i (00:18:11) rotate 
-\t (00:18:11) Spin the element(s).
-\i (00:18:12) iangle 180.000
-\t (00:18:12) last angle:  180.000 Degrees
-\i (00:18:22) pick grid 16.1639 7.4412
-\t (00:18:22) last pick:  16.0000 7.5000
-\i (00:18:24) zoom in 1 
-\i (00:18:24) setwindow pcb
-\i (00:18:24) zoom in 17.0757 18.0513
-\i (00:18:24) trapsize 2072
-\i (00:18:25) zoom out 1 
-\i (00:18:25) setwindow pcb
-\i (00:18:25) zoom out 16.1224 16.8909
-\i (00:18:25) trapsize 4145
-\i (00:18:30) setwindow form.plc_manual
-\i (00:18:30) FORM plc_manual tree  R33 'Components by refdes' 
-\i (00:18:31) FORM plc_manual tree 'MULTISEL YES' U1 'Components by refdes' 
-\t (00:18:31) Placing U1 / F1C100S_F1C100S-MQFN_F1C100S / F1C100S-MQFN on Top.
-\i (00:18:31) FORM plc_manual tree  U1 'Components by refdes' 
-\i (00:18:35) setwindow pcb
-\i (00:18:35) pick grid -9.8226 -0.1019
-\t (00:18:35) last pick:  -10.0000 0.0000
-\i (00:18:38) setwindow form.plc_manual
-\i (00:18:38) FORM plc_manual tree 'MULTISEL YES' U2 'Components by refdes' 
-\t (00:18:38) Placing U2 / GD5FXG4UAYIG_GD5F1GQ4X_W25QXX_S / GD5F1GQ4X_W25QXX_SOP8_208MIL on Top.
-\i (00:18:38) FORM plc_manual tree  U2 'Components by refdes' 
-\i (00:18:39) setwindow pcb
-\i (00:18:39) prepopup 14.9620 2.4677
-\i (00:18:41) rotate 
-\t (00:18:41) Spin the element(s).
-\i (00:18:43) iangle 270.000
-\t (00:18:43) last angle:  +270.000 Degrees
-\i (00:18:52) pick grid 20.1841 -0.1019
-\t (00:18:52) last pick:  20.0000 0.0000
-\i (00:18:54) setwindow form.plc_manual
-\i (00:18:54) FORM plc_manual tree 'MULTISEL YES' U3 'Components by refdes' 
-\t (00:18:54) Placing U3 / DHT11_HEADER1X4_2_54_DHT11 / HEADER1X4_2_54 on Top.
-\i (00:18:54) FORM plc_manual tree  U3 'Components by refdes' 
-\i (00:18:56) FORM plc_manual tree 'MULTISEL NO' U3 'Components by refdes' 
-\i (00:18:56) FORM plc_manual tree 'MULTISEL YES' U4 'Components by refdes' 
-\t (00:18:56) Placing U4 / PCF8563-SOP8_PCF8563-SO8-3_PCF8 / PCF8563-SO8-3 on Top.
-\i (00:18:56) FORM plc_manual tree  U4 'Components by refdes' 
-\i (00:18:58) setwindow pcb
-\i (00:18:58) prepopup 18.5263 -9.4686
-\i (00:18:59) rotate 
-\t (00:18:59) Spin the element(s).
-\i (00:19:01) iangle 90.000
-\t (00:19:01) last angle:  +90.000 Degrees
-\i (00:19:01) zoom in 1 
-\i (00:19:01) setwindow pcb
-\i (00:19:01) zoom in 18.5263 -9.4686
-\i (00:19:01) trapsize 2072
-\i (00:19:02) prepopup 18.5263 -9.1784
-\i (00:19:04) rotate 
-\t (00:19:04) Spin the element(s).
-\i (00:19:07) iangle -90.000
-\t (00:19:07) last angle:  +270.000 Degrees
-\i (00:19:08) pick grid 19.7696 -11.6652
-\t (00:19:08) last pick:  20.0000 -11.5000
-\i (00:19:09) zoom out 1 
-\i (00:19:09) setwindow pcb
-\i (00:19:09) zoom out 19.7282 -6.6917
-\i (00:19:09) trapsize 4145
-\i (00:19:09) zoom out 1 
-\i (00:19:09) setwindow pcb
-\i (00:19:09) zoom out 19.7281 -6.5259
-\i (00:19:09) trapsize 8289
-\i (00:19:09) zoom out 1 
-\i (00:19:09) setwindow pcb
-\i (00:19:09) zoom out 18.2361 -1.2209
-\t (00:19:09) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:19:09) trapsize 16578
-\i (00:19:10) zoom in 1 
-\i (00:19:10) setwindow pcb
-\i (00:19:10) zoom in 26.8569 -2.8787
-\t (00:19:10) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
-\i (00:19:10) trapsize 8289
-\i (00:19:18) setwindow form.plc_manual
-\i (00:19:18) FORM plc_manual done  
-\i (00:19:18) setwindow pcb
-\i (00:19:18) generaledit 
-\i (00:19:20) save 
-\i (00:19:20) fillin yes 
-\i (00:19:20) generaledit 
-\t (00:19:22) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
-\i (00:19:22) trapsize 15921
-\i (00:19:22) exit 
-\t (00:19:22)     Journal end - Fri Jun 14 21:08:37 2019
+\i (00:02:07) zoom in -15.5237 -17.6406
+\i (00:02:07) trapsize 5659
+\i (00:02:08) zoom in 1 
+\i (00:02:08) setwindow pcb
+\i (00:02:08) zoom in -13.4864 -20.1306
+\i (00:02:08) trapsize 2830
+\i (00:02:08) zoom out 1 
+\i (00:02:08) setwindow pcb
+\i (00:02:08) zoom out -15.6935 -21.3756
+\i (00:02:08) trapsize 5659
+\i (00:02:14) setwindow form.plc_manual
+\i (00:02:14) FORM plc_manual done  
+\i (00:02:15) setwindow pcb
+\i (00:02:15) generaledit 
+\i (00:02:16) pick grid 21.9965 -20.1307
+\t (00:02:16) last pick:  22.0000 -20.0000
+\i (00:02:27) pick grid 9.4332 -20.0175
+\t (00:02:27) last pick:  9.5000 -20.0000
+\i (00:02:31) delete 
+\i (00:02:32) generaledit 
+\i (00:02:33) zoom in 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom in -21.5789 -18.5461
+\i (00:02:33) trapsize 2830
+\i (00:02:33) zoom in 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom in -21.2960 -18.5460
+\i (00:02:33) trapsize 1415
+\i (00:02:33) zoom out 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom out -19.7963 -18.2631
+\i (00:02:33) trapsize 2830
+\i (00:02:33) zoom out 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom out -19.7396 -18.0933
+\i (00:02:33) trapsize 5659
+\i (00:02:34) zoom in 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom in -29.0206 -23.1864
+\i (00:02:34) trapsize 2830
+\i (00:02:35) zoom in 1 
+\i (00:02:35) setwindow pcb
+\i (00:02:35) zoom in -26.5306 -20.9793
+\i (00:02:35) trapsize 1415
+\i (00:02:35) zoom out 1 
+\i (00:02:35) setwindow pcb
+\i (00:02:35) zoom out -23.7859 -17.2442
+\i (00:02:35) trapsize 2830
+\i (00:02:40) zoom out 1 
+\i (00:02:40) setwindow pcb
+\i (00:02:40) zoom out -16.4856 -18.2629
+\i (00:02:40) trapsize 5659
+\i (00:02:41) pick grid -69.0025 8.9011
+\t (00:02:41) last pick:  -69.0000 9.0000
+\i (00:02:42) place manual 
+\i (00:02:48) setwindow form.plc_manual
+\i (00:02:48) FORM plc_manual tree 'MULTISEL YES' C34 'Components by refdes' 
+\t (00:02:48) Placing C34 / CAPACITOR NON-POL_CAP0603_0.1UF / CAP0603 on Top.
+\i (00:02:48) FORM plc_manual tree  C34 'Components by refdes' 
+\i (00:02:49) FORM plc_manual tree 'MULTISEL YES' C35 'Components by refdes' 
+\i (00:02:49) FORM plc_manual tree  C35 'Components by refdes' 
+\i (00:02:49) FORM plc_manual tree 'MULTISEL YES' C36 'Components by refdes' 
+\i (00:02:49) FORM plc_manual tree  C36 'Components by refdes' 
+\i (00:02:50) FORM plc_manual tree 'MULTISEL NO' C36 'Components by refdes' 
+\i (00:02:51) FORM plc_manual tree 'MULTISEL YES' C36 'Components by refdes' 
+\i (00:02:51) FORM plc_manual tree 'MULTISEL YES' C37 'Components by refdes' 
+\i (00:02:51) FORM plc_manual tree  C37 'Components by refdes' 
+\i (00:02:52) FORM plc_manual tree 'MULTISEL YES' C38 'Components by refdes' 
+\i (00:02:52) FORM plc_manual tree  C38 'Components by refdes' 
+\i (00:02:54) setwindow pcb
+\i (00:02:54) pick grid 16.2243 -1.1722
+\t (00:02:54) last pick:  16.0000 -1.0000
+\t (00:02:54) Placing C35 / CAPACITOR NON-POL_CAP0603_0.1UF / CAP0603 on Top.
+\i (00:02:54) pick grid 15.8847 -4.2281
+\t (00:02:54) last pick:  16.0000 -4.0000
+\t (00:02:54) Placing C36 / CAPACITOR NON-POL_CAP0603_0.1UF / CAP0603 on Top.
+\i (00:02:55) pick grid 15.8847 -7.5105
+\t (00:02:55) last pick:  16.0000 -7.5000
+\t (00:02:55) Placing C37 / CAPACITOR NON-POL_CAP0603_0.1UF / CAP0603 on Top.
+\i (00:02:56) pick grid 20.5252 -6.1523
+\t (00:02:56) last pick:  20.5000 -6.0000
+\t (00:02:56) Placing C38 / CAPACITOR NON-POL_CAP0603_0.1UF / CAP0603 on Top.
+\i (00:02:56) pick grid 20.7516 -2.5304
+\t (00:02:56) last pick:  21.0000 -2.5000
+\i (00:02:57) zoom in 1 
+\i (00:02:57) setwindow pcb
+\i (00:02:57) zoom in -15.9197 -6.9445
+\i (00:02:57) trapsize 2830
+\i (00:02:57) zoom in 1 
+\i (00:02:57) setwindow pcb
+\i (00:02:57) zoom in -16.0329 -6.9445
+\i (00:02:57) trapsize 1415
+\i (00:02:58) zoom in 1 
+\i (00:02:58) setwindow pcb
+\i (00:02:58) zoom in -12.4393 -6.2371
+\i (00:02:58) trapsize 707
+\i (00:02:58) zoom in 1 
+\i (00:02:58) setwindow pcb
+\i (00:02:58) zoom in -12.4393 -6.2370
+\i (00:02:58) trapsize 354
+\i (00:02:59) zoom out 1 
+\i (00:02:59) setwindow pcb
+\i (00:02:59) zoom out -12.4393 -6.1521
+\i (00:02:59) trapsize 707
+\i (00:02:59) zoom out 1 
+\i (00:02:59) setwindow pcb
+\i (00:02:59) zoom out -12.4535 -6.1522
+\i (00:02:59) trapsize 1415
+\i (00:03:00) zoom out 1 
+\i (00:03:00) setwindow pcb
+\i (00:03:00) zoom out -12.4534 -6.1804
+\i (00:03:00) trapsize 2830
+\i (00:03:00) zoom out 1 
+\i (00:03:00) setwindow pcb
+\i (00:03:00) zoom out -12.4534 -6.1804
+\i (00:03:00) trapsize 5659
+\i (00:03:00) zoom in 1 
+\i (00:03:00) setwindow pcb
+\i (00:03:00) zoom in -3.0592 -10.5946
+\i (00:03:00) trapsize 2830
+\i (00:03:01) zoom in 1 
+\i (00:03:01) setwindow pcb
+\i (00:03:01) zoom in -3.7383 -10.8210
+\i (00:03:01) trapsize 1415
+\i (00:03:02) zoom out 1 
+\i (00:03:02) setwindow pcb
+\i (00:03:02) zoom out -5.3229 -10.1701
+\i (00:03:02) trapsize 2830
+\i (00:03:03) zoom in 1 
+\i (00:03:03) setwindow pcb
+\i (00:03:03) zoom in -4.6438 -9.6043
+\i (00:03:03) trapsize 1415
+\i (00:03:03) zoom in 1 
+\i (00:03:03) setwindow pcb
+\i (00:03:03) zoom in -4.6154 -9.4911
+\i (00:03:03) trapsize 707
+\i (00:03:04) zoom out 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom out -4.6013 -9.4204
+\i (00:03:04) trapsize 1415
+\i (00:03:04) zoom out 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom out -4.6012 -9.4203
+\i (00:03:04) trapsize 2830
+\i (00:03:04) zoom in 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom in -4.6013 -9.4203
+\i (00:03:04) trapsize 1415
+\i (00:03:04) zoom in 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom in -4.6012 -9.4203
+\i (00:03:04) trapsize 707
+\i (00:03:04) zoom in 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom in -4.5729 -9.3495
+\i (00:03:04) trapsize 354
+\i (00:03:05) zoom out 1 
+\i (00:03:05) setwindow pcb
+\i (00:03:05) zoom out -4.5658 -9.3424
+\i (00:03:05) trapsize 707
+\i (00:03:05) zoom out 1 
+\i (00:03:05) setwindow pcb
+\i (00:03:05) zoom out -4.5658 -9.3425
+\i (00:03:05) trapsize 1415
+\i (00:03:05) zoom out 1 
+\i (00:03:05) setwindow pcb
+\i (00:03:05) zoom out -4.5941 -9.3990
+\i (00:03:05) trapsize 2830
+\i (00:03:06) zoom in 1 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) zoom in -10.8193 -11.7759
+\i (00:03:06) trapsize 1415
+\i (00:03:07) zoom in 1 
+\i (00:03:07) setwindow pcb
+\i (00:03:07) zoom in -10.7061 -11.3231
+\i (00:03:07) trapsize 707
+\i (00:03:09) zoom out 1 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom out -9.1498 -9.9649
+\i (00:03:09) trapsize 1415
+\i (00:03:09) zoom out 1 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom out -8.8668 -10.3611
+\i (00:03:09) trapsize 2830
+\i (00:03:16) zoom out 1 
+\i (00:03:16) setwindow pcb
+\i (00:03:16) zoom out -4.7922 -6.7958
+\i (00:03:16) trapsize 5659
+\i (00:03:17) zoom in 1 
+\i (00:03:17) setwindow pcb
+\i (00:03:17) zoom in -2.5285 -5.8903
+\i (00:03:17) trapsize 2830
+\i (00:03:17) zoom in 1 
+\i (00:03:17) setwindow pcb
+\i (00:03:17) zoom in -2.1889 -5.7205
+\i (00:03:17) trapsize 1415
+\i (00:03:18) zoom out 1 
+\i (00:03:18) setwindow pcb
+\i (00:03:18) zoom out -2.0757 -6.1166
+\i (00:03:18) trapsize 2830
+\i (00:03:18) zoom out 1 
+\i (00:03:18) setwindow pcb
+\i (00:03:18) zoom out -2.1324 -6.5694
+\i (00:03:18) trapsize 5659
+\i (00:03:19) zoom in 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom in 5.1114 -8.0407
+\i (00:03:19) trapsize 2830
+\i (00:03:19) zoom in 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom in 5.1114 -7.9841
+\i (00:03:19) trapsize 1415
+\i (00:03:19) zoom out 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom out 5.1114 -7.9840
+\i (00:03:19) trapsize 2830
+\i (00:03:20) zoom out 1 
+\i (00:03:20) setwindow pcb
+\i (00:03:20) zoom out 5.0548 -7.9841
+\i (00:03:20) trapsize 5659
+\i (00:03:20) zoom out 1 
+\i (00:03:20) setwindow pcb
+\i (00:03:20) zoom out 5.1680 -7.7577
+\i (00:03:20) trapsize 11318
+\i (00:03:21) zoom out 1 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) zoom out 6.7526 -5.4940
+\t (00:03:21) Grids are drawn 2.0000, 2.0000 apart for enhanced viewability.
+\i (00:03:21) trapsize 22637
+\i (00:03:21) zoom in 1 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) zoom in 31.2001 -0.0612
+\t (00:03:21) Grids are drawn 1.0000, 1.0000 apart for enhanced viewability.
+\i (00:03:21) trapsize 11318
+\i (00:03:21) zoom in 1 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) zoom in 31.2002 -0.0612
+\i (00:03:21) trapsize 5659
+\i (00:03:22) zoom in 1 
+\i (00:03:22) setwindow pcb
+\i (00:03:22) zoom in 28.1442 -2.5512
+\i (00:03:22) trapsize 2830
+\i (00:03:23) zoom out 1 
+\i (00:03:23) setwindow pcb
+\i (00:03:23) zoom out -6.7162 4.9755
+\i (00:03:23) trapsize 5659
+\i (00:03:23) zoom out 1 
+\i (00:03:23) setwindow pcb
+\i (00:03:23) zoom out -6.9425 4.1832
+\i (00:03:23) trapsize 11318
+\i (00:03:24) zoom in 1 
+\i (00:03:24) setwindow pcb
+\i (00:03:24) zoom in -15.7707 19.8024
+\i (00:03:24) trapsize 5659
+\i (00:03:24) zoom in 1 
+\i (00:03:24) setwindow pcb
+\i (00:03:24) zoom in -11.5829 19.2365
+\i (00:03:24) trapsize 2830
+\i (00:03:24) zoom out 1 
+\i (00:03:25) setwindow pcb
+\i (00:03:25) zoom out -11.5829 19.1233
+\i (00:03:25) trapsize 5659
+\i (00:03:25) zoom out 1 
+\i (00:03:25) setwindow pcb
+\i (00:03:25) zoom out -11.3566 17.8783
+\i (00:03:25) trapsize 11318
+\i (00:03:25) zoom in 1 
+\i (00:03:25) setwindow pcb
+\i (00:03:25) zoom in -10.4511 2.7118
+\i (00:03:25) trapsize 5659
+\i (00:03:26) zoom in 1 
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom in -8.6401 5.3151
+\i (00:03:26) trapsize 2830
+\i (00:03:27) zoom out 1 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) zoom out 7.2621 0.5048
+\i (00:03:27) trapsize 5659
+\i (00:03:27) zoom out 1 
+\i (00:03:27) setwindow pcb
+\i (00:03:27) zoom out 7.2621 0.5048
+\i (00:03:27) trapsize 11318
+\i (00:03:28) zoom in 1 
+\i (00:03:28) setwindow pcb
+\i (00:03:28) zoom in -25.5609 -10.3607
+\i (00:03:28) trapsize 5659
+\i (00:03:28) zoom in 1 
+\i (00:03:28) setwindow pcb
+\i (00:03:28) zoom in -32.3519 -15.4539
+\i (00:03:28) trapsize 2830
+\i (00:03:29) zoom out 1 
+\i (00:03:29) setwindow pcb
+\i (00:03:29) zoom out -32.6914 -15.4539
+\i (00:03:29) trapsize 5659
+\i (00:03:29) zoom out 1 
+\i (00:03:29) setwindow pcb
+\i (00:03:29) zoom out -32.6914 -15.5671
+\i (00:03:29) trapsize 11318
+\i (00:03:29) zoom in 1 
+\i (00:03:29) setwindow pcb
+\i (00:03:29) zoom in -17.9776 9.5596
+\i (00:03:29) trapsize 5659
+\i (00:03:30) zoom in 1 
+\i (00:03:30) setwindow pcb
+\i (00:03:30) zoom in -17.6380 10.5783
+\i (00:03:30) trapsize 2830
+\i (00:03:30) zoom out 1 
+\i (00:03:30) setwindow pcb
+\i (00:03:30) zoom out -27.3151 14.7094
+\i (00:03:30) trapsize 5659
+\i (00:03:31) zoom in 1 
+\i (00:03:31) setwindow pcb
+\i (00:03:31) zoom in -11.3563 16.0677
+\i (00:03:31) trapsize 2830
+\i (00:03:32) zoom out 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom out -9.3756 16.0112
+\i (00:03:32) trapsize 5659
+\i (00:03:37) setwindow form.plc_manual
+\i (00:03:37) FORM plc_manual done  
+\i (00:03:37) setwindow pcb
+\i (00:03:37) generaledit 
+\i (00:03:38) save 
+\i (00:03:40) fillin yes 
+\i (00:03:40) generaledit 
+\i (00:03:40) trapsize 10870
+\i (00:03:42) exit 
+\t (00:03:43)     Journal end - Fri Jun 14 23:18:50 2019

@@ -66,7 +66,7 @@
     (Netlist_TAB "0")
     ("Create Allegro Netlist" "TRUE")
     ("Allegro Netlist Directory"
-       "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\ALLEGRO")
+       "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\ALLEGRO")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -101,8 +101,7 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\c100s_00.dsn")
       (Path "Design Resources" ".\c100s_00.dsn" "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources" ".\c100s_00.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -113,13 +112,35 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1273 50 304")
-        (Scroll "294 522")
+        (Scroll "119 302")
         (Zoom "200")
         (Occurrence "/"))
       (Path
          "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "misc")))
+      (Page "misc"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1694 75 528")
+        (Scroll "0 0")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1719 100 553")
+        (Scroll "0 260")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "core")))
   (PartMRUSelector
     (TS_018-4.55x3.5x1.8
       (FullPartName "TS_018-4.55x3.5x1.8.Normal")

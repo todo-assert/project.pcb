@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Jun-14-2019 at 23:14:50 }
+{ Using PSTWRITER 17.2.0 d001Jun-12-2019 at 20:27:41 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='C100S_00';
@@ -154,6 +154,36 @@ SECTION_NUMBER 1
  '@C100S_00.SCHEMATIC1(SCH_1):INS156607@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
  C_PATH='@c100s_00.schematic1(sch_1):ins156607@discrete.\capacitor non-pol.normal\(chips)',
  P_PATH='@c100s_00.schematic1(sch_1):page3_ins156607@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'CAPACITOR NON-POL_CAP0603_10UF':;
+
+SECTION_NUMBER 1
+ '@C100S_00.SCHEMATIC1(SCH_1):INS157095@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@c100s_00.schematic1(sch_1):ins157095@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@c100s_00.schematic1(sch_1):page3_ins157095@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'CAPACITOR NON-POL_CAP0603_10UF':;
+
+SECTION_NUMBER 1
+ '@C100S_00.SCHEMATIC1(SCH_1):INS157355@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@c100s_00.schematic1(sch_1):ins157355@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@c100s_00.schematic1(sch_1):page3_ins157355@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'CAPACITOR NON-POL_CAP0603_10UF':;
+
+SECTION_NUMBER 1
+ '@C100S_00.SCHEMATIC1(SCH_1):INS157475@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@c100s_00.schematic1(sch_1):ins157475@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@c100s_00.schematic1(sch_1):page3_ins157475@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
