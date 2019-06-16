@@ -3,53 +3,41 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
-|                                                    Sun Jun 16 15:19:49 2019  |
+|                                                    Sun Jun 16 15:21:12 2019  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- RESISTOR/SM_RES0403_22R
+ RESISTOR/SM_RES0402_22R
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
-|                                                    Sun Jun 16 15:19:49 2019  |
+|                                                    Sun Jun 16 15:21:12 2019  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C4                  CAPACITOR NON-POL_CAP0402_0.1UF  2.5000  8.0000 CAPACITOR NON-POL_CAP0603_0.1UF
- R5                  RESISTOR/SM_RES0402_47K  1.0000  8.0000 RESISTOR/SM_RES0603_47K
- R6                  RESISTOR/SM_RES0402_47K -0.5000  8.0000 RESISTOR/SM_RES0603_47K
- R7                  RESISTOR/SM_RES0402_47K -2.0000  8.0000 RESISTOR/SM_RES0603_47K
- R9                  RESISTOR/SM_RES0402_47K -6.0000  8.0000 RESISTOR/SM_RES0603_47K
- R11                 RESISTOR/SM_RES0402_47K -7.5000  8.0000 RESISTOR/SM_RES0603_47K
- R20                 RESISTOR/SM_RES0403_22R -7.0000 -11.500 RESISTOR/SM_RES0603_22R
+ R20                 RESISTOR/SM_RES0402_22R                 RESISTOR/SM_RES0403_22R
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
-|                                                    Sun Jun 16 15:19:49 2019  |
+|                                                    Sun Jun 16 15:21:12 2019  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C4.2            2.5000  8.0000 PRIM_FILE      .\pstchip.dat
- R5.2            1.0000  8.0000 PRIM_FILE      .\pstchip.dat
- R6.2           -0.5000  8.0000 PRIM_FILE      .\pstchip.dat
- R7.2           -2.0000  8.0000 PRIM_FILE      .\pstchip.dat
- R9.2           -6.0000  8.0000 PRIM_FILE      .\pstchip.dat
- R11.2          -7.5000  8.0000 PRIM_FILE      .\pstchip.dat
  R20.2                          PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
 |       Comp definitions added:       1                                        |
-|       Components changed    :       7                                        |
-|       Slot property added   :       7                                        |
+|       Components changed    :       1                                        |
+|       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:      15                                        |
+|   Total ECO changes reported:       3                                        |
 |------------------------------------------------------------------------------|

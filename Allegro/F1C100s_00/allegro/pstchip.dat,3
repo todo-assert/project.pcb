@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jun-16-2019 at 15:19:38}
+{ Using PSTWRITER 17.2.0 d001Jun-16-2019 at 15:21:04}
 primitive 'CAPACITOR NON-POL_CAP0402_1UF';
   pin
     '1':
@@ -642,7 +642,7 @@ primitive 'RESISTOR/SM_RES0402_1M';
     VALUE='1M';
   end_body;
 end_primitive;
-primitive 'RESISTOR/SM_RES0403_22R';
+primitive 'RESISTOR/SM_RES0402_22R';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -653,7 +653,7 @@ primitive 'RESISTOR/SM_RES0403_22R';
   end_pin;
   body
     PART_NAME='RESISTOR/SM';
-    JEDEC_TYPE='res0403';
+    JEDEC_TYPE='res0402';
     VALUE='22R';
   end_body;
 end_primitive;
