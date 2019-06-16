@@ -104,21 +104,19 @@
       (Path "Design Resources"
          "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
          "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 420"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 420"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1273 50 304")
-        (Scroll "495 174")
-        (Zoom "200")
+        (Scroll "0 151")
+        (Zoom "176")
         (Occurrence "/"))
       (Path
          "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
@@ -127,8 +125,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 75 1694 75 528")
-        (Scroll "119 260")
+        (Placement "44 0 1 -1 -1 -8 -30 75 1694 75 528")
+        (Scroll "119 538")
         (Zoom "200")
         (Occurrence "/"))
       (Path
@@ -139,7 +137,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1719 100 553")
-        (Scroll "0 795")
+        (Scroll "24 176")
         (Zoom "200")
         (Occurrence "/"))
       (Path
