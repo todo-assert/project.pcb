@@ -3,17 +3,41 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
-|                                                    Fri Jun 14 23:15:24 2019  |
+|                                                    Sun Jun 16 15:21:12 2019  |
 |------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C23                 CAPACITOR NON-POL_CAP0603_10UF -10.000 -16.500
- C24                 CAPACITOR NON-POL_CAP0603_10UF 17.5000 -2.5000
- C25                 CAPACITOR NON-POL_CAP0603_10UF 17.5000 -4.5000
+ RESISTOR/SM_RES0402_22R
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|       Components deleted    :       3                                        |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Sun Jun 16 15:21:12 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R20                 RESISTOR/SM_RES0402_22R                 RESISTOR/SM_RES0403_22R
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd         |
+|                                                    Sun Jun 16 15:21:12 2019  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R20.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       1                                        |
+|       Components changed    :       1                                        |
+|       Slot property added   :       1                                        |
 |                                                                              |
 |   Total ECO changes reported:       3                                        |
 |------------------------------------------------------------------------------|

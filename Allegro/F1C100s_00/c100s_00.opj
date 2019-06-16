@@ -35,7 +35,7 @@
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
     (DRC_Report_File
-       "C:\Users\admin\Documents\GitHub\project.pcb\Allegro\F1C100s_00\C100S_00.DRC")
+       "C:\Users\Administrator\Documents\GitHub\project.pcb\Allegro\F1C100s_00\C100S_00.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -99,20 +99,25 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\c100s_00.dsn")
-      (Path "Design Resources" ".\c100s_00.dsn" "SCHEMATIC1")
-      (Path "Outputs"))
+      (Path "Design Resources"
+         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn")
+      (Path "Design Resources"
+         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 420"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 420"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 50 1273 50 304")
-        (Scroll "119 302")
+        (Scroll "495 174")
         (Zoom "200")
         (Occurrence "/"))
       (Path
@@ -122,8 +127,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1694 75 528")
-        (Scroll "0 0")
+        (Placement "44 2 3 -1 -1 -8 -30 75 1694 75 528")
+        (Scroll "500 100")
         (Zoom "200")
         (Occurrence "/"))
       (Path
@@ -134,7 +139,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 100 1719 100 553")
-        (Scroll "0 260")
+        (Scroll "0 795")
         (Zoom "200")
         (Occurrence "/"))
       (Path
