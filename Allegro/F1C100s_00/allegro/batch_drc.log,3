@@ -3,8 +3,8 @@
 (    DRC Update                                                       )
 (                                                                     )
 (    Drawing          : c100s_85x45.brd                               )
-(    Software Version : 17.2P028                                      )
-(    Date/Time        : Mon Jun 17 19:14:00 2019                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sun Jun 16 11:09:52 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  1
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
