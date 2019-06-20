@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jun-16-2019 at 23:14:26}
+{ Using PSTWRITER 17.2.0 d001Jun-20-2019 at 20:19:30}
 primitive 'CAPACITOR NON-POL_CAP0402_1UF';
   pin
     '1':
@@ -1320,19 +1320,25 @@ primitive 'PT4101_PT4101-SOT23-6_PT4101';
     VALUE='PT4101';
   end_body;
 end_primitive;
-primitive 'CRYSTAL/SM_CRYSTAL-3215_24MHZ';
+primitive 'YSX321SL_YSX321SL-3_2X2_5X0_8_Y';
   pin
-    '1':
+    'XIN':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
-    '2':
+    'GND1':
       PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'XOUT':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'GND2':
+      PIN_NUMBER='(4)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='CRYSTAL/SM';
-    JEDEC_TYPE='CRYSTAL-3215';
-    VALUE='24MHz';
+    PART_NAME='YSX321SL';
+    JEDEC_TYPE='YSX321SL-3_2x2_5x0_8';
+    VALUE='YSX321SL';
   end_body;
 end_primitive;
 primitive 'CRYSTAL/SM_CRYSTAL-3215_32.768K';

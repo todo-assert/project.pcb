@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Jun-16-2019 at 23:14:26 }
+{ Using PSTWRITER 17.2.0 d001Jun-20-2019 at 20:19:30 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='C100S_00';
@@ -358,22 +358,22 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- C41 'CAPACITOR NON-POL_CAP0402_0.22U':;
-
-SECTION_NUMBER 1
- '@C100S_00.SCHEMATIC1(SCH_1):INS157115@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
- C_PATH='@c100s_00.schematic1(sch_1):ins157115@discrete.\capacitor non-pol.normal\(chips)',
- P_PATH='@c100s_00.schematic1(sch_1):page3_ins157115@discrete.\capacitor non-pol.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- C42 'CAPACITOR NON-POL_CAP0402_0.1UF':;
+ C41 'CAPACITOR NON-POL_CAP0402_0.1UF':;
 
 SECTION_NUMBER 1
  '@C100S_00.SCHEMATIC1(SCH_1):INS157575@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
  C_PATH='@c100s_00.schematic1(sch_1):ins157575@discrete.\capacitor non-pol.normal\(chips)',
  P_PATH='@c100s_00.schematic1(sch_1):page3_ins157575@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C42 'CAPACITOR NON-POL_CAP0402_0.22U':;
+
+SECTION_NUMBER 1
+ '@C100S_00.SCHEMATIC1(SCH_1):INS157115@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@c100s_00.schematic1(sch_1):ins157115@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@c100s_00.schematic1(sch_1):page3_ins157115@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -1148,12 +1148,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- Y1 'CRYSTAL/SM_CRYSTAL-3215_24MHZ':;
+ Y1 'YSX321SL_YSX321SL-3_2X2_5X0_8_Y':;
 
 SECTION_NUMBER 1
- '@C100S_00.SCHEMATIC1(SCH_1):INS217052@DISCRETE.CRYSTAL/SM.NORMAL(CHIPS)':
- C_PATH='@c100s_00.schematic1(sch_1):ins217052@discrete.\crystal/sm.normal\(chips)',
- P_PATH='@c100s_00.schematic1(sch_1):page2_ins217052@discrete.\crystal/sm.normal\(chips)',
+ '@C100S_00.SCHEMATIC1(SCH_1):INS229208@MYMISC.YSX321SL.NORMAL(CHIPS)':
+ C_PATH='@c100s_00.schematic1(sch_1):ins229208@mymisc.\ysx321sl.normal\(chips)',
+ P_PATH='@c100s_00.schematic1(sch_1):page2_ins229208@mymisc.\ysx321sl.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

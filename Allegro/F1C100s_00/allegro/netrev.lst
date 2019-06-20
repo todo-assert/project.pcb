@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : c100s_85x45.brd                               )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Sun Jun 16 23:14:35 2019                      )
+(    Date/Time        : Thu Jun 20 20:21:03 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,58 +17,54 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro'
+Schematic directory:         'C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro'
 Design Directory:            '.'
-Old design name:             'C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd'
-New design name:             'C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd'
+Old design name:             'C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd'
+New design name:             'C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd'
 
-CmdLine: netrev -$ -i C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro -y 1 -q netrev_constraint_report.xml C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/#Taaaaeh09784.tmp
+CmdLine: netrev -$ -i C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro -y 1 -q netrev_constraint_report.xml C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/#Taaaaac02524.tmp
 
 ------ Preparing to read pst files ------
 
-Starting to read C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstchip.dat 
-   Finished reading C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstchip.dat (00:00:00.05)
-Starting to read C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxprt.dat 
-   Finished reading C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxprt.dat (00:00:00.00)
-Starting to read C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxnet.dat 
-   Finished reading C:/Users/Administrator/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxnet.dat (00:00:00.00)
+Starting to read C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstchip.dat 
+   Finished reading C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstchip.dat (00:00:00.08)
+Starting to read C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxprt.dat 
+   Finished reading C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxprt.dat (00:00:00.01)
+Starting to read C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxnet.dat 
+   Finished reading C:/Users/admin/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/modules 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
-           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
-           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
-           E:/PCBLib/symbol 
-           E:/PCBLib/pin/ 
-           C:/Users/Administrator/Documents/GitHub/AllegroPackages/shape/ 
-           C:/Users/Administrator/Documents/GitHub/AllegroPackages/pcb/ 
-           C:/Users/Administrator/Documents/GitHub/AllegroPackages/pad/ 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           C:/Users/admin/Documents/GitHub/AllegroPackages/shape/ 
+           C:/Users/admin/Documents/GitHub/AllegroPackages/pcb/ 
+           C:/Users/admin/Documents/GitHub/AllegroPackages/pad/ 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
-           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
-           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
-           E:/PCBLib/symbol 
-           E:/PCBLib/pin/ 
-           C:/Users/Administrator/Documents/GitHub/AllegroPackages/pad/ 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           C:/Users/admin/Documents/GitHub/AllegroPackages/pad/ 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Jun 16 23:14:35 2019
+netrev run on Jun 20 20:21:03 2019
    DESIGN NAME : 'C100S_00'
    PACKAGING ON Mar  2 2016 00:37:24
 
@@ -93,6 +89,6 @@ netrev run on Jun 16 23:14:35 2019
  No oversight detected
  No warning detected
 
-cpu time      0:02:10
+cpu time      0:02:47
 elapsed time  0:00:01
 
