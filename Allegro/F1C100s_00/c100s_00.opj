@@ -116,22 +116,19 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn")
+         "c:\users\admin\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn")
       (Path "Design Resources"
-         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
+         "c:\users\admin\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
          "SCHEMATIC1")
-      (Path "Design Resources"
-         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
-         "Design Cache")
       (Path "Outputs")
       (Select "Design Resources"
-         "c:\users\administrator\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
+         "c:\users\admin\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
          "SCHEMATIC1" "misc"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 420"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
       (Tab 0)))
   (PartMRUSelector
     (YSX321SL
@@ -176,7 +173,7 @@
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "Administrator")
+  (MPSSessionName "admin")
   (ISPCBBASICLICENSE "false")
   (LastUsedLibraryBrowseDirectory
      "C:\Users\admin\Documents\GitHub\AllegroPackages\schematic"))
