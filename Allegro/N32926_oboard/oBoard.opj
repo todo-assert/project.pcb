@@ -13,38 +13,45 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\oboard.dsn")
-      (Path "Design Resources" ".\oboard.dsn" "SCHEMATIC1")
-      (Select "Design Resources" ".\oboard.dsn" "SCHEMATIC1" "flash"))
+      (Path "Design Resources"
+         "c:\users\administrator\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn")
+      (Path "Design Resources"
+         "c:\users\administrator\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
+         "SCHEMATIC1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 415"))
+        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 415"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "0 48")
-        (Zoom "174")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1669 50 503")
+        (Scroll "119 0")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+         "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "core"))
+      (Page "flash"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
-        (Scroll "1850 104")
-        (Zoom "348")
+        (Placement "44 0 1 -1 -1 -8 -30 75 1694 75 528")
+        (Scroll "426 167")
+        (Zoom "132")
         (Occurrence "/"))
       (Path
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+         "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "flash")))
+      (Page "core")))
   (PartMRUSelector
+    (GL850G-SSOP28
+      (FullPartName "GL850G-SSOP28.Normal")
+      (LibraryName
+         "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
     (W25QXX
       (FullPartName "W25QXX.Normal")
       (LibraryName
@@ -112,4 +119,4 @@
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory
      "C:\Users\admin\Documents\GitHub\AllegroPackages\schematic")
-  (MPSSessionName "admin"))
+  (MPSSessionName "Administrator"))
