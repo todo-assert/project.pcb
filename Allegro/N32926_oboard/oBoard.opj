@@ -20,7 +20,7 @@
          "SCHEMATIC1")
       (Select "Design Resources"
          "c:\users\admin\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
-         "SCHEMATIC1" "core"))
+         "SCHEMATIC1" "lcd&isi"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -31,7 +31,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "0 0")
+        (Scroll "119 320")
         (Zoom "200")
         (Occurrence "/"))
       (Path
@@ -41,9 +41,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 78 1714 78 537")
-        (Scroll "-309 0")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+        (Scroll "0 578")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
          "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -53,14 +53,35 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "-34 170")
+        (Scroll "324 386")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "core"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1472 130 589")
+        (Scroll "-162 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "core")))
+      (Page "lcd&isi")))
   (PartMRUSelector
+    ("HEADER 24/SM"
+      (FullPartName "HEADER 24/SM.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (RTL8188-XXX
+      (FullPartName "RTL8188-XXX.Normal")
+      (LibraryName
+         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
     (INDUCTOR
       (FullPartName "INDUCTOR.Normal")
       (LibraryName
@@ -137,5 +158,5 @@
          "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory
-     "C:\Users\admin\Documents\GitHub\AllegroPackages\schematic")
+     "D:\Cadence\Cadence_SPB_17.2-2016\tools\capture\library")
   (MPSSessionName "admin"))
