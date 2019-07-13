@@ -20,143 +20,81 @@
          "SCHEMATIC1")
       (Select "Design Resources"
          "c:\users\admin\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
-         "SCHEMATIC1" "lcd&isi"))
+         "SCHEMATIC1" "usb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 415"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "119 320")
-        (Zoom "200")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "usb"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
-        (Scroll "0 578")
-        (Zoom "200")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "flash"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "324 386")
-        (Zoom "200")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "core"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1472 130 589")
-        (Scroll "-162 0")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "-421 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "lcd&isi")))
-  (PartMRUSelector
-    ("HEADER 24/SM"
-      (FullPartName "HEADER 24/SM.Normal")
-      (LibraryName
-         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (RTL8188-XXX
-      (FullPartName "RTL8188-XXX.Normal")
-      (LibraryName
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
-      (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName
-         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (GL850G-SSOP28
-      (FullPartName "GL850G-SSOP28.Normal")
-      (LibraryName
-         "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
-      (DeviceIndex "0"))
-    (W25QXX
-      (FullPartName "W25QXX.Normal")
-      (LibraryName
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName
-         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (RESAR_IS_4/SM
-      (FullPartName "RESAR_IS_4/SM.Normal")
-      (LibraryName
-         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (TF-SOCKET
-      (FullPartName "TF-SOCKET.Normal")
-      (LibraryName
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName
-         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    ("W29N01 GVSCAA"
-      (FullPartName "W29N01 GVSCAA.Normal")
-      (LibraryName
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
-      (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
-      (LibraryName
-         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("RESISTOR DIP 7 A-G"
-      (FullPartName "RESISTOR DIP 7 A-G.Normal")
-      (LibraryName
-         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
-      (LibraryName
-         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CRYSTAL
-      (FullPartName "CRYSTAL.Normal")
-      (LibraryName
-         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (GND_SIGNAL
-      (LibraryName
-         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName
-         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName
-         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (N3292xUxDN
-      (FullPartName "N3292xUxDN.Normal")
-      (LibraryName
-         "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
-      (DeviceIndex "0")))
-  (LastUsedLibraryBrowseDirectory
-     "D:\Cadence\Cadence_SPB_17.2-2016\tools\capture\library")
-  (MPSSessionName "admin"))
+      (Page "usb"))) >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
+  (HierarchyView)
+  (Doc
+    (Type "COrCapturePMDoc")
+    (Frame
+      (Placement "44 0 1 -1 -1 -8 -30 0 200 0 415"))
+    (Tab 0))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame <<<<<<< HEAD
+      (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
+      (Scroll "119 320")
+      (Zoom "200") =======
+      (Placement "44 0 1 -1 -1 -8 -30 50 1690 50 520")
+      (Scroll "-36 0")
+      (Zoom "100") >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
+      (Occurrence "/"))
+    (Path
+       "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+    (Schematic "SCHEMATIC1")
+    (Page "core"))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame <<<<<<< HEAD
+      (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+      (Scroll "0 578")
+      (Zoom "200") =======
+      (Placement "44 0 1 -1 -1 -8 -30 75 1719 75 549")
+      (Scroll "-313 0")
+      (Zoom "100") >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
+      (Occurrence "/"))
+    (Path
+       "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+    (Schematic "SCHEMATIC1")
+    (Page "flash"))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame <<<<<<< HEAD
+      (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
+      (Scroll "324 386")
+      (Zoom "200")
+      (Occurrence "/"))
+    (Path
+       "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+    (Schematic "SCHEMATIC1")
+    (Page "core"))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame
+      (Placement "44 0 1 -1 -1 -8 -31 130 1472 130 589")
+      (Scroll "-162 0") =======
+      (Placement "44 0 1 -1 -1 -8 -30 100 1744 100 574")
+      (Scroll "-313 0") >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
+      (Zoom "100")
+      (Occurrence "/"))
+    (Path
+       "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+    (Schematic "SCHEMATIC1") <<<<<<< HEAD
+    (Page "lcd&isi"))
+  (MPSSessionName "admin")
+  (PartMRUSelector))
