@@ -7,20 +7,21 @@
     (File ".\oboard.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "c:\users\admin\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn")
+         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn")
       (Path "Design Resources"
-         "c:\users\admin\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
          "SCHEMATIC1")
-      (Select "Design Resources"
-         "c:\users\admin\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
-         "SCHEMATIC1" "usb"))
+      (Path "Design Resources"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
+         "Design Cache"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -30,14 +31,47 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "-421 0")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1684 52 507")
+        (Scroll "0 302")
+        (Zoom "153")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "core"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1766 130 589")
+        (Scroll "0 150")
+        (Zoom "174")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "usb"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 182 1818 182 641")
+        (Scroll "0 224")
+        (Zoom "348")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "lcd&isi"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
+        (Scroll "-309 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "usb"))) >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
+      (Page "flash"))) >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
   (HierarchyView)
   (Doc
     (Type "COrCapturePMDoc")
@@ -96,5 +130,20 @@
        "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
     (Schematic "SCHEMATIC1") <<<<<<< HEAD
     (Page "lcd&isi"))
-  (MPSSessionName "admin")
-  (PartMRUSelector))
+  (MPSSessionName "12187_000")
+  (PartMRUSelector
+    (OFFPAGELEFT-L
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("USB AF"
+      (FullPartName "USB AF.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\12187_000\Documents\GitHub\AllegroPackages\schematic"))
