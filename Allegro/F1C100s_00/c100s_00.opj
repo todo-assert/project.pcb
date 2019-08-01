@@ -116,31 +116,31 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "c:\users\admin\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn")
+         "c:\users\12187_000\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn")
       (Path "Design Resources"
-         "c:\users\admin\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
          "SCHEMATIC1")
       (Path "Outputs")
       (Select "Design Resources"
-         "c:\users\admin\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
-         "SCHEMATIC1" "core"))
+         "c:\users\12187_000\documents\github\project.pcb\allegro\f1c100s_00\c100s_00.dsn"
+         "SCHEMATIC1" "misc"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 208 1550 208 667")
-        (Scroll "-162 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
+        (Scroll "119 0")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
-         "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S_00\C100S_00.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "core")))
+      (Page "misc")))
   (PartMRUSelector
     (YSX321SL
       (FullPartName "YSX321SL.Normal")
@@ -184,7 +184,7 @@
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "admin")
+  (MPSSessionName "12187_000")
   (ISPCBBASICLICENSE "false")
   (LastUsedLibraryBrowseDirectory
      "C:\Users\admin\Documents\GitHub\AllegroPackages\schematic"))

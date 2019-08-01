@@ -21,7 +21,10 @@
          "SCHEMATIC1")
       (Path "Design Resources"
          "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
-         "Design Cache"))
+         "Design Cache")
+      (Select "Design Resources"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
+         "SCHEMATIC1" "core"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -31,9 +34,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1684 52 507")
-        (Scroll "0 302")
-        (Zoom "153")
+        (Placement "44 0 1 -1 -1 -8 -31 182 1818 182 641")
+        (Scroll "2132 0")
+        (Zoom "260")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -42,36 +45,14 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 130 1766 130 589")
-        (Scroll "0 150")
-        (Zoom "174")
+        (Placement "44 2 3 -1 -1 -8 -31 130 1766 130 589")
+        (Scroll "-484 -4")
+        (Zoom "87")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "usb"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 182 1818 182 641")
-        (Scroll "0 224")
-        (Zoom "348")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "lcd&isi"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
-        (Scroll "-309 0")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "flash"))) >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
+      (Page "usb"))) >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
   (HierarchyView)
   (Doc
     (Type "COrCapturePMDoc")
@@ -132,13 +113,82 @@
     (Page "lcd&isi"))
   (MPSSessionName "12187_000")
   (PartMRUSelector
+    (BPW37/TO
+      (FullPartName "BPW37/TO.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MMPQ2483
+      (FullPartName "MMPQ2483.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "1"))
     (OFFPAGELEFT-L
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (MICROUSB
+      (FullPartName "MICROUSB.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
     (OFFPAGELEFT-R
       (LibraryName
          "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MP1470
+      (FullPartName "MP1470.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (AMS1117
+      (FullPartName "AMS1117.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
+    (OV2640_DVP_24P
+      (FullPartName "OV2640_DVP_24P.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RJ45
+      (FullPartName "RJ45.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (YSX321SL
+      (FullPartName "YSX321SL.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (Q13MC14620006xx
+      (FullPartName "Q13MC14620006xx.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (RT8201F-QFN32
+      (FullPartName "RT8201F-QFN32.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
+    (LCD_RGB_40P
+      (FullPartName "LCD_RGB_40P.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
       (DeviceIndex "0"))
     ("USB AF"
       (FullPartName "USB AF.Normal")
