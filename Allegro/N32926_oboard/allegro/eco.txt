@@ -1,0 +1,83 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd           |
+|                                                    Sun Aug 11 11:38:53 2019  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this existing net (pins not previously on any net)
+                                 J11.2                          
+                                 J11.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PVIN         pins ADDED TO this existing net (pins not previously on any net)
+                                 J11.1                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd           |
+|                                                    Sun Aug 11 11:38:53 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ DC005-25A_DC_005_25A_DC 005 25A
+ RESISTOR_RES0402_100K
+ RESISTOR_RES0402_10K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd           |
+|                                                    Sun Aug 11 11:38:53 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J11                 DC005-25A_DC_005_25A_DC 005 25A 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd           |
+|                                                    Sun Aug 11 11:38:53 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C12                 CAP NP_CAP0402_0.1UF                  CAP NP_CAP0603_0.1UF
+ C16                 CAP NP_CAP0402_0.1UF                  CAP NP_CAP0603_0.1UF
+ R7                  RESISTOR_RES0402_100K                 RESISTOR_RES0603_100K
+ R8                  RESISTOR_RES0402_10K                  RESISTOR_RES0603_10K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd           |
+|                                                    Sun Aug 11 11:38:53 2019  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C16.2                          PRIM_FILE      .\pstchip.dat
+ J11.2                          PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Nets changed          :       3                                        |
+|       Comp definitions added:       3                                        |
+|       Components added      :       1                                        |
+|       Components changed    :       4                                        |
+|       Slot property added   :       5                                        |
+|                                                                              |
+|   Total ECO changes reported:      16                                        |
+|------------------------------------------------------------------------------|

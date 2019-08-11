@@ -11,7 +11,7 @@
     (Board_sim_option "VHDL_flow")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "3")
+    (ANNOTATE_Action "0")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -63,12 +63,22 @@
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
-    (DRC_Run_Physical_Custom_DRC "FALSE"))
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Netlist_TAB "0"))
   (Folder "Outputs"
     (File ".\oboard.csv"
       (Type "Report"))
     (File ".\oboard.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
@@ -83,18 +93,19 @@
          "Design Cache")
       (Path "Outputs")
       (Select "Design Resources"
-         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"))
+         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
+         "SCHEMATIC1" "net"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "154 603")
+        (Scroll "0 468")
         (Zoom "130")
         (Occurrence "/"))
       (Path
@@ -105,8 +116,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
-        (Scroll "0 240")
-        (Zoom "200")
+        (Scroll "0 0")
+        (Zoom "174")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -116,8 +127,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "-372 0")
-        (Zoom "87")
+        (Scroll "0 439")
+        (Zoom "174")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -127,8 +138,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 156 1792 156 615")
-        (Scroll "-309 0")
-        (Zoom "100")
+        (Scroll "216 4008")
+        (Zoom "800")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -138,8 +149,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
-        (Scroll "-309 0")
-        (Zoom "100")
+        (Scroll "0 380")
+        (Zoom "200")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -148,8 +159,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1296 26 211")
-        (Scroll "0 450")
+        (Placement "44 2 3 -1 -1 -8 -31 26 1296 26 211")
+        (Scroll "0 280")
         (Zoom "200")
         (Occurrence "/"))
       (Path
@@ -160,8 +171,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1766 104 482")
-        (Scroll "-322 0")
-        (Zoom "100")
+        (Scroll "65 0")
+        (Zoom "174")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -227,6 +238,16 @@
     (Page "lcd&isi"))
   (MPSSessionName "12187_000")
   (PartMRUSelector
+    (DC005-25A
+      (FullPartName "DC005-25A.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (ASM1117-SOT223-3
+      (FullPartName "ASM1117-SOT223-3.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
     (BPW37/TO
       (FullPartName "BPW37/TO.Normal")
       (LibraryName
@@ -310,4 +331,5 @@
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory
-     "C:\Users\12187_000\Documents\GitHub\AllegroPackages\schematic"))
+     "C:\Users\12187_000\Documents\GitHub\AllegroPackages\schematic")
+  (ISPCBBASICLICENSE "false"))
