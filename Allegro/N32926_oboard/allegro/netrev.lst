@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : oboard.brd                                    )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Sun Aug 11 11:38:53 2019                      )
+(    Date/Time        : Sat Aug 17 00:32:37 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,16 +22,16 @@ Design Directory:            '.'
 Old design name:             'C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd'
 New design name:             'C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd'
 
-CmdLine: netrev -$ -i C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro -y 1 -q netrev_constraint_report.xml C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/#Taaaaab09420.tmp
+CmdLine: netrev -$ -i C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro -y 1 -q netrev_constraint_report.xml C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/#Taaaaab08320.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/pstchip.dat 
-   Finished reading C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/pstchip.dat (00:00:00.04)
+   Finished reading C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/pstchip.dat (00:00:00.05)
 Starting to read C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/pstxprt.dat 
    Finished reading C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/pstxprt.dat (00:00:00.00)
 Starting to read C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/pstxnet.dat 
-   Finished reading C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/pstxnet.dat (00:00:00.00)
+   Finished reading C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -64,7 +64,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Aug 11 11:38:53 2019
+netrev run on Aug 17 0:32:37 2019
    DESIGN NAME : 'OBOARD'
    PACKAGING ON Mar  2 2016 00:37:24
 
@@ -89,6 +89,6 @@ netrev run on Aug 11 11:38:53 2019
  No oversight detected
  No warning detected
 
-cpu time      0:01:01
-elapsed time  0:00:01
+cpu time      0:00:38
+elapsed time  0:00:00
 

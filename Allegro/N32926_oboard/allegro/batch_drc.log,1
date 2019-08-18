@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : oboard.brd                                    )
 (    Software Version : 17.2P028                                      )
-(    Date/Time        : Mon Aug 12 21:46:33 2019                      )
+(    Date/Time        : Fri Aug 09 20:28:06 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  8
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

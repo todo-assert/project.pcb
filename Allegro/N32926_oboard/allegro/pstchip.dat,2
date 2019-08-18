@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Aug-10-2019 at 18:04:23}
+{ Using PSTWRITER 17.2.0 d001Aug-16-2019 at 23:17:47}
 primitive 'CAP NP_CAP0402_1UF';
   pin
     '1':
@@ -30,7 +30,7 @@ primitive 'CAP NP_CAP0402_100NF';
     VALUE='100nF';
   end_body;
 end_primitive;
-primitive 'CAP NP_CAP0603_0.1UF';
+primitive 'CAP NP_CAP0402_0.1UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -41,7 +41,7 @@ primitive 'CAP NP_CAP0603_0.1UF';
   end_pin;
   body
     PART_NAME='CAP NP';
-    JEDEC_TYPE='cap0603';
+    JEDEC_TYPE='cap0402';
     VALUE='0.1uF';
   end_body;
 end_primitive;
@@ -240,21 +240,6 @@ primitive 'CAPACITOR NON-POL_CAP0603_20PF';
     VALUE='20pF';
   end_body;
 end_primitive;
-primitive 'CAP NP_CAP0402_0.1UF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP';
-    JEDEC_TYPE='cap0402';
-    VALUE='0.1uF';
-  end_body;
-end_primitive;
 primitive 'CAP POL_CAP0603_2.2UF';
   pin
     '1':
@@ -412,6 +397,24 @@ primitive 'MICROUSB_MICROUSB_USB';
     PART_NAME='MICROUSB';
     JEDEC_TYPE='MicroUSB';
     VALUE='USB';
+  end_body;
+end_primitive;
+primitive 'DC005-25A_DC_005_25A_DC 005 25A';
+  pin
+    '+':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'COM':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '-':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DC005-25A';
+    JEDEC_TYPE='DC_005_25A';
+    VALUE='DC 005 25A';
   end_body;
 end_primitive;
 primitive 'LCD_RGB_40P_FPC-40_LCD_RGB_40P';
@@ -672,21 +675,6 @@ primitive 'HEADER 3_HEADER1X3_2_54_DEBUG';
     VALUE='Debug';
   end_body;
 end_primitive;
-primitive 'HEADER 2_HEADER1X2_2_54_GPIO';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='HEADER 2';
-    JEDEC_TYPE='Header1x2_2_54';
-    VALUE='GPIO';
-  end_body;
-end_primitive;
 primitive 'RJ45_RJ45_13F-64GYDP2NL_RJ45';
   pin
     'TD+':
@@ -900,7 +888,7 @@ primitive 'RESISTOR_RES0402_0R';
     VALUE='0R';
   end_body;
 end_primitive;
-primitive 'RESISTOR_RES0603_22R';
+primitive 'RESISTOR_RES0402_100K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -911,8 +899,8 @@ primitive 'RESISTOR_RES0603_22R';
   end_pin;
   body
     PART_NAME='RESISTOR';
-    JEDEC_TYPE='res0603';
-    VALUE='22R';
+    JEDEC_TYPE='res0402';
+    VALUE='100K';
   end_body;
 end_primitive;
 primitive 'RESISTOR_RES0402_22R';
@@ -1155,6 +1143,21 @@ primitive 'RESISTOR/SM_RES0603_13K';
     VALUE='13K';
   end_body;
 end_primitive;
+primitive 'RESISTOR_RES0603_22R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='res0603';
+    VALUE='22R';
+  end_body;
+end_primitive;
 primitive 'RESISTOR_RES0603_22K';
   pin
     '1':
@@ -1183,6 +1186,21 @@ primitive 'RESISTOR_RES0402_10K/DNP';
     PART_NAME='RESISTOR';
     JEDEC_TYPE='res0402';
     VALUE='10K/DNP';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_RES0402_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='res0402';
+    VALUE='10K';
   end_body;
 end_primitive;
 primitive 'RESAR_IS_4/SM_RN4D02_0402_10K 0';

@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Aug-11-2019 at 11:37:32}
+{ Using PSTWRITER 17.2.0 d001Aug-17-2019 at 00:32:12}
 primitive 'CAP NP_CAP0402_1UF';
   pin
     '1':
@@ -225,7 +225,7 @@ primitive 'CAPACITOR NON-POL_CAP0402_330PF';
     VALUE='330pF';
   end_body;
 end_primitive;
-primitive 'CAPACITOR NON-POL_CAP0603_20PF';
+primitive 'CAPACITOR NON-POL_CAP0402_20PF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -236,7 +236,7 @@ primitive 'CAPACITOR NON-POL_CAP0603_20PF';
   end_pin;
   body
     PART_NAME='CAPACITOR NON-POL';
-    JEDEC_TYPE='cap0603';
+    JEDEC_TYPE='cap0402';
     VALUE='20pF';
   end_body;
 end_primitive;
@@ -675,21 +675,6 @@ primitive 'HEADER 3_HEADER1X3_2_54_DEBUG';
     VALUE='Debug';
   end_body;
 end_primitive;
-primitive 'HEADER 2_HEADER1X2_2_54_GPIO';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='HEADER 2';
-    JEDEC_TYPE='Header1x2_2_54';
-    VALUE='GPIO';
-  end_body;
-end_primitive;
 primitive 'RJ45_RJ45_13F-64GYDP2NL_RJ45';
   pin
     'TD+':
@@ -903,7 +888,7 @@ primitive 'RESISTOR_RES0402_0R';
     VALUE='0R';
   end_body;
 end_primitive;
-primitive 'RESISTOR_RES0603_22R';
+primitive 'RESISTOR_RES0402_100K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -914,8 +899,8 @@ primitive 'RESISTOR_RES0603_22R';
   end_pin;
   body
     PART_NAME='RESISTOR';
-    JEDEC_TYPE='res0603';
-    VALUE='22R';
+    JEDEC_TYPE='res0402';
+    VALUE='100K';
   end_body;
 end_primitive;
 primitive 'RESISTOR_RES0402_22R';
@@ -1053,6 +1038,21 @@ primitive 'RESISTOR/SM_RES0603_5.1K';
     VALUE='5.1K';
   end_body;
 end_primitive;
+primitive 'RESISTOR_RES0402_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='res0402';
+    VALUE='10K';
+  end_body;
+end_primitive;
 primitive 'RESISTOR/SM_RES0402_1M';
   pin
     '1':
@@ -1158,6 +1158,21 @@ primitive 'RESISTOR/SM_RES0603_13K';
     VALUE='13K';
   end_body;
 end_primitive;
+primitive 'RESISTOR_RES0603_22R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='res0603';
+    VALUE='22R';
+  end_body;
+end_primitive;
 primitive 'RESISTOR_RES0603_22K';
   pin
     '1':
@@ -1186,36 +1201,6 @@ primitive 'RESISTOR_RES0402_10K/DNP';
     PART_NAME='RESISTOR';
     JEDEC_TYPE='res0402';
     VALUE='10K/DNP';
-  end_body;
-end_primitive;
-primitive 'RESISTOR_RES0402_100K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='res0402';
-    VALUE='100K';
-  end_body;
-end_primitive;
-primitive 'RESISTOR_RES0402_10K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='res0402';
-    VALUE='10K';
   end_body;
 end_primitive;
 primitive 'RESAR_IS_4/SM_RN4D02_0402_10K 0';

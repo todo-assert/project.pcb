@@ -3,9 +3,45 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  C:.../GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd           |
-|                                                    Sat Aug 10 18:04:41 2019  |
+|                                                    Fri Aug 16 23:51:20 2019  |
 |------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAPACITOR NON-POL_CAP0402_20PF
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
+|  C:.../GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd           |
+|                                                    Fri Aug 16 23:51:20 2019  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C58                 CAPACITOR NON-POL_CAP0402_20PF -15.113 15.7480 CAPACITOR NON-POL_CAP0603_20PF
+ C60                 CAPACITOR NON-POL_CAP0402_20PF -5.4610 14.8590 CAPACITOR NON-POL_CAP0603_20PF
+ R38                 RESISTOR_RES0402_10K   8.8900 10.1600 RESISTOR_RES0603_10K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd           |
+|                                                    Fri Aug 16 23:51:20 2019  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C58.2          -15.113 15.7480 PRIM_FILE      .\pstchip.dat
+ C60.2          -5.4610 14.8590 PRIM_FILE      .\pstchip.dat
+ R38.2           8.8900 10.1600 PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       1                                        |
+|       Components changed    :       3                                        |
+|       Slot property added   :       3                                        |
 |                                                                              |
-|   Total ECO changes reported:       0                                        |
+|   Total ECO changes reported:       7                                        |
 |------------------------------------------------------------------------------|

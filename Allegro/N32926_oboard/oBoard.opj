@@ -11,7 +11,7 @@
     (Board_sim_option "VHDL_flow")
     (ANNOTATE_Scope "0")
     (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "0")
+    (ANNOTATE_Action "3")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "FALSE")
@@ -94,7 +94,7 @@
       (Path "Outputs")
       (Select "Design Resources"
          "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
-         "SCHEMATIC1" "net"))
+         "SCHEMATIC1" "power"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -105,7 +105,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "0 468")
+        (Scroll "0 424")
         (Zoom "130")
         (Occurrence "/"))
       (Path
@@ -115,8 +115,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
-        (Scroll "0 0")
+        (Placement "44 2 3 -1 -1 -8 -31 208 1844 208 667")
+        (Scroll "-61 3")
         (Zoom "174")
         (Occurrence "/"))
       (Path
@@ -127,7 +127,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "0 439")
+        (Scroll "0 388")
         (Zoom "174")
         (Occurrence "/"))
       (Path
@@ -138,8 +138,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 156 1792 156 615")
-        (Scroll "216 4008")
-        (Zoom "800")
+        (Scroll "-309 86")
+        (Zoom "100")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -149,7 +149,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
-        (Scroll "0 380")
+        (Scroll "116 0")
         (Zoom "200")
         (Occurrence "/"))
       (Path
@@ -159,9 +159,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 26 1296 26 211")
-        (Scroll "0 280")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1296 26 211")
+        (Scroll "0 0")
+        (Zoom "174")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -171,7 +171,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1766 104 482")
-        (Scroll "65 0")
+        (Scroll "0 0")
         (Zoom "174")
         (Occurrence "/"))
       (Path
