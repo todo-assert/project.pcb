@@ -93,8 +93,7 @@
          "Design Cache")
       (Path "Outputs")
       (Select "Design Resources"
-         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"
-         "SCHEMATIC1" "power"))
+         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_oboard\oboard.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -105,7 +104,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "0 424")
+        (Scroll "18 625")
         (Zoom "130")
         (Occurrence "/"))
       (Path
@@ -115,9 +114,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 208 1844 208 667")
-        (Scroll "-61 3")
-        (Zoom "174")
+        (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
+        (Scroll "1458 1513")
+        (Zoom "348")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -127,7 +126,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "0 388")
+        (Scroll "0 619")
         (Zoom "174")
         (Occurrence "/"))
       (Path
@@ -138,7 +137,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 156 1792 156 615")
-        (Scroll "-309 86")
+        (Scroll "-309 85")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -149,8 +148,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
-        (Scroll "116 0")
-        (Zoom "200")
+        (Scroll "0 24")
+        (Zoom "174")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -159,8 +158,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 1296 26 211")
-        (Scroll "0 0")
+        (Placement "44 2 3 -1 -1 -8 -31 26 1296 26 211")
+        (Scroll "-61 0")
         (Zoom "174")
         (Occurrence "/"))
       (Path
@@ -171,7 +170,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1766 104 482")
-        (Scroll "0 0")
+        (Scroll "0 186")
         (Zoom "174")
         (Occurrence "/"))
       (Path
@@ -238,6 +237,10 @@
     (Page "lcd&isi"))
   (MPSSessionName "12187_000")
   (PartMRUSelector
+    ("GND_FIELD SIGNAL"
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (DC005-25A
       (FullPartName "DC005-25A.Normal")
       (LibraryName
