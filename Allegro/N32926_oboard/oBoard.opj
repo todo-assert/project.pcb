@@ -104,8 +104,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "18 625")
-        (Zoom "130")
+        (Scroll "0 1453")
+        (Zoom "260")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")
@@ -126,7 +126,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "0 619")
+        (Scroll "0 68")
         (Zoom "174")
         (Occurrence "/"))
       (Path
@@ -137,7 +137,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 156 1792 156 615")
-        (Scroll "-309 85")
+        (Scroll "-309 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -159,8 +159,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 26 1296 26 211")
-        (Scroll "-61 0")
-        (Zoom "174")
+        (Scroll "658 324")
+        (Zoom "348")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_OBOARD\OBOARD.DSN")

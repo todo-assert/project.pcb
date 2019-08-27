@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Aug-18-2019 at 22:07:00 }
+{ Using PSTWRITER 17.2.0 d001Aug-20-2019 at 23:22:15 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='OBOARD';
@@ -914,6 +914,26 @@ SECTION_NUMBER 1
  '@OBOARD.SCHEMATIC1(SCH_1):INS15840994@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
  C_PATH='@oboard.schematic1(sch_1):ins15840994@discrete.\inductor.normal\(chips)',
  P_PATH='@oboard.schematic1(sch_1):page3_ins15840994@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L14 'INDUCTOR_BLM15AG221SN1D_BLM15AG':;
+
+SECTION_NUMBER 1
+ '@OBOARD.SCHEMATIC1(SCH_1):INS15841475@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@oboard.schematic1(sch_1):ins15841475@discrete.\inductor.normal\(chips)',
+ P_PATH='@oboard.schematic1(sch_1):page3_ins15841475@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L15 'INDUCTOR_BLM15AG221SN1D_BLM15AG':;
+
+SECTION_NUMBER 1
+ '@OBOARD.SCHEMATIC1(SCH_1):INS15846389@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@oboard.schematic1(sch_1):ins15846389@discrete.\inductor.normal\(chips)',
+ P_PATH='@oboard.schematic1(sch_1):page1_ins15846389@discrete.\inductor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
