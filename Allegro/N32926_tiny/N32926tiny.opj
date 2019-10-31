@@ -1,0 +1,366 @@
+(ExpressProject "N32926TINY"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\n32926tiny.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "3")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (IREFReportFile
+       "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.csv")
+    (IREFViewOutput "0")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File
+       "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\ALLEGRO")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\N32926TINY.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Outputs"
+    (File ".\n32926tiny.csv"
+      (Type "Report"))
+    (File ".\n32926tiny.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_tiny\n32926tiny.dsn")
+      (Path "Design Resources"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_tiny\n32926tiny.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_tiny\n32926tiny.dsn"
+         "Design Cache")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\n32926_tiny\n32926tiny.dsn"
+         "Design Cache" "TF-SOCKET"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
+        (Scroll "0 863")
+        (Zoom "130")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "core"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 182 1818 182 641")
+        (Scroll "116 40")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "misc"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1636 0 459")
+        (Scroll "0 102")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "power"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1420 78 537")
+        (Scroll "119 302")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "net"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1792 156 615")
+        (Scroll "-309 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "lcd&isi"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1818 182 641")
+        (Scroll "-309 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "usb"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1844 208 667")
+        (Scroll "0 169")
+        (Zoom "174")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "flash"))) >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
+  (HierarchyView)
+  (Doc
+    (Type "COrCapturePMDoc")
+    (Frame
+      (Placement "44 0 1 -1 -1 -8 -30 0 200 0 415"))
+    (Tab 0))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame <<<<<<< HEAD
+      (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
+      (Scroll "119 320")
+      (Zoom "200") =======
+      (Placement "44 0 1 -1 -1 -8 -30 50 1690 50 520")
+      (Scroll "-36 0")
+      (Zoom "100") >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
+      (Occurrence "/"))
+    (Path
+       "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+    (Schematic "SCHEMATIC1")
+    (Page "core"))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame <<<<<<< HEAD
+      (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+      (Scroll "0 578")
+      (Zoom "200") =======
+      (Placement "44 0 1 -1 -1 -8 -30 75 1719 75 549")
+      (Scroll "-313 0")
+      (Zoom "100") >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
+      (Occurrence "/"))
+    (Path
+       "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+    (Schematic "SCHEMATIC1")
+    (Page "flash"))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame <<<<<<< HEAD
+      (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
+      (Scroll "324 386")
+      (Zoom "200")
+      (Occurrence "/"))
+    (Path
+       "C:\USERS\ADMIN\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+    (Schematic "SCHEMATIC1")
+    (Page "core"))
+  (Doc
+    (Type "COrSchematicDoc")
+    (Frame
+      (Placement "44 0 1 -1 -1 -8 -31 130 1472 130 589")
+      (Scroll "-162 0") =======
+      (Placement "44 0 1 -1 -1 -8 -30 100 1744 100 574")
+      (Scroll "-313 0") >>>>>>> a2088a08d4679a0545d7de673b8ebd910c550f2a
+      (Zoom "100")
+      (Occurrence "/"))
+    (Path
+       "C:\USERS\ADMINISTRATOR\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\N32926_TINY\N32926TINY.DSN")
+    (Schematic "SCHEMATIC1") <<<<<<< HEAD
+    (Page "lcd&isi"))
+  (MPSSessionName "12187_000")
+  (PartMRUSelector
+    ("HEADER 8"
+      (FullPartName "HEADER 8.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 6"
+      (FullPartName "HEADER 6.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("GND_FIELD SIGNAL"
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DC005-25A
+      (FullPartName "DC005-25A.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (ASM1117-SOT223-3
+      (FullPartName "ASM1117-SOT223-3.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
+    (BPW37/TO
+      (FullPartName "BPW37/TO.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MMPQ2483
+      (FullPartName "MMPQ2483.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "1"))
+    (OFFPAGELEFT-L
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MICROUSB
+      (FullPartName "MICROUSB.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MP1470
+      (FullPartName "MP1470.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName
+         "C:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (AMS1117
+      (FullPartName "AMS1117.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
+    (OV2640_DVP_24P
+      (FullPartName "OV2640_DVP_24P.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (RJ45
+      (FullPartName "RJ45.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (YSX321SL
+      (FullPartName "YSX321SL.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (Q13MC14620006xx
+      (FullPartName "Q13MC14620006xx.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    (RT8201F-QFN32
+      (FullPartName "RT8201F-QFN32.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
+    (LCD_RGB_40P
+      (FullPartName "LCD_RGB_40P.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0"))
+    ("USB AF"
+      (FullPartName "USB AF.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\MYMISC.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\12187_000\Documents\GitHub\AllegroPackages\schematic")
+  (ISPCBBASICLICENSE "false"))

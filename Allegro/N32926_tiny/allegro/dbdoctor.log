@@ -1,0 +1,75 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : N32926tiny.brd                                )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Thu Oct 17 23:22:41 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR: in SHAPE (no segment)
+  class = BOUNDARY
+  subclass = BOTTOM 
+  WARNING(SPMHA1-62): Illegal parent identifier.
+   Error was fixed, object was deleted.
+
+WARNING:   WARNING(SPMHDB-42): Run batch DRC to regenerate DRC errs.
+
+1 warnings, 1 errors detected, 1 errors  fixed.
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : N32926tiny.brd                                )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Thu Oct 17 23:23:02 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Regenerating DRC
+  Original DRC errors:   2
+  Updated DRC errors:    2
+  DRC elapsed time:      00:00:01
+
+0 warnings, 0 errors detected, 0 errors  fixed.
+
+
+<<< Design Uprev Warnings >>>
+
+Thu Oct 17 23:23:02 2019				Page     1
+
+
+Performing DRC...
+DRC done; 2 errors detected.
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : N32926tiny.brd                                )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Thu Oct 17 23:23:11 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Regenerating DRC
+  Original DRC errors:   2
+  Updated DRC errors:    2
+  DRC elapsed time:      00:00:01
+
+0 warnings, 0 errors detected, 0 errors  fixed.
+
+
+<<< Design Uprev Warnings >>>
+
+Thu Oct 17 23:23:11 2019				Page     1
+
+
+Performing DRC...
+DRC done; 2 errors detected.

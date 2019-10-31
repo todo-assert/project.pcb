@@ -1,0 +1,221 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : oboard.brd                                    )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Aug 20 12:47:13 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Aug 20 12:47:13 2019				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/N32926_oboard/allegro/oboard.brd'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           C:/Users/12187_000/Documents/GitHub/AllegroPackages/shape/ 
+           C:/Users/12187_000/Documents/GitHub/AllegroPackages/pcb/ 
+           C:/Users/12187_000/Documents/GitHub/AllegroPackages/pad/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           C:/Users/12187_000/Documents/GitHub/AllegroPackages/pad/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'VIA'  pad stack refresh starting.
+
+     'VIA'  pad stack refreshed successfully.
+     
+'SMD2R5X0R8O'  pad stack refresh starting.
+
+     'SMD2R5X0R8O'  pad stack refreshed successfully.
+     
+'SMD3R0X0R8O'  pad stack refresh starting.
+
+     'SMD3R0X0R8O'  pad stack refreshed successfully.
+     
+'PAD_S3_0X2_0'  pad stack refresh starting.
+
+     'PAD_S3_0X2_0'  pad stack refreshed successfully.
+     
+'THC1R5D1R00C'  pad stack refresh starting.
+
+     'THC1R5D1R00C'  pad stack refreshed successfully.
+     
+'PADW2R2X1R1C_OBLONG'  pad stack refresh starting.
+
+     'PADW2R2X1R1C_OBLONG'  pad stack refreshed successfully.
+     
+'PADW1R8X0R5C_OBLONG'  pad stack refresh starting.
+
+     'PADW1R8X0R5C_OBLONG'  pad stack refreshed successfully.
+     
+'PAD_S1_7X1_2'  pad stack refresh starting.
+
+     'PAD_S1_7X1_2'  pad stack refreshed successfully.
+     
+'SMD1P9X1P4'  pad stack refresh starting.
+
+     'SMD1P9X1P4'  pad stack refreshed successfully.
+     
+'PAD_EX_2_9X2_9'  pad stack refresh starting.
+
+     'PAD_EX_2_9X2_9'  pad stack refreshed successfully.
+     
+'PAD_S1_0X0_2'  pad stack refresh starting.
+
+     'PAD_S1_0X0_2'  pad stack refreshed successfully.
+     
+'HOLE0P55'  pad stack refresh starting.
+
+     'HOLE0P55'  pad stack refreshed successfully.
+     
+'PAD_S1_3X0_5'  pad stack refresh starting.
+
+     'PAD_S1_3X0_5'  pad stack refreshed successfully.
+     
+'PAD_S1_0X0_5'  pad stack refresh starting.
+
+     'PAD_S1_0X0_5'  pad stack refreshed successfully.
+     
+'PAD_S1_2X0_48C'  pad stack refresh starting.
+
+     'PAD_S1_2X0_48C'  pad stack refreshed successfully.
+     
+'PAD_S1_2X0_23'  pad stack refresh starting.
+
+     'PAD_S1_2X0_23'  pad stack refreshed successfully.
+     
+'PAD_S1_2X0_6'  pad stack refresh starting.
+
+     'PAD_S1_2X0_6'  pad stack refreshed successfully.
+     
+'PAD_S2_0X0_7'  pad stack refresh starting.
+
+     'PAD_S2_0X0_7'  pad stack refreshed successfully.
+     
+'PAD_SOT223-3'  pad stack refresh starting.
+
+     'PAD_SOT223-3'  pad stack refreshed successfully.
+     
+'PAD_S1_0X0_16'  pad stack refresh starting.
+
+     'PAD_S1_0X0_16'  pad stack refreshed successfully.
+     
+'HOLE0P6'  pad stack refresh starting.
+
+     'HOLE0P6'  pad stack refreshed successfully.
+     
+'PAD_S1_3X1_15'  pad stack refresh starting.
+
+     'PAD_S1_3X1_15'  pad stack refreshed successfully.
+     
+'PAD_S0_55X0_35'  pad stack refresh starting.
+
+     'PAD_S0_55X0_35'  pad stack refreshed successfully.
+     
+'PAD_S0_55X0_45'  pad stack refresh starting.
+
+     'PAD_S0_55X0_45'  pad stack refreshed successfully.
+     
+'PAD_S0603RES'  pad stack refresh starting.
+
+     'PAD_S0603RES'  pad stack refreshed successfully.
+     Tue Aug 20 12:47:13 2019				Page     2
+
+
+     
+'PAD_S0402RES'  pad stack refresh starting.
+
+     'PAD_S0402RES'  pad stack refreshed successfully.
+     
+'PAD_S1_2X1_6'  pad stack refresh starting.
+
+     'PAD_S1_2X1_6'  pad stack refreshed successfully.
+     
+'NC_HOLE3P2'  pad stack refresh starting.
+
+     'NC_HOLE3P2'  pad stack refreshed successfully.
+     
+'PAD_D1_6_H0_9SQ'  pad stack refresh starting.
+
+     'PAD_D1_6_H0_9SQ'  pad stack refreshed successfully.
+     
+'PAD_D1_6_H0_9C'  pad stack refresh starting.
+
+     'PAD_D1_6_H0_9C'  pad stack refreshed successfully.
+     
+'SMD2R00X3R00R'  pad stack refresh starting.
+
+     'SMD2R00X3R00R'  pad stack refreshed successfully.
+     
+'SMD1R50X0R25O'  pad stack refresh starting.
+
+     'SMD1R50X0R25O'  pad stack refreshed successfully.
+     
+'THC1R25D0R70C'  pad stack refresh starting.
+
+     'THC1R25D0R70C'  pad stack refreshed successfully.
+     
+'SMD1R25X0R40R'  pad stack refresh starting.
+
+     'SMD1R25X0R40R'  pad stack refreshed successfully.
+     
+'HOLE1R1'  pad stack refresh starting.
+
+     'HOLE1R1'  pad stack refreshed successfully.
+     
+'SMD1R20X1R40R'  pad stack refresh starting.
+
+     'SMD1R20X1R40R'  pad stack refreshed successfully.
+     
+'SMD0R70X1R3R'  pad stack refresh starting.
+
+     'SMD0R70X1R3R'  pad stack refreshed successfully.
+     
+'PAD_S1_0X0_8'  pad stack refresh starting.
+
+     'PAD_S1_0X0_8'  pad stack refreshed successfully.
+     
+'PAD_S1_2X0_9'  pad stack refresh starting.
+
+     'PAD_S1_2X0_9'  pad stack refreshed successfully.
+     
+'PAD_S0_85X0_9'  pad stack refresh starting.
+
+     'PAD_S0_85X0_9'  pad stack refreshed successfully.
+     
+'PAD_S0_55X0_5'  pad stack refresh starting.
+
+     'PAD_S0_55X0_5'  pad stack refreshed successfully.
+     
+'SMD20_17'  pad stack refresh starting.
+
+     'SMD20_17'  pad stack refreshed successfully.
+     
+'VIA_HOLE12MILSX24MILS'  pad stack refresh starting.
+
+     'VIA_HOLE12MILSX24MILS'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

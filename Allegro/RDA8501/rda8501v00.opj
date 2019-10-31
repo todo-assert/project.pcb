@@ -1,0 +1,90 @@
+(ExpressProject "rda8501v00"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\rda8501v00.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (SY8120B1ABC
+      (FullPartName "SY8120B1ABC.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
+    (MP1470
+      (FullPartName "MP1470.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0"))
+    (RDA8501
+      (FullPartName "RDA8501.Normal")
+      (LibraryName
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\ALLEGROPACKAGES\SCHEMATIC\CHIP.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "12187_000")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\rda8501\rda8501v00.dsn")
+      (Path "Design Resources"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\rda8501\rda8501v00.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\12187_000\documents\github\project.pcb\allegro\rda8501\rda8501v00.dsn"
+         "Design Cache"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "0 0")
+        (Zoom "174")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\RDA8501\RDA8501V00.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "powertree"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1714 78 537")
+        (Scroll "-309 15")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\RDA8501\RDA8501V00.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "systemdiagram"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1766 130 589")
+        (Scroll "-372 0")
+        (Zoom "87")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\RDA8501\RDA8501V00.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "core"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 156 1498 156 615")
+        (Scroll "0 0")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\RDA8501\RDA8501V00.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "power"))))
