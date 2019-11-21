@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Nov-10-2019 at 22:39:31 }
+{ Using PSTWRITER 17.2.0 d001Nov-10-2019 at 23:42:47 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='I8080';
@@ -284,6 +284,16 @@ SECTION_NUMBER 1
  '@I8080.SCHEMATIC1(SCH_1):INS156527@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
  C_PATH='@i8080.schematic1(sch_1):ins156527@discrete.\capacitor non-pol.normal\(chips)',
  P_PATH='@i8080.schematic1(sch_1):page3_ins156527@discrete.\capacitor non-pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C35 'CAPACITOR NON-POL_CAP0603_1UF':;
+
+SECTION_NUMBER 1
+ '@I8080.SCHEMATIC1(SCH_1):INS15784231@DISCRETE.CAPACITOR NON-POL.NORMAL(CHIPS)':
+ C_PATH='@i8080.schematic1(sch_1):ins15784231@discrete.\capacitor non-pol.normal\(chips)',
+ P_PATH='@i8080.schematic1(sch_1):page2_ins15784231@discrete.\capacitor non-pol.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -754,6 +764,26 @@ SECTION_NUMBER 1
  '@I8080.SCHEMATIC1(SCH_1):INS157215@DISCRETE.RESISTOR/SM.NORMAL(CHIPS)':
  C_PATH='@i8080.schematic1(sch_1):ins157215@discrete.\resistor/sm.normal\(chips)',
  P_PATH='@i8080.schematic1(sch_1):page3_ins157215@discrete.\resistor/sm.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R37 'RESISTOR/SM_RES0603_10K':;
+
+SECTION_NUMBER 1
+ '@I8080.SCHEMATIC1(SCH_1):INS15784454@DISCRETE.RESISTOR/SM.NORMAL(CHIPS)':
+ C_PATH='@i8080.schematic1(sch_1):ins15784454@discrete.\resistor/sm.normal\(chips)',
+ P_PATH='@i8080.schematic1(sch_1):page2_ins15784454@discrete.\resistor/sm.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R38 'RESISTOR_RES0603_0R':;
+
+SECTION_NUMBER 1
+ '@I8080.SCHEMATIC1(SCH_1):INS15784861@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@i8080.schematic1(sch_1):ins15784861@discrete.\resistor.normal\(chips)',
+ P_PATH='@i8080.schematic1(sch_1):page2_ins15784861@discrete.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

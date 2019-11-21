@@ -2,20 +2,24 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:.../Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/i8080.brd  |
-|                                                    Sun Nov 10 23:47:23 2019  |
+|  C:.../GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/i8080_two.brd        |
+|                                                    Tue Nov 19 22:56:06 2019  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  PD12_89659   pins MOVED FROM this net (to net name listed on right)
-                                 J1.9                           
-                                                                           PD12
-                                 U1.18           12.0654 -5.7885
-                                                                           PD12
+  N256100      pins MOVED FROM this net (to net name listed on right)
+                                 C2.2            -3.0657  2.5157
+                                                                           OSCO
+                                 R1.2             1.3550  6.8450
+                                                                           OSCO
+                                 R2.2            -2.0950  3.3450
+                                                                           OSCO
+                                 Y1.3            -2.1056  5.5828
+                                                                           OSCO
 |------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
+|       Nets changed          :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:       4                                        |
 |------------------------------------------------------------------------------|

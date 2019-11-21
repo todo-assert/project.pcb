@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Nov-10-2019 at 22:39:31}
+{ Using PSTWRITER 17.2.0 d001Nov-10-2019 at 23:42:47}
 primitive 'CAPACITOR NON-POL_CAP0603_33PF';
   pin
     '1':
@@ -639,6 +639,21 @@ primitive 'RESISTOR/SM_RES0603_200K';
     VALUE='200K';
   end_body;
 end_primitive;
+primitive 'RESISTOR_RES0603_0R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='res0603';
+    VALUE='0R';
+  end_body;
+end_primitive;
 primitive 'RESISTOR_RES0603_10K/DNP';
   pin
     '1':
@@ -667,21 +682,6 @@ primitive 'RESISTOR/SM_RES0603_22R';
     PART_NAME='RESISTOR/SM';
     JEDEC_TYPE='res0603';
     VALUE='22R';
-  end_body;
-end_primitive;
-primitive 'RESISTOR_RES0603_0R';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='res0603';
-    VALUE='0R';
   end_body;
 end_primitive;
 primitive 'TS_018-4.55X3.5X1.8_TS_018-4P55';

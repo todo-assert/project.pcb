@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Nov-10-2019 at 23:42:47 }
+{ Using PSTWRITER 17.2.0 d001Nov-10-2019 at 23:45:19 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='I8080';
@@ -781,9 +781,9 @@ PART_NAME
  R38 'RESISTOR_RES0603_0R':;
 
 SECTION_NUMBER 1
- '@I8080.SCHEMATIC1(SCH_1):INS15784861@DISCRETE.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@i8080.schematic1(sch_1):ins15784861@discrete.\resistor.normal\(chips)',
- P_PATH='@i8080.schematic1(sch_1):page2_ins15784861@discrete.\resistor.normal\(chips)',
+ '@I8080.SCHEMATIC1(SCH_1):INS15785007@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@i8080.schematic1(sch_1):ins15785007@discrete.\resistor.normal\(chips)',
+ P_PATH='@i8080.schematic1(sch_1):page2_ins15785007@discrete.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

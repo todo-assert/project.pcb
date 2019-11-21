@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : i8080.brd                                     )
+(    Drawing          : i8080_two.brd                                 )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Sun Nov 10 23:47:23 2019                      )
+(    Date/Time        : Tue Nov 19 22:56:05 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         '.'
+Schematic directory:         'C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro'
 Design Directory:            '.'
-Old design name:             'C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/i8080.brd'
-New design name:             'C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/i8080.brd'
+Old design name:             'C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/i8080_two.brd'
+New design name:             'C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/i8080_two.brd'
 
-CmdLine: netrev -$ -i . -x -y 1 -q netrev_constraint_report.xml C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/#Taaaaai05496.tmp
+CmdLine: netrev -$ -i C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro -x -y 1 -q netrev_constraint_report.xml C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/#Taaaaac14804.tmp
 
 ------ Preparing to read pst files ------
 
-Starting to read ./pstchip.dat 
-   Finished reading ./pstchip.dat (00:00:00.07)
-Starting to read ./pstxprt.dat 
-   Finished reading ./pstxprt.dat (00:00:00.01)
-Starting to read ./pstxnet.dat 
-   Finished reading ./pstxnet.dat (00:00:00.00)
+Starting to read C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/pstchip.dat 
+   Finished reading C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/pstchip.dat (00:00:00.08)
+Starting to read C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/pstxprt.dat 
+   Finished reading C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/pstxnet.dat 
+   Finished reading C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s-i8080/allegro/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -64,7 +64,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Nov 10 23:47:23 2019
+netrev run on Nov 19 22:56:05 2019
    DESIGN NAME : 'I8080'
    PACKAGING ON Mar  2 2016 00:37:24
 
@@ -89,6 +89,6 @@ netrev run on Nov 10 23:47:23 2019
  No oversight detected
  No warning detected
 
-cpu time      0:00:48
-elapsed time  0:00:00
+cpu time      0:01:08
+elapsed time  0:00:01
 
