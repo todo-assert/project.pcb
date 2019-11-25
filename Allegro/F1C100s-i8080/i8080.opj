@@ -132,8 +132,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1192 52 502")
-        (Scroll "-484 -4")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1192 52 502")
+        (Scroll "-124 0")
         (Zoom "87")
         (Occurrence "/"))
       (Path
@@ -144,7 +144,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1244 104 554")
-        (Scroll "0 350")
+        (Scroll "0 0")
         (Zoom "188")
         (Occurrence "/"))
       (Path
@@ -154,8 +154,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "0 575")
+        (Placement "44 2 3 -1 -1 -8 -31 104 1740 104 563")
+        (Scroll "-61 0")
         (Zoom "174")
         (Occurrence "/"))
       (Path
