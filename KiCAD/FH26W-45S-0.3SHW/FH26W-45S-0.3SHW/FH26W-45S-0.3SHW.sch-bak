@@ -280,17 +280,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 2550 4650 2650
 $Comp
-L power:GND #PWR0101
-U 1 1 5DDF1503
-P 4650 2950
-F 0 "#PWR0101" H 4650 2700 50  0001 C CNN
-F 1 "GND" H 4655 2777 50  0000 C CNN
-F 2 "" H 4650 2950 50  0001 C CNN
-F 3 "" H 4650 2950 50  0001 C CNN
-	1    4650 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0102
 U 1 1 5DDF1D72
 P 4050 2200
@@ -530,38 +519,6 @@ LEDA
 Text Label 5100 1600 0    50   Italic 0
 GND
 $Comp
-L Device:R R3
-U 1 1 5DEEC1A3
-P 4250 3400
-F 0 "R3" V 4200 3200 50  0000 C CNN
-F 1 "10K" V 4250 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 3400 50  0001 C CNN
-F 3 "~" H 4250 3400 50  0001 C CNN
-	1    4250 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4400 3400 4850 3400
-$Comp
-L Device:C C5
-U 1 1 5DEFE26C
-P 5000 3400
-F 0 "C5" V 4950 3250 50  0000 C CNN
-F 1 "C" V 4950 3500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5038 3250 50  0001 C CNN
-F 3 "~" H 5000 3400 50  0001 C CNN
-	1    5000 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5150 3400 5400 3400
-Text Label 3700 3400 0    50   Italic 0
-+3.3V
-Text Label 5200 3400 0    50   Italic 0
-GND
-Text Label 4550 3400 0    50   Italic 0
-RST
-$Comp
 L Device:R R4
 U 1 1 5DF17C22
 P 4250 3500
@@ -574,8 +531,6 @@ F 3 "~" H 4250 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4400 3500 4850 3500
-Wire Wire Line
-	3650 3400 4100 3400
 Wire Wire Line
 	3650 3500 4100 3500
 Text Label 3700 3500 0    50   Italic 0
@@ -806,4 +761,227 @@ Wire Wire Line
 Connection ~ 5250 2650
 Text Label 5250 2250 0    50   ~ 0
 +3.3V
+$Comp
+L power:GND #PWR0101
+U 1 1 5DDF1503
+P 4650 2950
+F 0 "#PWR0101" H 4650 2700 50  0001 C CNN
+F 1 "GND" H 4655 2777 50  0000 C CNN
+F 2 "" H 4650 2950 50  0001 C CNN
+F 3 "" H 4650 2950 50  0001 C CNN
+	1    4650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x40_Female J?
+U 1 1 5DDEFF6B
+P 8600 2950
+F 0 "J?" H 8628 2926 50  0000 L CNN
+F 1 "I80 to RGB" H 8628 2835 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal" H 8600 2950 50  0001 C CNN
+F 3 "~" H 8600 2950 50  0001 C CNN
+	1    8600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4950 8400 4950
+Wire Wire Line
+	7700 4850 8400 4850
+Wire Wire Line
+	7700 4750 8400 4750
+Wire Wire Line
+	7700 4650 8400 4650
+Wire Wire Line
+	7700 4550 8400 4550
+Wire Wire Line
+	7700 4450 8400 4450
+Wire Wire Line
+	7700 4350 8400 4350
+Wire Wire Line
+	7700 4250 8400 4250
+Wire Wire Line
+	7700 4150 8400 4150
+Wire Wire Line
+	7700 4050 8400 4050
+Wire Wire Line
+	7700 3950 8400 3950
+Wire Wire Line
+	7700 3850 8400 3850
+Wire Wire Line
+	7700 3750 8400 3750
+Wire Wire Line
+	7700 3650 8400 3650
+Wire Wire Line
+	7700 3550 8400 3550
+Wire Wire Line
+	7700 3450 8400 3450
+Wire Wire Line
+	7700 3350 8400 3350
+Wire Wire Line
+	7700 3250 8400 3250
+Wire Wire Line
+	7700 3150 8400 3150
+Wire Wire Line
+	7700 3050 8400 3050
+Wire Wire Line
+	7700 2950 8400 2950
+Wire Wire Line
+	7700 2850 8400 2850
+Wire Wire Line
+	7700 2750 8400 2750
+Wire Wire Line
+	7700 2650 8400 2650
+Wire Wire Line
+	7700 2550 8400 2550
+Wire Wire Line
+	7700 2450 8400 2450
+Wire Wire Line
+	7700 2350 8400 2350
+Wire Wire Line
+	7700 2250 8400 2250
+Wire Wire Line
+	7700 2150 8400 2150
+Wire Wire Line
+	7700 2050 8400 2050
+Wire Wire Line
+	7700 1950 8400 1950
+Wire Wire Line
+	7700 1850 8400 1850
+Wire Wire Line
+	7700 1750 8400 1750
+Wire Wire Line
+	7700 1650 8400 1650
+Wire Wire Line
+	7700 1550 8400 1550
+Wire Wire Line
+	7700 1450 8400 1450
+Wire Wire Line
+	7700 1350 8400 1350
+Wire Wire Line
+	7700 1250 8400 1250
+Wire Wire Line
+	7700 1150 8400 1150
+Wire Wire Line
+	7700 1050 8400 1050
+Text Label 8100 4950 0    50   ~ 0
+LEDK
+Text Label 8100 4850 0    50   ~ 0
+LEDA
+Text Label 8100 4750 0    50   ~ 0
+GND
+Text Label 8100 4550 0    50   ~ 0
+GND
+Text Label 8100 4450 0    50   ~ 0
+GND
+Text Label 8100 4350 0    50   ~ 0
+D23
+Text Label 8100 4250 0    50   ~ 0
+D22
+Text Label 8100 4150 0    50   ~ 0
+D21
+Text Label 8100 4050 0    50   ~ 0
+D20
+Text Label 8100 3950 0    50   ~ 0
+D19
+Text Label 8100 3850 0    50   ~ 0
+D18
+Text Label 8100 3750 0    50   ~ 0
+GND
+Text Label 8100 3650 0    50   ~ 0
+GND
+Text Label 8100 3550 0    50   ~ 0
+D15
+Text Label 8100 3450 0    50   ~ 0
+D14
+Text Label 8100 3350 0    50   ~ 0
+D13
+Text Label 8100 3250 0    50   ~ 0
+D12
+Text Label 8100 3150 0    50   ~ 0
+D11
+Text Label 8100 3050 0    50   ~ 0
+D10
+Text Label 8100 2950 0    50   ~ 0
+GND
+Text Label 8100 2850 0    50   ~ 0
+GND
+Text Label 8100 2750 0    50   ~ 0
+D7
+Text Label 8100 2650 0    50   ~ 0
+D6
+Text Label 8100 2550 0    50   ~ 0
+D5
+Text Label 8100 2450 0    50   ~ 0
+D4
+Text Label 8100 2350 0    50   ~ 0
+D3
+Text Label 8100 2250 0    50   ~ 0
+D2
+Text Label 8100 2150 0    50   ~ 0
+GND
+Text Label 8100 2050 0    50   ~ 0
+LCD_CLK
+Text Label 8100 1950 0    50   ~ 0
++3V3
+Text Label 8100 1850 0    50   ~ 0
+HSYNC
+Text Label 8100 1750 0    50   ~ 0
+VSYNC
+Text Label 8100 1650 0    50   ~ 0
+DE
+Text Label 8100 1450 0    50   ~ 0
+GND
+Text Label 8100 1350 0    50   ~ 0
+X1
+Text Label 8100 1250 0    50   ~ 0
+Y1
+Text Label 8100 1150 0    50   ~ 0
+X2
+Text Label 8100 1050 0    50   ~ 0
+Y2
+Text Label 8100 4650 0    50   ~ 0
++3V3
+Text Label 7800 4350 0    50   ~ 10
+DB15
+Text Label 7800 4250 0    50   ~ 10
+DB14
+Text Label 7800 4150 0    50   ~ 10
+DB13
+Text Label 7800 4050 0    50   ~ 10
+DB12
+Text Label 7800 3950 0    50   ~ 10
+DB11
+Text Label 7800 3550 0    50   ~ 10
+DB10
+Text Label 7800 3450 0    50   ~ 10
+DB9
+Text Label 7800 3350 0    50   ~ 10
+DB8
+Text Label 7800 3250 0    50   ~ 10
+DB7
+Text Label 7800 3150 0    50   ~ 10
+DB6
+Text Label 7800 3050 0    50   ~ 10
+DB5
+Text Label 7800 2750 0    50   ~ 10
+DB4
+Text Label 7800 2650 0    50   ~ 10
+DB3
+Text Label 7800 2550 0    50   ~ 10
+DB2
+Text Label 7800 2450 0    50   ~ 10
+DB1
+Text Label 7800 2350 0    50   ~ 10
+DB0
+Text Label 7800 2050 0    50   ~ 10
+WR
+Text Label 7800 1850 0    50   ~ 10
+RD
+Text Label 7800 1650 0    50   ~ 10
+RS
+Text Label 7800 1750 0    50   ~ 10
+~CS~
+NoConn ~ 7700 1550
+NoConn ~ 7700 2250
+NoConn ~ 7700 3850
 $EndSCHEMATC
