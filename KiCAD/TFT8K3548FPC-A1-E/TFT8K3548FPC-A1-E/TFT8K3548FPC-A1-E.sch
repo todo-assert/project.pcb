@@ -461,40 +461,10 @@ Text Label 1900 4500 0    50   Italic 0
 Text Label 1900 4600 0    50   Italic 0
 GND
 $Comp
-L Connector:TestPoint TP11
-U 1 1 5DDC1EF9
-P 1850 5050
-F 0 "TP11" V 1900 5100 50  0000 C CNN
-F 1 "M3" V 1850 5300 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2050 5050 50  0001 C CNN
-F 3 "~" H 2050 5050 50  0001 C CNN
-	1    1850 5050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1850 5050 2150 5050
-Text Label 1900 5050 0    50   Italic 0
-GND
-$Comp
 L Connector:TestPoint TP8
-U 1 1 5DDE0DAA
-P 1850 4750
-F 0 "TP8" V 1900 4800 50  0000 C CNN
-F 1 "M3" V 1850 5000 50  0000 C CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2050 4750 50  0001 C CNN
-F 3 "~" H 2050 4750 50  0001 C CNN
-	1    1850 4750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1850 4750 2150 4750
-Text Label 1900 4750 0    50   Italic 0
-GND
-$Comp
-L Connector:TestPoint TP9
-U 1 1 5DDE71F7
+U 1 1 5DDC1EF9
 P 1850 4850
-F 0 "TP9" V 1900 4900 50  0000 C CNN
+F 0 "TP8" V 1900 4900 50  0000 C CNN
 F 1 "M3" V 1850 5100 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2050 4850 50  0001 C CNN
 F 3 "~" H 2050 4850 50  0001 C CNN
@@ -506,10 +476,10 @@ Wire Wire Line
 Text Label 1900 4850 0    50   Italic 0
 GND
 $Comp
-L Connector:TestPoint TP10
+L Connector:TestPoint TP9
 U 1 1 5DDED835
 P 1850 4950
-F 0 "TP10" V 1900 5000 50  0000 C CNN
+F 0 "TP9" V 1900 5000 50  0000 C CNN
 F 1 "M3" V 1850 5200 50  0000 C CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 2050 4950 50  0001 C CNN
 F 3 "~" H 2050 4950 50  0001 C CNN
@@ -552,32 +522,10 @@ Wire Wire Line
 	1450 2700 1800 2700
 Wire Wire Line
 	1450 1600 1800 1600
-$Comp
-L Device:C C6
-U 1 1 5DE642FE
-P 1300 2200
-F 0 "C6" V 1250 2050 50  0000 C CNN
-F 1 "0.1uF" V 1250 2350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1338 2050 50  0001 C CNN
-F 3 "~" H 1300 2200 50  0001 C CNN
-	1    1300 2200
-	-1   0    0    1   
-$EndComp
 Text Label 5250 2250 0    50   ~ 0
 +3.3V
 Text Label 1550 1600 0    50   ~ 0
 LCD_ID
-$Comp
-L qconnectors:TFT8K3548FPC-A1-E J1
-U 1 1 5DDBFC9C
-P 2200 1000
-F 0 "J1" H 2200 1165 50  0000 C CNN
-F 1 "TFT8K3548FPC-A1-E" H 2200 1074 50  0000 C CNN
-F 2 "qconnectors:TFT8K3548FPC-A1-E" H 2200 1000 50  0001 C CNN
-F 3 "" H 2200 1000 50  0001 C CNN
-	1    2200 1000
-	1    0    0    -1  
-$EndComp
 Text Label 1550 1100 0    50   Italic 0
 GND
 Wire Wire Line
@@ -679,17 +627,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 2650 4650 2750
 $Comp
-L Device:C C7
-U 1 1 5DF98B1D
-P 1100 2200
-F 0 "C7" V 1050 2050 50  0000 C CNN
-F 1 "0.1uF" V 1050 2350 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1138 2050 50  0001 C CNN
-F 3 "~" H 1100 2200 50  0001 C CNN
-	1    1100 2200
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 5DF98D6A
 P 900 2200
@@ -704,14 +641,6 @@ Wire Wire Line
 	900  2050 900  1800
 Wire Wire Line
 	900  1800 1800 1800
-Wire Wire Line
-	1100 2050 1100 1900
-Wire Wire Line
-	1100 1900 1800 1900
-Wire Wire Line
-	1300 2050 1300 2000
-Wire Wire Line
-	1300 2000 1800 2000
 $Comp
 L power:GND #PWR01
 U 1 1 5DFB0026
@@ -723,34 +652,8 @@ F 3 "" H 900 2450 50  0001 C CNN
 	1    900  2450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5DFB0381
-P 1100 2450
-F 0 "#PWR02" H 1100 2200 50  0001 C CNN
-F 1 "GND" H 1105 2277 50  0000 C CNN
-F 2 "" H 1100 2450 50  0001 C CNN
-F 3 "" H 1100 2450 50  0001 C CNN
-	1    1100 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5DFB04AF
-P 1300 2450
-F 0 "#PWR03" H 1300 2200 50  0001 C CNN
-F 1 "GND" H 1305 2277 50  0000 C CNN
-F 2 "" H 1300 2450 50  0001 C CNN
-F 3 "" H 1300 2450 50  0001 C CNN
-	1    1300 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	900  2350 900  2450
-Wire Wire Line
-	1100 2350 1100 2450
-Wire Wire Line
-	1300 2350 1300 2450
 NoConn ~ 3750 5350
 NoConn ~ 5350 5050
 Wire Wire Line
@@ -886,4 +789,33 @@ F 3 "~" H 6950 1100 50  0001 C CNN
 	1    6950 1100
 	0    1    1    0   
 $EndComp
+NoConn ~ 1850 5050
+$Comp
+L qconnectors:TFT8K3548FPC-A1-E J1
+U 1 1 5DDBFC9C
+P 2200 1000
+F 0 "J1" H 2200 1165 50  0000 C CNN
+F 1 "TFT8K3548FPC-A1-E" H 2200 1074 50  0000 C CNN
+F 2 "qconnectors:TFT8K3548FPC-A1-E" H 2200 1000 50  0001 C CNN
+F 3 "" H 2200 1000 50  0001 C CNN
+	1    2200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint +1
+U 1 1 5DDD6B5F
+P 1850 5050
+F 0 "+1" V 1900 5100 50  0000 C CNN
+F 1 "LOGO" V 1850 5350 50  0000 C CNN
+F 2 "logo:monggoyun2" H 2050 5050 50  0001 C CNN
+F 3 "~" H 2050 5050 50  0001 C CNN
+	1    1850 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1300 2000 1800 2000
+Wire Wire Line
+	1100 1900 1800 1900
+Wire Wire Line
+	1300 2050 1300 2000
 $EndSCHEMATC

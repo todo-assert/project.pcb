@@ -1,140 +1,18 @@
-\t (00:00:42) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:42)     Journal start - Tue Oct 08 23:41:22 2019
-\t (00:00:42)         Host=WINDOWS-4EI6C63 User=12187_000 Pid=7376 CPUs=4
-\t (00:00:42) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
-\t (00:00:42) 
-\d (00:00:42) Design opened: C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd
-\i (00:00:42) trapsize 7837
-\i (00:00:42) generaledit 
-\i (00:00:43) trapsize 4161
-\i (00:00:45) zoom in 1 
-\i (00:00:45) setwindow pcb
-\i (00:00:45) zoom in 30.8456 -14.0337
-\i (00:00:45) trapsize 2080
-\i (00:00:47) zoom out 1 
-\i (00:00:47) setwindow pcb
-\i (00:00:47) zoom out 11.8299 -11.6619
-\i (00:00:47) trapsize 4161
-\i (00:00:48) zoom in 1 
-\i (00:00:48) setwindow pcb
-\i (00:00:48) zoom in 16.9896 -11.6619
-\i (00:00:48) trapsize 2080
-\i (00:00:49) zoom in 1 
-\i (00:00:49) setwindow pcb
-\i (00:00:49) zoom in 10.8314 0.7378
-\i (00:00:49) trapsize 1040
-\i (00:00:50) zoom in 1 
-\i (00:00:50) setwindow pcb
-\i (00:00:50) zoom in 10.7898 0.6546
-\i (00:00:50) trapsize 520
-\i (00:00:51) zoom out 1 
-\i (00:00:51) setwindow pcb
-\i (00:00:51) zoom out 10.2905 0.4986
-\i (00:00:51) trapsize 1040
-\i (00:00:52) zoom in 1 
-\i (00:00:52) setwindow pcb
-\i (00:00:52) zoom in 9.8535 0.8107
-\i (00:00:52) trapsize 520
-\i (00:00:53) zoom out 1 
-\i (00:00:53) setwindow pcb
-\i (00:00:53) zoom out 9.8431 0.8212
-\i (00:00:53) trapsize 1040
-\i (00:00:53) zoom out 1 
-\i (00:00:53) setwindow pcb
-\i (00:00:53) zoom out 9.8223 0.8211
-\i (00:00:53) trapsize 2080
-\i (00:01:05) zoom out 1 
-\i (00:01:05) setwindow pcb
-\i (00:01:05) zoom out 9.4895 -6.5854
-\i (00:01:05) trapsize 4161
-\i (00:01:05) zoom out 1 
-\i (00:01:05) setwindow pcb
-\i (00:01:05) zoom out 9.2398 -7.3344
-\i (00:01:05) trapsize 8322
-\i (00:01:06) zoom in 1 
-\i (00:01:06) setwindow pcb
-\i (00:01:06) zoom in -49.6794 7.3123
-\i (00:01:06) trapsize 4161
-\i (00:01:07) zoom in 1 
-\i (00:01:07) setwindow pcb
-\i (00:01:07) zoom in -40.0260 13.0545
-\i (00:01:07) trapsize 2080
-\i (00:01:08) zoom out 1 
-\i (00:01:08) setwindow pcb
-\i (00:01:08) zoom out -34.0758 11.0573
-\i (00:01:08) trapsize 4161
-\i (00:01:08) zoom out 1 
-\i (00:01:08) setwindow pcb
-\i (00:01:08) zoom out -34.0757 11.0572
-\i (00:01:08) trapsize 8322
-\i (00:01:09) zoom in 1 
-\i (00:01:09) setwindow pcb
-\i (00:01:09) zoom in 40.6552 -5.7530
-\i (00:01:09) trapsize 4161
-\i (00:01:10) zoom in 1 
-\i (00:01:10) setwindow pcb
-\i (00:01:10) zoom in 21.5148 12.8049
-\i (00:01:10) trapsize 2080
-\i (00:01:12) zoom out 1 
-\i (00:01:12) setwindow pcb
-\i (00:01:12) zoom out 18.3525 15.6344
-\i (00:01:12) trapsize 4161
-\i (00:01:12) zoom in 1 
-\i (00:01:12) setwindow pcb
-\i (00:01:12) zoom in 20.5995 20.5443
-\i (00:01:12) trapsize 2080
-\i (00:01:13) zoom in 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom in 16.6882 20.4612
-\i (00:01:13) trapsize 1040
-\i (00:01:16) zoom out 1 
-\i (00:01:16) setwindow pcb
-\i (00:01:16) zoom out 19.6217 15.0312
-\i (00:01:16) trapsize 2080
-\i (00:01:17) zoom out 1 
-\i (00:01:17) setwindow pcb
-\i (00:01:17) zoom out 19.6216 15.0311
-\i (00:01:17) trapsize 4161
-\i (00:01:18) zoom out 1 
-\i (00:01:18) setwindow pcb
-\i (00:01:18) zoom out 19.6217 14.9480
-\i (00:01:18) trapsize 8322
-\i (00:01:18) zoom in 1 
-\i (00:01:18) setwindow pcb
-\i (00:01:18) zoom in 6.4730 -12.6809
-\i (00:01:18) trapsize 4161
-\i (00:01:20) zoom in 1 
-\i (00:01:20) setwindow pcb
-\i (00:01:20) zoom in 6.5563 15.2808
-\i (00:01:20) trapsize 2080
-\i (00:01:21) zoom out 1 
-\i (00:01:21) setwindow pcb
-\i (00:01:21) zoom out 6.5563 14.9480
-\i (00:01:21) trapsize 4161
-\i (00:01:21) zoom out 1 
-\i (00:01:21) setwindow pcb
-\i (00:01:21) zoom out 6.2234 13.2004
-\i (00:01:21) trapsize 8322
-\i (00:01:22) zoom in 1 
-\i (00:01:22) setwindow pcb
-\i (00:01:22) zoom in -39.7137 -1.1133
-\i (00:01:22) trapsize 4161
-\i (00:01:22) zoom out 1 
-\i (00:01:22) setwindow pcb
-\i (00:01:22) zoom out -24.6510 -3.1938
-\i (00:01:22) trapsize 8322
-\i (00:01:23) zoom in 1 
-\i (00:01:23) setwindow pcb
-\i (00:01:23) zoom in 27.9437 6.6262
-\i (00:01:23) trapsize 4161
-\i (00:01:26) zoom out 1 
-\i (00:01:26) setwindow pcb
-\i (00:01:26) zoom out 27.4444 6.2933
-\i (00:01:26) trapsize 8322
-\i (00:01:27) trapsize 15674
-\i (00:01:29) open 
-\i (00:01:42) fillin "C:\Users\12187_000\Documents\GitHub\project.pcb\Allegro\N32926_tiny\allegro\N32926tiny.brd"
-\i (00:01:42) cd "C:\Users\12187_000\Documents\GitHub\project.pcb\Allegro\N32926_tiny\allegro"
-\t (00:01:42) Opening existing design...
-\i (00:01:42) trapsize 7559
-\t (00:01:42)     Journal end - Tue Oct 08 23:42:23 2019
+\t (00:00:36) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:36)     Journal start - Tue Nov 26 23:55:52 2019
+\t (00:00:36)         Host=WINDOWS-4EI6C63 User=12187_000 Pid=6876 CPUs=4
+\t (00:00:36) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:00:36) 
+\d (00:00:36) Design opened: C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd
+\i (00:00:37) generaledit 
+\i (00:00:38) trapsize 3997
+\i (00:00:39) zoom out 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom out 5.0357 0.9226
+\i (00:00:39) trapsize 7994
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in 22.6226 22.6664
+\i (00:00:40) trapsize 3997
+\i (00:01:25) exit 
+\t (00:01:25)     Journal end - Tue Nov 26 23:56:41 2019
