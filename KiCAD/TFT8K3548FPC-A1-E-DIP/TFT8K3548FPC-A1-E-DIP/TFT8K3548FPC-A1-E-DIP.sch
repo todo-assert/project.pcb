@@ -710,32 +710,15 @@ F 3 "" H 7200 1400 50  0001 C CNN
 	1    7200 1400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R6
-U 1 1 5E058FF5
-P 7200 1650
-F 0 "R6" H 7150 1500 50  0000 C CNN
-F 1 "10K" V 7200 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7130 1650 50  0001 C CNN
-F 3 "~" H 7200 1650 50  0001 C CNN
-	1    7200 1650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6850 1450 7200 1450
 Text Label 6950 1450 0    50   Italic 0
 LEDA
 Wire Wire Line
-	7200 1850 7200 1800
-Wire Wire Line
 	7200 1400 7200 1450
 Connection ~ 7200 1450
 Wire Wire Line
 	7200 1450 7200 1500
-Wire Wire Line
-	7150 1850 7200 1850
-Wire Wire Line
-	7600 1850 7200 1850
 Text Label 7300 1850 0    50   Italic 0
 BL
 Wire Wire Line
@@ -818,4 +801,22 @@ F 3 "" H 4550 3850 50  0001 C CNN
 	1    4550 3850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7600 1850 7200 1850
+Wire Wire Line
+	7150 1850 7200 1850
+$Comp
+L Device:R R6
+U 1 1 5E058FF5
+P 7200 1650
+F 0 "R6" H 7150 1500 50  0000 C CNN
+F 1 "10K" V 7200 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7130 1650 50  0001 C CNN
+F 3 "~" H 7200 1650 50  0001 C CNN
+	1    7200 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7200 1850 7200 1800
+Connection ~ 7200 1850
 $EndSCHEMATC

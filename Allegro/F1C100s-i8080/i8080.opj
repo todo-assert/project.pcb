@@ -154,9 +154,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "-61 0")
-        (Zoom "174")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
+        (Scroll "174 1183")
+        (Zoom "348")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S-I8080\I8080.DSN")
