@@ -1,4 +1,4 @@
-16307329534133931
+16312055388147187
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72912,9 +72912,30 @@ NT35510-3.97inch-FH26W-45S-0.3SHW(60)
 47
 46
 qconnectors
+NT35510-3.97inch-FH26W-45S-0.3SHW(60)_Handsoldering
+
+
+0
+47
+46
+qconnectors
+TF-015
+
+
+0
+13
+10
+qconnectors
 TFT8K3548FPC-A1-E
 
 
 0
 46
 46
+qmechanics
+SW-Button-TS-018
+
+
+0
+4
+4

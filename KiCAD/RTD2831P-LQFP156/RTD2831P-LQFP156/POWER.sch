@@ -290,8 +290,6 @@ Wire Wire Line
 Connection ~ 2500 2200
 Text Label 2750 1700 0    50   ~ 0
 ST_5V
-Wire Wire Line
-	2750 1700 2950 1700
 $Comp
 L Device:L_Small L?
 U 1 1 5DEF20FC
@@ -520,8 +518,6 @@ Wire Wire Line
 	2700 3000 2700 2750
 Connection ~ 2700 3000
 Connection ~ 2700 2750
-Wire Wire Line
-	2700 2750 2900 2750
 Text Label 2700 2750 0    50   ~ 0
 Vcore
 Text Notes 2500 1550 2    50   ~ 0
@@ -713,8 +709,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 3900 2650 3700
 Connection ~ 2650 3700
-Wire Wire Line
-	2650 3700 2850 3700
 $Comp
 L Regulator_Linear:AMS1117-1.5 U?
 U 1 1 5DF7CD81
@@ -869,8 +863,6 @@ Vddr_ref
 Connection ~ 2500 5100
 Wire Wire Line
 	2500 5100 2800 5100
-Wire Wire Line
-	2500 4700 2800 4700
 $Comp
 L Device:Q_PMOS_GSD Q?
 U 1 1 5E03209F
@@ -1185,4 +1177,39 @@ Text Notes 1250 6800 2    50   ~ 0
 +5V/+3V3 SWITCH
 Text Notes 1350 7650 2    50   ~ 0
 EMMC POWER SUPPLY
+Text HLabel 3050 1700 2    50   Output ~ 0
+ST_5V
+Wire Wire Line
+	2750 1700 3050 1700
+Text HLabel 3050 2750 2    50   Output ~ 0
+Vcore
+Wire Wire Line
+	2700 2750 3050 2750
+Text HLabel 3050 3700 2    50   Output ~ 0
+STB_3V3
+Wire Wire Line
+	2650 3700 3050 3700
+Text HLabel 3050 4700 2    50   Output ~ 0
+Vddr
+Wire Wire Line
+	2500 4700 3050 4700
+Text HLabel 3050 5850 2    50   Output ~ 0
++5V
+Wire Wire Line
+	2900 5850 3050 5850
+Connection ~ 2900 5850
+Text HLabel 3050 6450 2    50   Output ~ 0
++3V3
+Wire Wire Line
+	2900 6450 3050 6450
+Connection ~ 2900 6450
+Text HLabel 3050 7100 2    50   Output ~ 0
++1V8
+Wire Wire Line
+	2750 7100 3050 7100
+Text HLabel 3050 7550 2    50   Input ~ 0
+GND
+Wire Wire Line
+	2750 7550 3050 7550
+Connection ~ 2750 7550
 $EndSCHEMATC

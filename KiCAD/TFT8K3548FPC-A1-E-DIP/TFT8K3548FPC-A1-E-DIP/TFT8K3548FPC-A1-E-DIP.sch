@@ -28,15 +28,13 @@ $EndComp
 Wire Wire Line
 	1450 1100 1800 1100
 Wire Wire Line
-	1450 2800 1800 2800
+	1450 2900 1800 2900
 Wire Wire Line
-	1450 3000 1800 3000
+	1450 3100 1800 3100
 Wire Wire Line
-	1450 3200 1800 3200
+	1450 3300 1800 3300
 Wire Wire Line
-	2600 3300 2950 3300
-Wire Wire Line
-	2600 3100 2950 3100
+	2600 3200 2950 3200
 Wire Wire Line
 	2600 2900 2950 2900
 Wire Wire Line
@@ -74,32 +72,28 @@ WR
 Text Label 2700 2200 0    50   Italic 0
 RST
 Text Label 2700 2300 0    50   Italic 0
-DB17
-Text Label 2700 2500 0    50   Italic 0
 DB15
-Text Label 2700 2700 0    50   Italic 0
+Text Label 2700 2500 0    50   Italic 0
 DB13
-Text Label 2700 2900 0    50   Italic 0
+Text Label 2700 2700 0    50   Italic 0
 DB11
-Text Label 1550 2700 0    50   Italic 0
-DB0
-Text Label 1550 3100 0    50   Italic 0
-DB4
-Text Label 1550 3300 0    50   Italic 0
-DB6
-Text Label 2700 3200 0    50   Italic 0
-DB8
-Text Label 2700 3000 0    50   Italic 0
-DB10
-Text Label 2700 3100 0    50   Italic 0
-DB9
 Text Label 1550 2800 0    50   Italic 0
-DB1
-Text Label 1550 3000 0    50   Italic 0
-DB3
+DB0
 Text Label 1550 3200 0    50   Italic 0
+DB4
+Text Label 2700 3000 0    50   Italic 0
+DB8
+Text Label 2700 2800 0    50   Italic 0
+DB10
+Text Label 2700 2900 0    50   Italic 0
+DB9
+Text Label 1550 2900 0    50   Italic 0
+DB1
+Text Label 1550 3100 0    50   Italic 0
+DB3
+Text Label 1550 3300 0    50   Italic 0
 DB5
-Text Label 2700 3300 0    50   Italic 0
+Text Label 2700 3200 0    50   Italic 0
 DB7
 Text Label 2700 1800 0    50   Italic 0
 LEDA
@@ -479,11 +473,11 @@ Wire Wire Line
 	1850 4950 2150 4950
 Text Label 1900 4950 0    50   Italic 0
 GND
-Text Label 1550 2900 0    50   Italic 0
+Text Label 1550 3000 0    50   Italic 0
 DB2
-Text Label 2700 2800 0    50   Italic 0
-DB12
 Text Label 2700 2600 0    50   Italic 0
+DB12
+Text Label 2700 2400 0    50   Italic 0
 DB14
 Wire Wire Line
 	1450 1700 1800 1700
@@ -494,21 +488,19 @@ Wire Wire Line
 Wire Wire Line
 	1450 2300 1800 2300
 Wire Wire Line
+	2600 2400 2950 2400
+Wire Wire Line
 	2600 2600 2950 2600
 Wire Wire Line
 	2600 2800 2950 2800
 Wire Wire Line
 	2600 3000 2950 3000
 Wire Wire Line
-	2600 3200 2950 3200
+	1450 3200 1800 3200
 Wire Wire Line
-	1450 3300 1800 3300
+	1450 3000 1800 3000
 Wire Wire Line
-	1450 3100 1800 3100
-Wire Wire Line
-	1450 2900 1800 2900
-Wire Wire Line
-	1450 2700 1800 2700
+	1450 2800 1800 2800
 Wire Wire Line
 	1450 1600 1800 1600
 Text Label 5250 2250 0    50   ~ 0
@@ -521,10 +513,6 @@ Wire Wire Line
 	2600 1100 2950 1100
 Text Label 2700 1100 0    50   Italic 0
 GND
-Wire Wire Line
-	2600 2400 2950 2400
-Text Label 2700 2400 0    50   Italic 0
-DB16
 Wire Wire Line
 	2600 1900 2950 1900
 Text Label 2700 1900 0    50   Italic 0
@@ -819,4 +807,10 @@ $EndComp
 Wire Wire Line
 	7200 1850 7200 1800
 Connection ~ 7200 1850
+Wire Wire Line
+	2600 3300 2950 3300
+Text Label 2700 3300 0    50   Italic 0
+DB6
+NoConn ~ 1800 2700
+NoConn ~ 2600 3100
 $EndSCHEMATC

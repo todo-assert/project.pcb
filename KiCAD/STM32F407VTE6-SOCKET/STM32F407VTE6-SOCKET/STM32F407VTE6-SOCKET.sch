@@ -363,23 +363,6 @@ Wire Wire Line
 Text Label 1650 1700 0    50   ~ 0
 +3V3
 $Comp
-L Device:R R9
-U 1 1 5DDF93E2
-P 2150 1900
-F 0 "R9" V 2200 2050 50  0000 C CNN
-F 1 "4K7" V 2150 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2080 1900 50  0001 C CNN
-F 3 "~" H 2150 1900 50  0001 C CNN
-	1    2150 1900
-	0    -1   -1   0   
-$EndComp
-Text Label 1650 1900 0    50   ~ 0
-+3V3
-Wire Wire Line
-	1600 1900 2000 1900
-Wire Wire Line
-	2300 1900 2350 1900
-$Comp
 L Device:C_Small C4
 U 1 1 5DDFB21E
 P 2050 2000
@@ -519,7 +502,7 @@ U 1 1 5DDC6519
 P 6000 6800
 F 0 "U3" H 5550 7150 50  0000 C CNN
 F 1 "W25Q32JVZP" H 6000 6800 50  0000 C CNN
-F 2 "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm" H 6000 6800 50  0001 C CNN
+F 2 "qchip:GD5F1GQ4xBxIG_Handsoldering" H 6000 6800 50  0001 C CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 6000 6800 50  0001 C CNN
 	1    6000 6800
 	1    0    0    -1  
@@ -1972,23 +1955,23 @@ Wire Wire Line
 Wire Wire Line
 	6150 1050 6150 1150
 $Comp
-L Switch:SW_Push SW3
+L Switch:SW_Push_Open_Dual SW3
 U 1 1 5DEB9F2D
 P 6850 1950
 F 0 "SW3" H 6700 2050 50  0000 C CNN
 F 1 "SW_Push" H 6850 1900 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_FSMSM" H 6850 2150 50  0001 C CNN
+F 2 "qmechanics:SW-Button-TS-018" H 6850 2150 50  0001 C CNN
 F 3 "~" H 6850 2150 50  0001 C CNN
 	1    6850 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 1950 7200 1950
-Text Label 7050 1950 0    50   ~ 0
+	7050 2150 7200 2150
+Text Label 7050 2150 0    50   ~ 0
 GND
 Wire Wire Line
-	6650 1950 6450 1950
-Text Label 6450 1950 0    50   Italic 0
+	6650 2150 6450 2150
+Text Label 6450 2150 0    50   Italic 0
 NRST
 $Comp
 L Connector:Conn_01x04_Male SWD1
@@ -2179,4 +2162,25 @@ Text Label 1850 6300 0    50   ~ 0
 D14
 Text Label 1850 6400 0    50   ~ 0
 D15
+$Comp
+L Device:C_Small C12
+U 1 1 5DF6AB51
+P 2150 1900
+F 0 "C12" V 2200 2000 50  0000 C CNN
+F 1 "2.2uF" V 2100 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 1900 50  0001 C CNN
+F 3 "~" H 2150 1900 50  0001 C CNN
+	1    2150 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 1900 2050 1900
+Wire Wire Line
+	2250 1900 2350 1900
+Text Label 1650 1900 0    50   ~ 0
+GND
+Text Label 6650 1950 2    50   ~ 0
+GND
+Text Label 7050 1950 0    50   ~ 0
+GND
 $EndSCHEMATC

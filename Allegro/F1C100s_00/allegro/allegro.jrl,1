@@ -1,14 +1,14 @@
-\t (00:00:07) allegro 17.2 P028 Windows SPB 64-bit Edition
-\t (00:00:07)     Journal start - Tue Dec 03 11:14:15 2019
-\t (00:00:07)         Host=WINDOWS-4EI6C63 User=12187_000 Pid=2572 CPUs=4
-\t (00:00:07) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
-\t (00:00:07) 
-   (00:00:08) Loading axlcore.cxt 
-\t (00:00:09) Opening existing design...
-\d (00:00:09) Design opened: C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd
-\i (00:00:09) trapsize 3908
-\i (00:00:10) trapsize 3997
-\i (00:00:10) trapsize 4150
-\i (00:00:11) generaledit 
-\i (00:00:39) exit 
-\t (00:00:39)     Journal end - Tue Dec 03 11:14:47 2019
+\t (00:00:04) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Tue Dec 03 19:16:27 2019
+\t (00:00:04)         Host=WINDOWS-4EI6C63 User=12187_000 Pid=8916 CPUs=4
+\t (00:00:04) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:00:04) 
+   (00:00:04) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: C:/Users/12187_000/Documents/GitHub/project.pcb/Allegro/F1C100s_00/allegro/c100s_85x45.brd
+\i (00:00:06) trapsize 3908
+\i (00:00:06) trapsize 3997
+\i (00:00:06) trapsize 4150
+\i (00:00:07) generaledit 
+\i (00:03:23) exit 
+\t (00:03:23)     Journal end - Tue Dec 03 19:19:46 2019

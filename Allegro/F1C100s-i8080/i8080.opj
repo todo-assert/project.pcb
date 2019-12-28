@@ -132,9 +132,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1192 52 502")
-        (Scroll "-124 0")
-        (Zoom "87")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1192 52 502")
+        (Scroll "-61 609")
+        (Zoom "174")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S-I8080\I8080.DSN")
@@ -144,7 +144,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1244 104 554")
-        (Scroll "0 0")
+        (Scroll "0 73")
         (Zoom "188")
         (Occurrence "/"))
       (Path
@@ -155,8 +155,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "174 1183")
-        (Zoom "348")
+        (Scroll "0 374")
+        (Zoom "174")
         (Occurrence "/"))
       (Path
          "C:\USERS\12187_000\DOCUMENTS\GITHUB\PROJECT.PCB\ALLEGRO\F1C100S-I8080\I8080.DSN")
