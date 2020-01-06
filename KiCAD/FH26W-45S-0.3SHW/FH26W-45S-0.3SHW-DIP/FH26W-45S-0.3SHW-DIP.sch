@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L qconnectors:LCD_I8080_CONNECTOR_16x2 J2
+L qconnectors:LCD_I8080_CONNECTOR_16x2-DIP J2
 U 1 1 5DD9A06E
 P 4550 3850
 F 0 "J2" H 4200 3900 50  0000 C CNN
@@ -530,38 +530,6 @@ LEDA
 Text Label 5100 1600 0    50   Italic 0
 GND
 $Comp
-L Device:R R3
-U 1 1 5DEEC1A3
-P 4250 3400
-F 0 "R3" V 4200 3200 50  0000 C CNN
-F 1 "10K" V 4250 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 3400 50  0001 C CNN
-F 3 "~" H 4250 3400 50  0001 C CNN
-	1    4250 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4400 3400 4850 3400
-$Comp
-L Device:C C5
-U 1 1 5DEFE26C
-P 5000 3400
-F 0 "C5" V 4950 3250 50  0000 C CNN
-F 1 "C" V 4950 3500 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5038 3250 50  0001 C CNN
-F 3 "~" H 5000 3400 50  0001 C CNN
-	1    5000 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5150 3400 5400 3400
-Text Label 3700 3400 0    50   Italic 0
-+3.3V
-Text Label 5200 3400 0    50   Italic 0
-GND
-Text Label 4550 3400 0    50   Italic 0
-RST
-$Comp
 L Device:R R4
 U 1 1 5DF17C22
 P 4250 3500
@@ -574,8 +542,6 @@ F 3 "~" H 4250 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4400 3500 4850 3500
-Wire Wire Line
-	3650 3400 4100 3400
 Wire Wire Line
 	3650 3500 4100 3500
 Text Label 3700 3500 0    50   Italic 0
@@ -649,44 +615,14 @@ F 3 "~" H 2050 4400 50  0001 C CNN
 	1    1850 4400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5DF6390E
-P 1850 4500
-F 0 "TP6" V 1900 4550 50  0000 C CNN
-F 1 "+3.3V" V 1850 4800 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 2050 4500 50  0001 C CNN
-F 3 "~" H 2050 4500 50  0001 C CNN
-	1    1850 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5DF63B8F
-P 1850 4600
-F 0 "TP7" V 1900 4650 50  0000 C CNN
-F 1 "GND" V 1850 4900 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 2050 4600 50  0001 C CNN
-F 3 "~" H 2050 4600 50  0001 C CNN
-	1    1850 4600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1850 4300 2150 4300
 Wire Wire Line
 	1850 4400 2150 4400
-Wire Wire Line
-	1850 4500 2150 4500
-Wire Wire Line
-	1850 4600 2150 4600
 Text Label 1900 4300 0    50   Italic 0
 LEDK
 Text Label 1900 4400 0    50   Italic 0
 +5V
-Text Label 1900 4500 0    50   Italic 0
-+3.3V
-Text Label 1900 4600 0    50   Italic 0
-GND
 $Comp
 L Connector:TestPoint TP11
 U 1 1 5DDC1EF9
