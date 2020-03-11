@@ -1,0 +1,268 @@
+EESchema Schematic File Version 4
+LIBS:N32926-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L qchips:N32926-W55FA92 U?
+U 1 1 5E4C89AC
+P 22000 -2050
+F 0 "U?" H 21950 -2000 50  0000 C CNN
+F 1 "N32926-W55FA92" H 23300 -4850 50  0000 C CNN
+F 2 "" H 22000 -2050 50  0001 C CNN
+F 3 "" H 22000 -2050 50  0001 C CNN
+	1    22000 -2050
+	1    0    0    -1  
+$EndComp
+Text GLabel -9550 -2250 0    50   Input ~ 0
++1V2
+Text GLabel -9550 -2150 0    50   Input ~ 0
++1V8
+Text GLabel -9550 -2050 0    50   Input ~ 0
++3V3
+Text GLabel -9550 -1650 0    50   Input ~ 0
++3V3_RTC
+Text GLabel -9550 -1850 0    50   Input ~ 0
++3V3A
+Text GLabel -9550 -1750 0    50   Input ~ 0
++3V3_TV
+Text GLabel -9550 -1550 0    50   Input ~ 0
++3V3_AUDIO
+Text Label -9550 -2250 0    50   ~ 0
++1V2
+Text Label -9550 -2150 0    50   ~ 0
++1V8
+Text Label -9550 -2050 0    50   ~ 0
++3V3
+Text Label -9550 -1850 0    50   ~ 0
++3V3A
+Text Label -9550 -1750 0    50   ~ 0
++3V3_TV
+Text Label -9550 -1650 0    50   ~ 0
++3V3_RTC
+Text Label -9550 -1550 0    50   ~ 0
++3V3_AUDIO
+Text Label 21900 -1050 2    50   ~ 0
++1V2
+Text Label 21900 -950 2    50   ~ 0
++1V8
+Text Label 21900 -850 2    50   ~ 0
++1V8
+Text Label 21900 650  2    50   ~ 0
++1V2
+Text Label 24650 2650 0    50   ~ 0
++1V2
+Text Label 24650 250  0    50   ~ 0
++1V2
+Text Label 24650 2550 0    50   ~ 0
++1V8
+Text Label 24650 2450 0    50   ~ 0
++1V8
+Text Label 21900 2550 2    50   ~ 0
++1V2
+Text GLabel -9550 -1950 0    50   Input ~ 0
++1V2A
+Text Label -9550 -1950 0    50   ~ 0
++1V2A
+Text Label 21900 750  2    50   ~ 0
++1V2A
+Text Label 21900 550  2    50   ~ 0
++3V3
+Text Label 24650 4350 0    50   ~ 0
++3V3
+Text Label 24650 -1450 0    50   ~ 0
++3V3
+Text Label 21900 1250 2    50   ~ 0
++3V3A
+Text Label 24650 1950 0    50   ~ 0
++3V3_TV
+Text Label 24650 950  0    50   ~ 0
++3V3_AUDIO
+Text Label 24650 550  0    50   ~ 0
++3V3_AUDIO
+Text Label 24650 1850 0    50   ~ 0
++3V3_RTC
+Text Label 21900 1050 2    50   ~ 0
++3V3
+Text Label 21900 2250 2    50   ~ 0
++3V3
+Text GLabel -9550 -1450 0    50   Input ~ 0
+LVDATA[0..15]
+Wire Bus Line
+	-9550 -1450 -9400 -1450
+Entry Bus Bus
+	-9400 -1450 -9300 -1350
+Entry Wire Line
+	-9300 -1350 -9200 -1250
+Entry Wire Line
+	-9300 -1250 -9200 -1150
+Entry Wire Line
+	-9300 -1150 -9200 -1050
+Entry Wire Line
+	-9300 -1050 -9200 -950
+Entry Wire Line
+	-9300 -950 -9200 -850
+Entry Wire Line
+	-9300 -850 -9200 -750
+Entry Wire Line
+	-9300 -750 -9200 -650
+Entry Wire Line
+	-9300 -650 -9200 -550
+Entry Wire Line
+	-9300 -550 -9200 -450
+Entry Wire Line
+	-9300 -450 -9200 -350
+Entry Wire Line
+	-9300 -350 -9200 -250
+Entry Wire Line
+	-9300 -250 -9200 -150
+Entry Wire Line
+	-9300 -150 -9200 -50 
+Entry Wire Line
+	-9300 -50  -9200 50  
+Entry Wire Line
+	-9300 50   -9200 150 
+Entry Wire Line
+	-9300 150  -9200 250 
+Text Label -9400 -1450 0    50   ~ 0
+LVDATA[0..15]
+Text Label -9050 -1250 0    50   ~ 0
+LVDATA0
+Text Label -9050 -1150 0    50   ~ 0
+LVDATA1
+Wire Wire Line
+	-9200 -1250 -9050 -1250
+Wire Wire Line
+	-9200 -1150 -9050 -1150
+Wire Wire Line
+	-9200 -1050 -9050 -1050
+Wire Wire Line
+	-9200 -950 -9050 -950
+Wire Wire Line
+	-9200 -850 -9050 -850
+Wire Wire Line
+	-9200 -750 -9050 -750
+Wire Wire Line
+	-9200 -650 -9050 -650
+Wire Wire Line
+	-9200 -550 -9050 -550
+Text Label -9050 -450 0    50   ~ 0
+LVDATA8
+Text Label -9050 -350 0    50   ~ 0
+LVDATA9
+Wire Wire Line
+	-9200 -450 -9050 -450
+Wire Wire Line
+	-9200 -350 -9050 -350
+Wire Wire Line
+	-9200 -250 -9050 -250
+Wire Wire Line
+	-9200 -150 -9050 -150
+Wire Wire Line
+	-9200 -50  -9050 -50 
+Wire Wire Line
+	-9200 50   -9050 50  
+Wire Wire Line
+	-9200 150  -9050 150 
+Wire Wire Line
+	-9200 250  -9050 250 
+Text Label -9050 -1050 0    50   ~ 0
+LVDATA2
+Text Label -9050 -950 0    50   ~ 0
+LVDATA3
+Text Label -9050 -850 0    50   ~ 0
+LVDATA4
+Text Label -9050 -750 0    50   ~ 0
+LVDATA5
+Text Label -9050 -650 0    50   ~ 0
+LVDATA6
+Text Label -9050 -550 0    50   ~ 0
+LVDATA7
+Text Label -9050 -250 0    50   ~ 0
+LVDATA10
+Text Label -9050 -150 0    50   ~ 0
+LVDATA11
+Text Label -9050 -50  0    50   ~ 0
+LVDATA12
+Text Label -9050 50   0    50   ~ 0
+LVDATA13
+Text Label -9050 150  0    50   ~ 0
+LVDATA14
+Text Label -9050 250  0    50   ~ 0
+LVDATA15
+Text Label 21550 3250 0    50   ~ 0
+LVDATA0
+Text Label 21550 3350 0    50   ~ 0
+LVDATA1
+Text Label 21550 4050 0    50   ~ 0
+LVDATA8
+Text Label 21550 4150 0    50   ~ 0
+LVDATA9
+Text Label 21550 3450 0    50   ~ 0
+LVDATA2
+Text Label 21550 3550 0    50   ~ 0
+LVDATA3
+Text Label 21550 3650 0    50   ~ 0
+LVDATA4
+Text Label 21550 3750 0    50   ~ 0
+LVDATA5
+Text Label 21550 3850 0    50   ~ 0
+LVDATA6
+Text Label 21550 3950 0    50   ~ 0
+LVDATA7
+Text Label 21550 4250 0    50   ~ 0
+LVDATA10
+Text Label 24650 4250 0    50   ~ 0
+LVDATA11
+Text Label 24650 4150 0    50   ~ 0
+LVDATA12
+Text Label 24650 4050 0    50   ~ 0
+LVDATA13
+Text Label 24650 3950 0    50   ~ 0
+LVDATA14
+Text Label 24650 3850 0    50   ~ 0
+LVDATA15
+Wire Wire Line
+	21550 3250 21900 3250
+Wire Wire Line
+	21550 3350 21900 3350
+Wire Wire Line
+	21550 3450 21900 3450
+Wire Wire Line
+	21550 3550 21900 3550
+Wire Wire Line
+	21550 3650 21900 3650
+Wire Wire Line
+	21550 3750 21900 3750
+Wire Wire Line
+	21550 3850 21900 3850
+Wire Wire Line
+	21550 3950 21900 3950
+Wire Wire Line
+	21550 4050 21900 4050
+Wire Wire Line
+	21550 4150 21900 4150
+Wire Wire Line
+	21550 4250 21900 4250
+Text Label 24650 3550 0    50   ~ 0
+LVDE
+Text Label 24650 3450 0    50   ~ 0
+LVSYNC
+Text Label 24650 3350 0    50   ~ 0
+LHSYNC
+Text Label 24650 3250 0    50   ~ 0
+LPCLK
+Wire Bus Line
+	-9300 -1350 -9300 250 
+$EndSCHEMATC
