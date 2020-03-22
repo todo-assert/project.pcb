@@ -1,4 +1,4 @@
-16334140333284776
+16337310387190978
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72919,6 +72919,13 @@ monggoyun2
 0
 0
 qchip
+EA3036-DS-QFN-20_EP_3.9x3.9_Pitch0.4mm
+
+
+0
+28
+21
+qchip
 EA3036-QFN-20_EP_3.55x3.55_Pitch0.4mm
 
 
@@ -72967,6 +72974,13 @@ PCF8563-SO8
 0
 8
 8
+qchip
+STM32F401CCU6-QFN-48_EP_7.9x7.9_Pitch0.5mm_Handsoldering
+
+
+0
+58
+49
 qconnectors
 NT35510-3.97inch-FH26W-45S-0.3SHW(60)
 
