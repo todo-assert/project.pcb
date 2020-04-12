@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:STM32F407VTE6-SOCKET-cache
+LIBS:STM32F401CCU6-AUTO-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1816,4 +1816,556 @@ Wire Wire Line
 Connection ~ 10700 2450
 Text Label 10750 1800 0    50   ~ 0
 FILTER_V_FB
+$Comp
+L Transistor_BJT:S8050 Q?
+U 1 1 5E999BD2
+P 6050 3600
+F 0 "Q?" H 6240 3646 50  0000 L CNN
+F 1 "S8050" H 6240 3555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6250 3525 50  0001 L CIN
+F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 6050 3600 50  0001 L CNN
+	1    6050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E9A333C
+P 5950 3850
+F 0 "R?" V 5900 3700 50  0000 C CNN
+F 1 "10K" V 5950 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 3850 50  0001 C CNN
+F 3 "~" H 5950 3850 50  0001 C CNN
+	1    5950 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E9AA08C
+P 6550 3100
+F 0 "R?" V 6500 2950 50  0000 C CNN
+F 1 "10K" V 6550 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 3100 50  0001 C CNN
+F 3 "~" H 6550 3100 50  0001 C CNN
+	1    6550 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E9AADE4
+P 6550 2700
+F 0 "R?" V 6500 2550 50  0000 C CNN
+F 1 "5K6" V 6550 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 2700 50  0001 C CNN
+F 3 "~" H 6550 2700 50  0001 C CNN
+	1    6550 2700
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6450 3100
+$Comp
+L qmechanics:if_amplifier L?
+U 1 1 5E993438
+P 6250 3100
+F 0 "L?" H 6393 3100 50  0000 L CNN
+F 1 "if_amplifier" H 6394 3055 50  0001 L CNN
+F 2 "" H 6250 3100 50  0001 C CNN
+F 3 "" H 6250 3100 50  0001 C CNN
+	1    6250 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5E9D2574
+P 7000 3150
+F 0 "J?" H 6972 3078 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 6972 3123 50  0001 R CNN
+F 2 "" H 7000 3150 50  0001 C CNN
+F 3 "~" H 7000 3150 50  0001 C CNN
+	1    7000 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E9D3123
+P 6550 3900
+F 0 "#PWR?" H 6550 3650 50  0001 C CNN
+F 1 "GND" H 6555 3727 50  0000 C CNN
+F 2 "" H 6550 3900 50  0001 C CNN
+F 3 "" H 6550 3900 50  0001 C CNN
+	1    6550 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 2900 6550 2900
+Wire Wire Line
+	6550 2900 6550 2950
+Wire Wire Line
+	6550 2850 6550 2900
+Connection ~ 6550 2900
+Wire Wire Line
+	6800 3050 6800 2900
+Wire Wire Line
+	6800 2900 6550 2900
+Wire Wire Line
+	6350 3300 6550 3300
+Wire Wire Line
+	6800 3300 6800 3150
+Wire Wire Line
+	6550 3250 6550 3300
+Connection ~ 6550 3300
+Wire Wire Line
+	6550 3300 6800 3300
+Wire Wire Line
+	6550 3300 6550 3850
+Wire Wire Line
+	6150 3300 6150 3400
+Wire Wire Line
+	6150 3800 6150 3850
+Wire Wire Line
+	6150 3850 6100 3850
+Wire Wire Line
+	6150 3850 6550 3850
+Connection ~ 6150 3850
+Connection ~ 6550 3850
+Wire Wire Line
+	6550 3850 6550 3900
+Wire Wire Line
+	5800 3850 5800 3600
+Wire Wire Line
+	5800 3600 5850 3600
+$Comp
+L power:+12V #PWR?
+U 1 1 5EA66EA4
+P 5200 2750
+F 0 "#PWR?" H 5200 2600 50  0001 C CNN
+F 1 "+12V" H 5215 2923 50  0000 C CNN
+F 2 "" H 5200 2750 50  0001 C CNN
+F 3 "" H 5200 2750 50  0001 C CNN
+	1    5200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5EA66EB4
+P 5200 3000
+F 0 "C?" H 5250 3100 50  0000 C CNN
+F 1 "470uF/25V" H 5400 2900 50  0000 C CNN
+F 2 "" H 5238 2850 50  0001 C CNN
+F 3 "~" H 5200 3000 50  0001 C CNN
+	1    5200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3150 5200 3200
+Wire Wire Line
+	5200 2850 5200 2800
+$Comp
+L Device:C_Small C?
+U 1 1 5EA66EC3
+P 5400 3000
+F 0 "C?" H 5450 2950 50  0000 C CNN
+F 1 "0.1uF" H 5300 2950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5400 3000 50  0001 C CNN
+F 3 "~" H 5400 3000 50  0001 C CNN
+	1    5400 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 2900 5400 2800
+Wire Wire Line
+	5400 2800 5200 2800
+Wire Wire Line
+	5400 3100 5400 3200
+Wire Wire Line
+	5400 3200 5200 3200
+$Comp
+L power:GND #PWR?
+U 1 1 5EA8F895
+P 5200 3250
+F 0 "#PWR?" H 5200 3000 50  0001 C CNN
+F 1 "GND" H 5205 3077 50  0000 C CNN
+F 2 "" H 5200 3250 50  0001 C CNN
+F 3 "" H 5200 3250 50  0001 C CNN
+	1    5200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3250 5200 3200
+Connection ~ 5200 3200
+Wire Wire Line
+	5200 2750 5200 2800
+Connection ~ 5200 2800
+Text Label 5400 2800 0    50   ~ 0
+POWER_IF
+Text Label 6150 2900 2    50   ~ 0
+POWER_IF
+Text Label 6550 2550 0    50   ~ 0
+Y0
+Text Label 5800 3600 2    50   ~ 0
+X0
+$Comp
+L Transistor_BJT:S8050 Q?
+U 1 1 5EACD1A6
+P 6050 5350
+F 0 "Q?" H 6240 5396 50  0000 L CNN
+F 1 "S8050" H 6240 5305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6250 5275 50  0001 L CIN
+F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 6050 5350 50  0001 L CNN
+	1    6050 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EACD1B0
+P 5950 5600
+F 0 "R?" V 5900 5450 50  0000 C CNN
+F 1 "10K" V 5950 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5880 5600 50  0001 C CNN
+F 3 "~" H 5950 5600 50  0001 C CNN
+	1    5950 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EACD1BA
+P 6550 4850
+F 0 "R?" V 6500 4700 50  0000 C CNN
+F 1 "10K" V 6550 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 4850 50  0001 C CNN
+F 3 "~" H 6550 4850 50  0001 C CNN
+	1    6550 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EACD1C4
+P 6550 4450
+F 0 "R?" V 6500 4300 50  0000 C CNN
+F 1 "5K6" V 6550 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 4450 50  0001 C CNN
+F 3 "~" H 6550 4450 50  0001 C CNN
+	1    6550 4450
+	-1   0    0    1   
+$EndComp
+NoConn ~ 6450 4850
+$Comp
+L qmechanics:if_amplifier L?
+U 1 1 5EACD1CF
+P 6250 4850
+F 0 "L?" H 6393 4850 50  0000 L CNN
+F 1 "if_amplifier" H 6394 4805 50  0001 L CNN
+F 2 "" H 6250 4850 50  0001 C CNN
+F 3 "" H 6250 4850 50  0001 C CNN
+	1    6250 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5EACD1D9
+P 7000 4900
+F 0 "J?" H 6972 4782 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 7150 5200 50  0001 R CNN
+F 2 "" H 7000 4900 50  0001 C CNN
+F 3 "~" H 7000 4900 50  0001 C CNN
+	1    7000 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EACD1E3
+P 6550 5650
+F 0 "#PWR?" H 6550 5400 50  0001 C CNN
+F 1 "GND" H 6555 5477 50  0000 C CNN
+F 2 "" H 6550 5650 50  0001 C CNN
+F 3 "" H 6550 5650 50  0001 C CNN
+	1    6550 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4650 6550 4650
+Wire Wire Line
+	6550 4650 6550 4700
+Wire Wire Line
+	6550 4600 6550 4650
+Connection ~ 6550 4650
+Wire Wire Line
+	6800 4800 6800 4650
+Wire Wire Line
+	6800 4650 6550 4650
+Wire Wire Line
+	6350 5050 6550 5050
+Wire Wire Line
+	6800 5050 6800 4900
+Wire Wire Line
+	6550 5000 6550 5050
+Connection ~ 6550 5050
+Wire Wire Line
+	6550 5050 6800 5050
+Wire Wire Line
+	6550 5050 6550 5600
+Wire Wire Line
+	6150 5050 6150 5150
+Wire Wire Line
+	6150 5550 6150 5600
+Wire Wire Line
+	6150 5600 6100 5600
+Wire Wire Line
+	6150 5600 6550 5600
+Connection ~ 6150 5600
+Connection ~ 6550 5600
+Wire Wire Line
+	6550 5600 6550 5650
+Text Label 6150 4650 2    50   ~ 0
+POWER_IF
+Wire Wire Line
+	5800 5600 5800 5350
+Wire Wire Line
+	5800 5350 5850 5350
+$Comp
+L Transistor_BJT:S8050 Q?
+U 1 1 5EB145D0
+P 7700 3600
+F 0 "Q?" H 7890 3646 50  0000 L CNN
+F 1 "S8050" H 7890 3555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7900 3525 50  0001 L CIN
+F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 7700 3600 50  0001 L CNN
+	1    7700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB145D6
+P 7600 3850
+F 0 "R?" V 7550 3700 50  0000 C CNN
+F 1 "10K" V 7600 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7530 3850 50  0001 C CNN
+F 3 "~" H 7600 3850 50  0001 C CNN
+	1    7600 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB145DC
+P 8200 3100
+F 0 "R?" V 8150 2950 50  0000 C CNN
+F 1 "10K" V 8200 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8130 3100 50  0001 C CNN
+F 3 "~" H 8200 3100 50  0001 C CNN
+	1    8200 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB145E2
+P 8200 2700
+F 0 "R?" V 8150 2550 50  0000 C CNN
+F 1 "5K6" V 8200 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8130 2700 50  0001 C CNN
+F 3 "~" H 8200 2700 50  0001 C CNN
+	1    8200 2700
+	-1   0    0    1   
+$EndComp
+NoConn ~ 8100 3100
+$Comp
+L qmechanics:if_amplifier L?
+U 1 1 5EB145E9
+P 7900 3100
+F 0 "L?" H 8043 3100 50  0000 L CNN
+F 1 "if_amplifier" H 8044 3055 50  0001 L CNN
+F 2 "" H 7900 3100 50  0001 C CNN
+F 3 "" H 7900 3100 50  0001 C CNN
+	1    7900 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5EB145EF
+P 8650 3150
+F 0 "J?" H 8622 3078 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 8622 3123 50  0001 R CNN
+F 2 "" H 8650 3150 50  0001 C CNN
+F 3 "~" H 8650 3150 50  0001 C CNN
+	1    8650 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EB145F5
+P 8200 3900
+F 0 "#PWR?" H 8200 3650 50  0001 C CNN
+F 1 "GND" H 8205 3727 50  0000 C CNN
+F 2 "" H 8200 3900 50  0001 C CNN
+F 3 "" H 8200 3900 50  0001 C CNN
+	1    8200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2900 8200 2900
+Wire Wire Line
+	8200 2900 8200 2950
+Wire Wire Line
+	8200 2850 8200 2900
+Connection ~ 8200 2900
+Wire Wire Line
+	8450 3050 8450 2900
+Wire Wire Line
+	8450 2900 8200 2900
+Wire Wire Line
+	8000 3300 8200 3300
+Wire Wire Line
+	8450 3300 8450 3150
+Wire Wire Line
+	8200 3250 8200 3300
+Connection ~ 8200 3300
+Wire Wire Line
+	8200 3300 8450 3300
+Wire Wire Line
+	8200 3300 8200 3850
+Wire Wire Line
+	7800 3300 7800 3400
+Wire Wire Line
+	7800 3800 7800 3850
+Wire Wire Line
+	7800 3850 7750 3850
+Wire Wire Line
+	7800 3850 8200 3850
+Connection ~ 7800 3850
+Connection ~ 8200 3850
+Wire Wire Line
+	8200 3850 8200 3900
+Text Label 7800 2900 2    50   ~ 0
+POWER_IF
+Wire Wire Line
+	7450 3850 7450 3600
+Wire Wire Line
+	7450 3600 7500 3600
+$Comp
+L Transistor_BJT:S8050 Q?
+U 1 1 5EB2F7B4
+P 7700 5350
+F 0 "Q?" H 7890 5396 50  0000 L CNN
+F 1 "S8050" H 7890 5305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7900 5275 50  0001 L CIN
+F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 7700 5350 50  0001 L CNN
+	1    7700 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB2F7BA
+P 7600 5600
+F 0 "R?" V 7550 5450 50  0000 C CNN
+F 1 "10K" V 7600 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7530 5600 50  0001 C CNN
+F 3 "~" H 7600 5600 50  0001 C CNN
+	1    7600 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB2F7C0
+P 8200 4850
+F 0 "R?" V 8150 4700 50  0000 C CNN
+F 1 "10K" V 8200 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8130 4850 50  0001 C CNN
+F 3 "~" H 8200 4850 50  0001 C CNN
+	1    8200 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB2F7C6
+P 8200 4450
+F 0 "R?" V 8150 4300 50  0000 C CNN
+F 1 "5K6" V 8200 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8130 4450 50  0001 C CNN
+F 3 "~" H 8200 4450 50  0001 C CNN
+	1    8200 4450
+	-1   0    0    1   
+$EndComp
+NoConn ~ 8100 4850
+$Comp
+L qmechanics:if_amplifier L?
+U 1 1 5EB2F7CD
+P 7900 4850
+F 0 "L?" H 8043 4850 50  0000 L CNN
+F 1 "if_amplifier" H 8044 4805 50  0001 L CNN
+F 2 "" H 7900 4850 50  0001 C CNN
+F 3 "" H 7900 4850 50  0001 C CNN
+	1    7900 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5EB2F7D3
+P 8650 4900
+F 0 "J?" H 8622 4828 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 8622 4873 50  0001 R CNN
+F 2 "" H 8650 4900 50  0001 C CNN
+F 3 "~" H 8650 4900 50  0001 C CNN
+	1    8650 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EB2F7D9
+P 8200 5650
+F 0 "#PWR?" H 8200 5400 50  0001 C CNN
+F 1 "GND" H 8205 5477 50  0000 C CNN
+F 2 "" H 8200 5650 50  0001 C CNN
+F 3 "" H 8200 5650 50  0001 C CNN
+	1    8200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4650 8200 4650
+Wire Wire Line
+	8200 4650 8200 4700
+Wire Wire Line
+	8200 4600 8200 4650
+Connection ~ 8200 4650
+Wire Wire Line
+	8450 4800 8450 4650
+Wire Wire Line
+	8450 4650 8200 4650
+Wire Wire Line
+	8000 5050 8200 5050
+Wire Wire Line
+	8450 5050 8450 4900
+Wire Wire Line
+	8200 5000 8200 5050
+Connection ~ 8200 5050
+Wire Wire Line
+	8200 5050 8450 5050
+Wire Wire Line
+	8200 5050 8200 5600
+Wire Wire Line
+	7800 5050 7800 5150
+Wire Wire Line
+	7800 5550 7800 5600
+Wire Wire Line
+	7800 5600 7750 5600
+Wire Wire Line
+	7800 5600 8200 5600
+Connection ~ 7800 5600
+Connection ~ 8200 5600
+Wire Wire Line
+	8200 5600 8200 5650
+Text Label 7800 4650 2    50   ~ 0
+POWER_IF
+Wire Wire Line
+	7450 5600 7450 5350
+Wire Wire Line
+	7450 5350 7500 5350
+Text Label 7450 3600 0    50   ~ 0
+X1
+Text Label 5800 5350 0    50   ~ 0
+X2
+Text Label 7450 5350 0    50   ~ 0
+X3
+Text Label 8200 2550 0    50   ~ 0
+Y1
+Text Label 6550 4300 0    50   ~ 0
+Y2
+Text Label 8200 4300 0    50   ~ 0
+Y3
 $EndSCHEMATC
