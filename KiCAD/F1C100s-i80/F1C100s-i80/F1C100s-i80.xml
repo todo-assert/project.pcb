@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\12187_000\Documents\GitHub\project.pcb\KiCAD\F1C100s-i80\F1C100s-i80\F1C100s-i80.sch</source>
-    <date>2020/1/3 19:26:27</date>
-    <tool>Eeschema (5.1.4)-1</tool>
+    <source>C:\Users\Administrator\Documents\GitHub\project.pcb\KiCAD\F1C100s-i80\F1C100s-i80\F1C100s-i80.sch</source>
+    <date>2020/11/20 16:32:58</date>
+    <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -83,7 +83,7 @@
     </comp>
     <comp ref="C21">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -123,7 +123,7 @@
     </comp>
     <comp ref="C22">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -163,7 +163,7 @@
     </comp>
     <comp ref="C23">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -306,7 +306,7 @@
     </comp>
     <comp ref="J9">
       <value>USB_A</value>
-      <footprint>qconnectors:USB-AF</footprint>
+      <footprint>qconnectors:USB-AF90</footprint>
       <datasheet> ~</datasheet>
       <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
       <sheetpath names="/" tstamps="/"/>
@@ -314,14 +314,14 @@
     </comp>
     <comp ref="J10">
       <value>USB_B_Micro</value>
-      <footprint>Connector_USB:USB_Micro-B_Wuerth_629105150521</footprint>
+      <footprint>qconnectors:USB_Micro</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E0F8045</tstamp>
     </comp>
     <comp ref="R25">
-      <value>0R</value>
+      <value>22R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -329,7 +329,7 @@
       <tstamp>5E188538</tstamp>
     </comp>
     <comp ref="R28">
-      <value>0R</value>
+      <value>22R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -337,7 +337,7 @@
       <tstamp>5E189E7A</tstamp>
     </comp>
     <comp ref="R29">
-      <value>0R</value>
+      <value>22R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -345,7 +345,7 @@
       <tstamp>5E18AA39</tstamp>
     </comp>
     <comp ref="R26">
-      <value>0R</value>
+      <value>22R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -490,7 +490,7 @@
     </comp>
     <comp ref="BT1">
       <value>Battery</value>
-      <footprint>Battery:BatteryHolder_Keystone_3000_1x12mm</footprint>
+      <footprint>qmechanics:CR1220-2</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="Battery" description="Multiple-cell battery"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1373,10 +1373,10 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/Timer_RTC.lib</uri>
     </library>
     <library logical="qchips">
-      <uri>C:/Users/12187_000/Documents/GitHub/KiCADPackages/qchips.lib</uri>
+      <uri>C:/Users/Administrator/Documents/GitHub/KiCADPackages/qchips.lib</uri>
     </library>
     <library logical="qconnectors">
-      <uri>C:/Users/12187_000/Documents/GitHub/KiCADPackages/qconnectors.lib</uri>
+      <uri>C:/Users/Administrator/Documents/GitHub/KiCADPackages/qconnectors.lib</uri>
     </library>
   </libraries>
   <nets>
